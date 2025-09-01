@@ -45,11 +45,23 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICPECA 2023</div><img src='images/BH.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Simulation analysis of spatial electromagnetic field of transformer core considering nonlinear B-H curve]([https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340](https://ieeexplore.ieee.org/abstract/document/10076147))
+[Simulation analysis of spatial electromagnetic field of transformer core considering nonlinear B-H curve](https://ieeexplore.ieee.org/abstract/document/10076147)
 
 Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 - This paper investigates the spatial electromagnetic field distribution of a transformer core considering the nonlinear B-H curve using a COMSOL-based E-type transformer model. The results show that magnetic saturation causes strong nonlinear field concentration in the central core, leading to excessive losses, current distortion, and rapid output current reduction, which may damage the transformer.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Materials, Processing and Design</div><img src='images/C4.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Research on preparation process of ethanol and C4 olefin based on linear and nonlinear regression fitting algorithm](https://clausiuspress.com/article/2206.html)
+
+Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
+
+- This paper explores the preparation process of ethanol to C4 olefins by analyzing how different catalyst combinations and temperatures influence ethanol conversion and olefin selectivity. Using both linear and nonlinear regression fitting algorithms, the authors establish models solved with MATLAB and SPSS to derive functional relationships and visualize trends. The study demonstrates that regression-based modeling can effectively predict conversion and selectivity under varying conditions, offering insights not only for ethanol-to-olefin processes but also for broader catalyst-driven chemical reactions.
 </div>
 </div>
 
