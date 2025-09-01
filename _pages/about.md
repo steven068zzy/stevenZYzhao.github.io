@@ -17,9 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 👋 Hello there, I'm Steven
 🧑‍💻 I'm a Ph.D. student from [Texas A&M University](https://www.tamu.edu/)
 
-🤖 My research direction is Robotics and AI solutions for precision poultry and livestock farming.
+🤖 My research direction is **Robotics and AI solutions for precision poultry and livestock farming**.
 
 ✉️ You can find me here:
 
