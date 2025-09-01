@@ -27,6 +27,16 @@ Email: ziyuanzhao@tamu.edu
 
 LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
+# 📖 Educations
+- *Aug 2024 – Present*. [Texas A&M University](https://www.columbia.edu/), College Station, TX, US
+  - Ph.D. in Poultry Science(Robotics Track)
+
+- *Dec 2022 - Jun 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, US
+  - B.E. in Mechatronics, Robotics, and Automation Engineering
+
+- *Sep 2020 - Nov 2022*. [Beijing University of Chemical Technology](https://english.buct.edu.cn/main.htm), Beijing, CN
+  - B.E. in Mechanical Design, Manufacturing and Automation
+
 
 # 📝 Publications 
 
@@ -70,9 +80,6 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
