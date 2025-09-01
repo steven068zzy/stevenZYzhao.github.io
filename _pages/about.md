@@ -35,7 +35,7 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 [Intelligent Warehouse Robot for Classifying, Sorting, and Transporting Goods’ Boxes](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340)
 
-**Ziyuan Zhao**, Amna Mazen, Youssef Bazzi, Bingyi Wang, Sushuang Li
+**Ziyuan Zhao<sup>*</sup>**, Amna Mazen, Youssef Bazzi, Bingyi Wang, Sushuang Li
 
 - Engineered solutions using the Pioneer 3 robot, the WidowX series robotic arm and the XBOX ONE series camera to identify boxes of different sizes in the warehouse based on the YOLO, grasp based on the Moveit, and transport based on the Move Base.
 </div>
