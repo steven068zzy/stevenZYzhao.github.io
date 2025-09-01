@@ -21,8 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Ziyuan 'Steven' Zhao"
-  avatar           : "images/android-chrome-512x512.png"
+  name             : "Steven Zhao"
+  avatar           : "stevenhead.JPG"
   bio              : "I face the world with hope in my heart, strength in my soul, and unwavering belief in myself."
   location         : "Texas, USA"
   employer         : "Texas A&M University"
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "https://www.linkedin.com/in/steven-zhao-89195326b/"
+  linkedin         : "https://www.linkedin.com/in/steven-zhao-89195326b/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
