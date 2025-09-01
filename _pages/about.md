@@ -37,9 +37,7 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 **Ziyuan Zhao**, Amna Mazen, Youssef Bazzi, Bingyi Wang, Sushuang Li
 
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Engineered solutions using the Pioneer 3 robot, the WidowX series robotic arm and the XBOX ONE series camera to identify boxes of different sizes in the warehouse based on the YOLO, grasp based on the Moveit, and transport based on the Move Base.
 </div>
 </div>
 
