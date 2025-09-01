@@ -37,12 +37,12 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 **Ziyuan Zhao**, Amna Mazen, Youssef Bazzi<sup>*</sup>, Bingyi Wang, Sushuang Li
 
-- Engineered solutions using the Pioneer 3 robot, the WidowX series robotic arm and the XBOX ONE series camera to identify boxes of different sizes in the warehouse based on the YOLO, grasp based on the Moveit, and transport based on the Move Base.
+- Engineered solutions using the Pioneer 3 robot, the WidowX series robotic arm, and the XBOX ONE series camera to identify boxes of different sizes in the warehouse based on the YOLO, grasp based on the Moveit, and transport based on the Move Base.
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IECON 2024</div><img src='images/IECON.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICPECA 2023</div><img src='images/BH.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Simulation analysis of spatial electromagnetic field of transformer core considering nonlinear B-H curve]([https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340](https://ieeexplore.ieee.org/abstract/document/10076147))
