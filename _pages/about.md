@@ -86,8 +86,16 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
   - Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.
   - Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under \$4,000.
 
+- *May 2023 – Aug 2023*, [Chinese Academy of Sciences](https://english.siat.ac.cn/), Shenzhen, CN  
+  **Automation Engineer**
+  
+  Design and Implementation of High-Throughput Imaging System.
+  -Designed a multi-perspective VISoR imaging strategy, incorporating techniques such as deconvolution and deep learning image processing, which allows for achieving isotropic imaging results.
+  -Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with imaging.
 
-
+  TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments.
+  -Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.
+  -Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.
 
 
 # 🎖 Honors and Awards
