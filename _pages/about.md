@@ -85,6 +85,8 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
   - Built 1/4-car, half-car, and full-car models in MATLAB to support control algorithm development.
   - Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.
   - Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under \$4,000.
+ 
+<img src='images/Ford.jpg' alt="sym" width="100%">
 
 - *May 2023 – Aug 2023*, [Chinese Academy of Sciences](https://english.siat.ac.cn/), Shenzhen, CN  
   **Automation Engineer**
