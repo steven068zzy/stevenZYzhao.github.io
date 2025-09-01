@@ -37,7 +37,7 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 **Ziyuan Zhao**, Amna Mazen, Youssef Bazzi<sup>*</sup>, Bingyi Wang, Sushuang Li
 
-- Engineered solutions using the Pioneer 3 robot, the WidowX series robotic arm, and the XBOX ONE series camera to identify boxes of different sizes in the warehouse based on the YOLO, grasp based on the Moveit, and transport based on the Move Base.
+- This paper presents an integrated intelligent warehouse robot system that combines computer vision, robotic manipulation, and autonomous navigation to perform box classification, sorting, and transportation. Using YOLOv5 and a Kinect camera, the system classifies boxes by size, while a WidowX robotic arm handles pick-and-place operations and a Pioneer P3-DX mobile robot with LiDAR navigates to designated storage areas. Experimental results in a simulated warehouse demonstrate reliable detection, obstacle avoidance, and precise placement, showing the system’s potential to improve warehouse efficiency and automation.
 </div>
 </div>
 
@@ -61,7 +61,7 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
-- This paper explores the preparation process of ethanol to C4 olefins by analyzing how different catalyst combinations and temperatures influence ethanol conversion and olefin selectivity. Using both linear and nonlinear regression fitting algorithms, the authors establish models solved with MATLAB and SPSS to derive functional relationships and visualize trends. The study demonstrates that regression-based modeling can effectively predict conversion and selectivity under varying conditions, offering insights not only for ethanol-to-olefin processes but also for broader catalyst-driven chemical reactions.
+- This paper studies ethanol-to-C4 olefin preparation by analyzing the effects of catalyst combinations and temperature on conversion and selectivity. Linear and nonlinear regression models solved with MATLAB and SPSS reveal functional relationships, enabling trend prediction and offering insights for catalyst-driven chemical processes.
 </div>
 </div>
 
