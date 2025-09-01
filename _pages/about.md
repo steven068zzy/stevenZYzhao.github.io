@@ -41,7 +41,18 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IECON 2024</div><img src='images/IECON.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Simulation analysis of spatial electromagnetic field of transformer core considering nonlinear B-H curve]([https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340](https://ieeexplore.ieee.org/abstract/document/10076147))
+
+Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
+
+- This paper investigates the spatial electromagnetic field distribution of a transformer core considering the nonlinear B-H curve using a COMSOL-based E-type transformer model. The results show that magnetic saturation causes strong nonlinear field concentration in the central core, leading to excessive losses, current distortion, and rapid output current reduction, which may damage the transformer.
+</div>
+</div>
+
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
