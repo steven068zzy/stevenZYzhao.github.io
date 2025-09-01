@@ -97,7 +97,7 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
   - Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.
   - Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.
  
-- *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Sigapore
+- *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Sigapore  
   **AI Intern**
 
   - Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.
