@@ -90,12 +90,12 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
   **Automation Engineer**
   
   Design and Implementation of High-Throughput Imaging System.
-  -Designed a multi-perspective VISoR imaging strategy, incorporating techniques such as deconvolution and deep learning image processing, which allows for achieving isotropic imaging results.
-  -Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with imaging.
+  - Designed a multi-perspective VISoR imaging strategy, incorporating techniques such as deconvolution and deep learning image processing, which allows for achieving isotropic imaging results.
+  - Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with imaging.
 
   TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments.
-  -Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.
-  -Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.
+  - Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.
+  - Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.
 
 
 # 🎖 Honors and Awards
