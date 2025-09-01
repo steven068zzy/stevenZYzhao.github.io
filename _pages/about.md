@@ -30,12 +30,12 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IECON 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Intelligent Warehouse Robot for Classifying, Sorting, and Transporting Goods’ Boxes](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340)
 
-**Ziyuan Zhao<sup>*</sup>**, Amna Mazen, Youssef Bazzi, Bingyi Wang, Sushuang Li
+**Ziyuan Zhao**, Amna Mazen, Youssef Bazzi<sup>*</sup>, Bingyi Wang, Sushuang Li
 
 - Engineered solutions using the Pioneer 3 robot, the WidowX series robotic arm and the XBOX ONE series camera to identify boxes of different sizes in the warehouse based on the YOLO, grasp based on the Moveit, and transport based on the Move Base.
 </div>
