@@ -73,12 +73,11 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 - This paper studies ethanol-to-C4 olefin preparation by analyzing the effects of catalyst combinations and temperature on conversion and selectivity. Linear and nonlinear regression models solved with MATLAB and SPSS reveal functional relationships, enabling trend prediction and offering insights for catalyst-driven chemical processes.
-</div>
 
 
 # 💻 Internships
 
-<div class='paper-box'><div class='paper-box-image'><div><div <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div> <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - *May 2024 – Aug 2024*, [Ford (Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
@@ -92,7 +91,7 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div> <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 - *May 2023 – Aug 2023*, [Chinese Academy of Sciences](https://english.siat.ac.cn/), Shenzhen, CN  
@@ -110,7 +109,7 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div> <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Sigapore  
