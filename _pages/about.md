@@ -78,6 +78,19 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 # 💻 Internships
 
+<div class='paper-box'><div class='paper-box-image'><div><div <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- *May 2024 – Aug 2024*, [Ford (Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
+  **Research Engineer**
+  
+  Developed next-generation active suspension systems for vehicles, including the Ford F-150 and Lincoln luxury sedans.
+  - Built 1/4-car, half-car, and full-car models in MATLAB to support control algorithm development.
+  - Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.
+  - Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under \$4,000.
+</div>
+</div>
+
 - *May 2024 – Aug 2024*, [Ford (Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
   **Research Engineer**
   
