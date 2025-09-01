@@ -30,7 +30,7 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IECON 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IECON 2024</div><img src='images/IECON.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Intelligent Warehouse Robot for Classifying, Sorting, and Transporting Goods’ Boxes](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340)
