@@ -96,6 +96,12 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
   TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments.
   - Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.
   - Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.
+ 
+- *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Sigapore
+  **AI Intern**
+
+  - Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.
+  - My main tasks included data preprocessing, model configuration, and data augmentation. By converting images into 224x224 pixel RGB format and performing data augmentation operations such as horizontal flipping and vertical shifting, I significantly improved model accuracy. We experimented with configurations ranging from 1 to 5 convolutional layers and resolved overfitting issues by adding Dropout layers and L2 regularization.
 
 
 # 🎖 Honors and Awards
