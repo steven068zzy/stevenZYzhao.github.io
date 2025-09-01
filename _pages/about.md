@@ -32,10 +32,10 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 - *Aug 2024 – Present*. [Texas A&M University](https://www.columbia.edu/), College Station, TX, US
   - Ph.D. in Poultry Science(Robotics Track)
 
-- *Dec 2022 - Jun 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, US
+- *Dec 2022 - Apr 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, US
   - B.E. in Mechatronics, Robotics, and Automation Engineering
 
-- *Sep 2020 - Nov 2022*. [Beijing University of Chemical Technology](https://english.buct.edu.cn/main.htm), Beijing, CN
+- *Sep 2020 - Apr 2024*. [Beijing University of Chemical Technology](https://english.buct.edu.cn/main.htm), Beijing, CN
   - B.E. in Mechanical Design, Manufacturing and Automation
 
 
@@ -105,13 +105,10 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *Sep 2025*, David B Mellor '57 Graduate Scholarship in TAMU
+- *Jul 2025*, Poultry Science Association Student Travel Award
+- *Jul 2023*, Outstanding International Students Scholarship in UDM
+- *Dec 2022*, People's Scholarship in School Year 2021 - 2022 Term 2 in BUCT
+- *May 2022*, People's Scholarship in School Year 2021 - 2022 Term 1 in BUCT
+- *Dec 2021*, People's Scholarship in School Year 2020 - 2021 Term 2 in BUCT
+- *Apr 2021*, Outstanding Student Leader in BUCT
