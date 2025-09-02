@@ -152,6 +152,25 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 </div>
 </div>
 
+# 🚀 Selected Projects
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/indoor3.png' alt="sym" width="100%">
+      <img src='images/indoor2.png' alt="sym" width="100%">
+      <img src='images/indoor1.png' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+- **An Indoor Office Environment-based Delivery Vehicle**
+  - **National First Prize** of College Students' Innovation Competition.
+  - Aimed to design an intelligent distribution car involving the Internet of Things, intelligent hardware, and logistics transportation technology. And took on the responsibilities of mechanical structure modeling and physical fabrication, as well as wireless charging solution implementation and multi-sensor fusion.
+    
+</div>
+</div>
+
 
 
 
