@@ -92,7 +92,7 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/VISOR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/VISOR.png' alt="sym" width="100%"><img src='images/VISOR.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - *May 2023 - Aug 2023*, [Chinese Academy of Science](https://english.siat.ac.cn/), Shenzhen, Guangdong, CN  
