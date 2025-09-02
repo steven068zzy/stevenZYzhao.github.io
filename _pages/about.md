@@ -122,12 +122,6 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 
 <div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/VISOR.png' alt="sym" width="100%">
-      <img src='images/VISIOR.gif' alt="sym" width="100%">
-    </div>
-  </div>
 <div class='paper-box-text' markdown="1">
 
 - *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Singapore 
