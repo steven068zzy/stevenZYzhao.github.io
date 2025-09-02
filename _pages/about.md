@@ -36,7 +36,7 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
   - B.E. in Mechatronics, Robotics, and Automation Engineering
 
 - *Sep 2020 - Apr 2024*. [Beijing University of Chemical Technology](https://english.buct.edu.cn/main.htm), Beijing, CN
-  - B.E. in Mechanical Design, Manufacturing and Automation
+  - B.E. in Mechanical Design, Manufacturing, and Automation
 
 
 # 📝 Publications 
@@ -76,77 +76,6 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 </div>
 </div>
 
-# 💻 Internships
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/Ford.jpg' alt='Ford Internship' width='100%'>
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-*May 2024 – Aug 2024*, [Ford (Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
-**Research Engineer**
-
-<img src="images/Ford.jpg" alt="Ford Internship" style="width:60%;border-radius:10px;margin:8px 0;">
-
-Developed next-generation active suspension systems for vehicles, including the Ford F-150 and Lincoln luxury sedans.  
-- Built 1/4-car, half-car, and full-car models in MATLAB to support control algorithm development.  
-- Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.  
-- Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under \$4,000.
-
-  </div>
-</div>
-
-<hr style="border:none;border-top:1px dashed #ccc;margin:28px 0;">
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/CAS.jpg' alt='CAS Internship' width='100%'>
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-*May 2023 – Aug 2023*, [Chinese Academy of Sciences](https://english.siat.ac.cn/), Shenzhen, CN  
-**Automation Engineer**
-
-<img src="images/CAS.jpg" alt="CAS Internship" style="width:60%;border-radius:10px;margin:8px 0;">
-
-**Design and Implementation of High-Throughput Imaging System**  
-- Designed a multi-perspective VISoR imaging strategy, incorporating deconvolution and deep-learning image processing to achieve isotropic imaging.  
-- Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing manual labor and imaging time.
-
-**TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments**  
-- Engineered a TM4C microcontroller hardware setup and programmed precise timing control for liquid exchanges to ensure consistent experimental conditions.  
-- Developed an intuitive UI for experiment setup, parameter definition, and progress monitoring.
-
-  </div>
-</div>
-
-<hr style="border:none;border-top:1px dashed #ccc;margin:28px 0;">
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/NTU.jpg' alt='NTU Internship' width='100%'>
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-*Jan 2021 – Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Singapore  
-**AI Intern**
-
-<img src="images/NTU.jpg" alt="NTU Internship" style="width:60%;border-radius:10px;margin:8px 0;">
-
-- Worked on a skin cancer classification model with CNNs and WEKA, using 1,800 benign and 1,497 malignant images (ISIC, Kaggle); achieved 86% accuracy.  
-- Led data preprocessing, model configuration, and augmentation (224×224 RGB, flips, shifts). Tuned 1–5 conv layers; mitigated overfitting via Dropout and L2.
-
-  </div>
-</div>
-
- 
 
 
 # 🎖 Honors and Awards
