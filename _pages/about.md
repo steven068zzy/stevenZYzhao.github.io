@@ -74,7 +74,6 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 - This paper studies ethanol-to-C4 olefin preparation by analyzing the effects of catalyst combinations and temperature on conversion and selectivity. Linear and nonlinear regression models solved with MATLAB and SPSS reveal functional relationships, enabling trend prediction and offering insights for catalyst-driven chemical processes.
 </div>
-</div>
 
 
 
