@@ -78,49 +78,74 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 # 💻 Internships
 
-<div class='paper-box'><div class='paper-box-image'><div><div> <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/Ford.jpg' alt='Ford Internship' width='100%'>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-- *May 2024 – Aug 2024*, [Ford (Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
-  **Research Engineer**
-  
-  Developed next-generation active suspension systems for vehicles, including the Ford F-150 and Lincoln luxury sedans.
-  - Built 1/4-car, half-car, and full-car models in MATLAB to support control algorithm development.
-  - Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.
-  - Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under \$4,000.
-</div>
-</div>
+*May 2024 – Aug 2024*, [Ford (Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
+**Research Engineer**
 
+<img src="images/Ford.jpg" alt="Ford Internship" style="width:60%;border-radius:10px;margin:8px 0;">
 
-<div class='paper-box'><div class='paper-box-image'><div><div> <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-- *May 2023 – Aug 2023*, [Chinese Academy of Sciences](https://english.siat.ac.cn/), Shenzhen, CN  
-  **Automation Engineer**
-  
-  Design and Implementation of High-Throughput Imaging System.
-  - Designed a multi-perspective VISoR imaging strategy, incorporating techniques such as deconvolution and deep learning image processing, which allows for achieving isotropic imaging results.
-  - Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with imaging.
+Developed next-generation active suspension systems for vehicles, including the Ford F-150 and Lincoln luxury sedans.  
+- Built 1/4-car, half-car, and full-car models in MATLAB to support control algorithm development.  
+- Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.  
+- Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under \$4,000.
 
-  TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments.
-  - Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.
-  - Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.
-
-</div>
+  </div>
 </div>
 
+<hr style="border:none;border-top:1px dashed #ccc;margin:28px 0;">
 
-<div class='paper-box'><div class='paper-box-image'><div><div> <img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/CAS.jpg' alt='CAS Internship' width='100%'>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-- *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Sigapore  
-  **AI Intern**
+*May 2023 – Aug 2023*, [Chinese Academy of Sciences](https://english.siat.ac.cn/), Shenzhen, CN  
+**Automation Engineer**
 
-  - Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.
-  - My main tasks included data preprocessing, model configuration, and data augmentation. By converting images into 224x224 pixel RGB format and performing data augmentation operations such as horizontal flipping and vertical shifting, I significantly improved model accuracy. We experimented with configurations ranging from 1 to 5 convolutional layers and resolved overfitting issues by adding Dropout layers and L2 regularization.
+<img src="images/CAS.jpg" alt="CAS Internship" style="width:60%;border-radius:10px;margin:8px 0;">
 
+**Design and Implementation of High-Throughput Imaging System**  
+- Designed a multi-perspective VISoR imaging strategy, incorporating deconvolution and deep-learning image processing to achieve isotropic imaging.  
+- Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing manual labor and imaging time.
+
+**TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments**  
+- Engineered a TM4C microcontroller hardware setup and programmed precise timing control for liquid exchanges to ensure consistent experimental conditions.  
+- Developed an intuitive UI for experiment setup, parameter definition, and progress monitoring.
+
+  </div>
 </div>
+
+<hr style="border:none;border-top:1px dashed #ccc;margin:28px 0;">
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/NTU.jpg' alt='NTU Internship' width='100%'>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+*Jan 2021 – Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Singapore  
+**AI Intern**
+
+<img src="images/NTU.jpg" alt="NTU Internship" style="width:60%;border-radius:10px;margin:8px 0;">
+
+- Worked on a skin cancer classification model with CNNs and WEKA, using 1,800 benign and 1,497 malignant images (ISIC, Kaggle); achieved 86% accuracy.  
+- Led data preprocessing, model configuration, and augmentation (224×224 RGB, flips, shifts). Tuned 1–5 conv layers; mitigated overfitting via Dropout and L2.
+
+  </div>
 </div>
+
  
 
 
