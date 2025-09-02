@@ -41,7 +41,30 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IECON 2024</div><img src='images/IECON.jpg' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">2025 (In Review)</div>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+Differentiate Moderate Woody Breast from Normal Chicken Breast Using Monofilament Needles
+
+**Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
+
+- Under Review
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IECON 2024</div>
+      <img src='images/IECON.jpg' alt="sym" width="100%">
+    </div>
+  </div>
 <div class='paper-box-text' markdown="1">
 
 [Intelligent Warehouse Robot for Classifying, Sorting, and Transporting Goods’ Boxes](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340)
