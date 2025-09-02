@@ -79,11 +79,17 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 # 💻 Working Experiences
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/Ford.jpg' alt="sym" width="100%">
+      <img src='images/FORD.png' alt="sym" width="100%">
+    </div>
+  </div>
 <div class='paper-box-text' markdown="1">
 
 - *May 2024 - Aug 2024*, [Ford(Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
-  **Research Engineer (Control Algorithm Focus)**
+  **Research Engineer Intern (Control Algorithm Focus)**
 - Developed next-generation active suspension system for vehicles, including the F-150 and Lincoln
   - Built 1/4 car, half-car, and full-car models in MATLAB to support control algorithm development.
   - Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant performance improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.
@@ -102,13 +108,34 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 <div class='paper-box-text' markdown="1">
 
 - *May 2023 - Aug 2023*, [Chinese Academy of Science](https://english.siat.ac.cn/), Shenzhen, Guangdong, CN  
-  **Automation Engineer**
+  **Automation Engineer Intern**
 - Design and Implementation of High-Throughput Imaging System
   - Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with brain imaging.
 
 - TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments
   - Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.
   - Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.
+
+</div>
+</div>
+
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/VISOR.png' alt="sym" width="100%">
+      <img src='images/VISIOR.gif' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+- *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Singapore 
+  **AI Intern**
+
+  - I participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.
+
+  - My main tasks included data preprocessing, model configuration, and data augmentation. By converting images into 224x224 pixel RGB format and performing data augmentation operations such as horizontal flipping and vertical shifting, I significantly improved model accuracy. We experimented with configurations ranging from 1 to 5 convolutional layers and resolved overfitting issues by adding Dropout layers and L2 regularization.
 
 </div>
 </div>
