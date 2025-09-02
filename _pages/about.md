@@ -43,11 +43,6 @@ LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 
 <div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">2025 (In Review)</div>
-    </div>
-  </div>
   <div class='paper-box-text' markdown="1">
 
 Differentiate Moderate Woody Breast from Normal Chicken Breast Using Monofilament Needles
