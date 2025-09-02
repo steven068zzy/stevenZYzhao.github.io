@@ -29,10 +29,10 @@ Email: ziyuanzhao@tamu.edu
 LinkedIn: [Homepage](linkedin.com/in/steven-zhao-89195326b)
 
 # 📖 Educations
-- *Aug 2024 – Present*. [Texas A&M University](https://www.columbia.edu/), College Station, TX, US
+- *Aug 2024 – Present*. [Texas A&M University](https://www.columbia.edu/), College Station, TX, USA
   - Ph.D. in Poultry Science(Robotics Track)
 
-- *Dec 2022 - Apr 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, US
+- *Dec 2022 - Apr 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
   - B.E. in Mechatronics, Robotics, and Automation Engineering
 
 - *Sep 2020 - Apr 2024*. [Beijing University of Chemical Technology](https://english.buct.edu.cn/main.htm), Beijing, CN
@@ -75,9 +75,25 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 - This paper studies ethanol-to-C4 olefin preparation by analyzing the effects of catalyst combinations and temperature on conversion and selectivity. Linear and nonlinear regression models solved with MATLAB and SPSS reveal functional relationships, enabling trend prediction and offering insights for catalyst-driven chemical processes.
 </div>
 
+# 💻 Working Experience
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/Ford.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- *May 2024 - Aug 2024*, [Ford(Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
+  **Research Engineer (Control Algorithm Focus)**
+- Developed next-generation active suspension system for vehicles, including the F-150 and Lincoln
+  - Built 1/4 car, half-car, and full-car models in MATLAB to support control algorithm development.
+  - Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant performance improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.
+  - Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under $4,000.
+  
+</div>
+</div>
 
 
-# 🎖 Honors and Awards
+
+
+# 🏆 Honors and Awards
 - *Sep 2025*, David B Mellor '57 Graduate Scholarship in TAMU
 - *Jul 2025*, Poultry Science Association Student Travel Award
 - *Jul 2023*, Outstanding International Students Scholarship in UDM
