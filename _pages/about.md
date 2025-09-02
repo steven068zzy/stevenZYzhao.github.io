@@ -157,8 +157,7 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <img src='images/indoor3.jpg' alt="sym" width="100%">
-      <img src='images/indoor2.png' alt="sym" width="100%">
+      <img src='images/indoorcomb.png' alt="sym" width="100%">
     </div>
   </div>
 <div class='paper-box-text' markdown="1">
