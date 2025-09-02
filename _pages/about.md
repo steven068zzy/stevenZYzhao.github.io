@@ -172,13 +172,14 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <img src='images/arm.gif' alt="sym" width="100%">
+      <img src='images/armm.gif' alt="sym" width="100%">
     </div>
   </div>
 <div class='paper-box-text' markdown="1">
 
 - **Industrial Robotic Arm Control**
-  - Developed and implemented control programs for a FANUC robotic arm to accomplish diverse tasks, such as simulating dice-throwing experiments, constructing structures with building blocks, and integrating machine vision for playing chess against human or computer opponents. These projects demonstrated the robot’s capability in precise motion planning, object manipulation, and vision-based decision-making.
+  - Developed and implemented control programs for a FANUC robotic arm to accomplish diverse tasks, such as simulating dice-throwing experiments, constructing structures with building blocks, and integrating machine vision for playing chess against human or computer opponents.
+  - These projects demonstrated the robot’s capability in precise motion planning, object manipulation, and vision-based decision-making.
     
 </div>
 </div>
