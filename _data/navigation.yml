@@ -1,16 +1,16 @@
 main:
   - title: "About Me"
-    url: "/#about-me"
+    url: "#about-me"
 
   - title: "Educations"
-    url: "/#-educations"
+    url: "#-educations"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "#-publications"
 
   - title: "Working Experiences"
-    url: "/#-working-experiences"
+    url: "#-working-experiences"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "#-honors-and-awards"
 
