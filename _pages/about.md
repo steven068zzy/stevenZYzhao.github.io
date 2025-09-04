@@ -203,6 +203,25 @@ real-time sensor data from the robots through RViz.
 </div>
 
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/fruit.png' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+- **Design of Automatic Fruit Picker for Cherry Tomatoes**
+  - **First Prize** at the University Level of the National Student Competition of Innovative Mechanical Design.
+  - Optimized the tracked base of the harvester for easy navigation through various complex picking terrains.
+  - Designed the robotic arm module and developed a 4-degree-of-freedom robotic arm, making it convenient to
+harvest cherry tomatoes in different orientations and under various growth conditions.
+    
+</div><img width="382" height="145" alt="Screenshot 2025-09-04 at 4 48 21 PM" src="https://github.com/user-attachments/assets/5f6ad300-9d34-4801-8d76-0261ced40abb" />
+
+</div>
+
+
 
 
 # 🏆 Honors and Awards
