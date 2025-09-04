@@ -221,6 +221,24 @@ harvest cherry tomatoes in different orientations and under various growth condi
 </div>
 
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/f1.png' alt="sym" width="100%">
+      <img src='images/f2.png' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+- **Design of Automatic Fruit Picker for Cherry Tomatoes**
+  - Defined design requirements, analyzed working conditions, and selected hydraulic components.
+  - Based on the selected hydraulic components, such as relief valves, directional control valves, flow control
+valves, etc., create a three-dimensional valve plate model using SolidWorks. Additionally, generated detailed two-dimensional valve plate sectional views and assembly drawings through CAD.
+    
+</div>
+</div>
+
+
 
 
 # 🏆 Honors and Awards
