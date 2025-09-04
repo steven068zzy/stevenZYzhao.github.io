@@ -217,8 +217,7 @@ real-time sensor data from the robots through RViz.
   - Designed the robotic arm module and developed a 4-degree-of-freedom robotic arm, making it convenient to
 harvest cherry tomatoes in different orientations and under various growth conditions.
     
-</div><img width="382" height="145" alt="Screenshot 2025-09-04 at 4 48 21 PM" src="https://github.com/user-attachments/assets/5f6ad300-9d34-4801-8d76-0261ced40abb" />
-
+</div>
 </div>
 
 
