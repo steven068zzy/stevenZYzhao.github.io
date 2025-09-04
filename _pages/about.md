@@ -16,10 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
-<div style="display: flex; align-items: center;">
-
-  <div style="flex: 1; padding-right: 20px;">
   
   # 👋 Hello there, I'm Steven  
   🧑‍💻 I'm a Ph.D. student from [Texas A&M University](https://www.tamu.edu/)  
