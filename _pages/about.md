@@ -21,7 +21,7 @@ redirect_from:
 
 🧑‍💻 I'm a Ph.D. student from [Texas A&M University](https://www.tamu.edu/)  
   
-🤖 My research direction is **Robotics and AI(focused on Computer Vision) solutions for precision poultry and livestock farming**.  
+🤖 My research direction is **Robotics and AI (focused on Computer Vision) solutions for precision poultry and livestock farming**.  
   
 ✉️ You can find me here:  
 Email: ziyuanzhao@tamu.edu  
