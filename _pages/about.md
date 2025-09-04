@@ -24,19 +24,11 @@ redirect_from:
   # 👋 Hello there, I'm Steven  
   🧑‍💻 I'm a Ph.D. student from [Texas A&M University](https://www.tamu.edu/)  
   
-  🤖 My research direction is **Robotics and AI solutions for precision poultry and livestock farming**.  
+  🤖 My research direction is **Robotics and AI (focused on Computer Vision) solutions for precision poultry and livestock farming**.  
   
   ✉️ You can find me here:  
   Email: ziyuanzhao@tamu.edu  
   LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)  
-
-  </div>
-
-  <div style="flex: 0 0 200px;">
-    <img src="assets/profile.png" alt="Profile photo" style="max-width: 100%; border-radius: 8px;">
-  </div>
-
-</div>
 
 # 📖 Educations
 - *Aug 2024 – Present*. [Texas A&M University](https://www.columbia.edu/), College Station, TX, USA
