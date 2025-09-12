@@ -168,6 +168,38 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 </div>
 </div>
 
+
+
+
+
+
+
+<div class='paper-box' style="display: flex; align-items: center; gap: 15px;">
+  <!-- 左边两张图并排 -->
+  <div class='paper-box-image' style="flex: 1;">
+    <div style="display: flex; gap: 10px;">
+      <img src="images/map11.gif" alt="sym" style="width: 50%;">
+      <img src="images/map2.png" alt="sym" style="width: 50%;">
+    </div>
+  </div>
+
+  <!-- 右边文字 -->
+  <div class='paper-box-text' style="flex: 1;" markdown="1">
+
+  - **INav-SLAM: Intelligent Navigation and Mapping Robot**  
+    - Utilizes SLAM algorithms (**Cartographer, Gmapping**) for real-time mapping and localization in unknown environments.  
+    - Employs global path planners (**Dijkstra, A\***) with the **Dynamic Window Approach (DWA)** local planner to generate smooth and feasible navigation paths.  
+    - **LiDAR-based obstacle detection** ensures real-time dynamic avoidance, enabling safe and efficient autonomous navigation in complex indoor spaces.  
+
+  </div>
+</div>
+
+
+
+
+
+
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
