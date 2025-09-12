@@ -198,6 +198,27 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/car.gif' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+- **Robot Path Planning Based on ROS**
+  - Developed and implemented advanced algorithms for four-wheeled robot obstacle avoidance, automatic reset,
+and object tracking， which had been implemented using MATLAB.
+  - Created multiple map models in Gazebo and simulated algorithms written in MATLAB within ROS. Displayed
+real-time sensor data from the robots through RViz.
+
+    
+</div>
+</div>
+
+
+
+
 
 
 <div class='paper-box'>
@@ -216,23 +237,13 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 </div>
 
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/car.gif' alt="sym" width="100%">
-    </div>
-  </div>
-<div class='paper-box-text' markdown="1">
 
-- **Robot Path Planning Based on ROS**
-  - Developed and implemented advanced algorithms for four-wheeled robot obstacle avoidance, automatic reset,
-and object tracking， which had been implemented using MATLAB.
-  - Created multiple map models in Gazebo and simulated algorithms written in MATLAB within ROS. Displayed
-real-time sensor data from the robots through RViz.
 
-    
-</div>
-</div>
+
+
+
+
+
 
 
 <div class='paper-box'>
