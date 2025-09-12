@@ -187,9 +187,9 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
   <div class='paper-box-text' style="flex: 1;" markdown="1">
 
   - **INav-SLAM: Intelligent Navigation and Mapping Robot**  
-    - Utilizes SLAM algorithms (**Cartographer, Gmapping**) for real-time mapping and localization in unknown environments.  
-    - Employs global path planners (**Dijkstra, A\***) with the **Dynamic Window Approach (DWA)** local planner to generate smooth and feasible navigation paths.  
-    - **LiDAR-based obstacle detection** ensures real-time dynamic avoidance, enabling safe and efficient autonomous navigation in complex indoor spaces.  
+    - Utilizes SLAM algorithms (Cartographer, Gmapping) for real-time mapping and localization in unknown environments.  
+    - Employs global path planners (Dijkstra, A\*) with the Dynamic Window Approach (DWA) local planner to generate smooth and feasible navigation paths.  
+    - LiDAR-based obstacle detection ensures real-time dynamic avoidance, enabling safe and efficient autonomous navigation in complex indoor spaces.  
 
   </div>
 </div>
@@ -232,6 +232,26 @@ real-time sensor data from the robots through RViz.
 - **Industrial Robotic Arm Control**
   - Developed and implemented control programs for a FANUC robotic arm to accomplish diverse tasks, such as simulating dice-throwing experiments, constructing structures with building blocks, and integrating machine vision for playing chess against human or computer opponents.
   - These projects demonstrated the robot’s capability in precise motion planning, object manipulation, and vision-based decision-making.
+    
+</div>
+</div>
+
+
+
+
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/hand.gif' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+- **ROS-Controlled Robotic Arm and Embedded Gripper**
+  - This project integrates a robotic arm controlled via ROS with a TM4C microcontroller-based robotic gripper, enabling precise manipulation and task execution.
+  - Through coordinated control between the arm and the gripper, the system can perform operations such as object grasping, transport, and placement. The design highlights the synergy between high-level motion planning in ROS and low-level embedded control, providing a versatile platform for research in automation and intelligent manipulation.
     
 </div>
 </div>
