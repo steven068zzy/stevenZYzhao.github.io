@@ -91,7 +91,7 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">USPLF 2025</div><img src='images/Sow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">USPLF 2025</div><img src='images/Sow.png' alt="sym" width="100%"><img src='images/Sow2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Evaluate changes in respiratory rate of lateral lying sows around onset of parturition using depth camera](https://www.sciencedirect.com/science/article/pii/S2772283X25007654)
