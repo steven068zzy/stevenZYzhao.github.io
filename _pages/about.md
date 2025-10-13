@@ -104,6 +104,19 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Jianfeng Zhou, Timothy Safranski, Jeffrey W
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">USPLF 2025</div><img src='images/Floor1.png' alt="sym" width="100%"><img src='images/Floor2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Investigation of poultry manure removal efficiency and volume estimation on grooved-floor panels](https://www.sciencedirect.com/science/article/pii/S2772283X25008076)
+
+Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, Ziteng Xu<sup>*</sup>
+
+- A mobile platform equipped with an electric cylindrical brush was developed to evaluate the efficiency of manure removal from grooved f loor panels designed for free-range broiler production. The panels were placed beneath 20-week-old caged layers to collect manure samples. An Intel L515 LiDAR camera was used to measure manure volume before and after compression. Cleaning efficiency was assessed under various load conditions, and the relationship between manure weight and volume was analyzed. The results demonstrated that manure can be effectively removed and manure weight can be accurately estimated, which offers a potential method for determining the number of live birds per cage in caged systems.
+</div>
+</div>
+
+
+
 
 
 
