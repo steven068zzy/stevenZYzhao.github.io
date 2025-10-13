@@ -55,6 +55,29 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
   </div>
 <div class='paper-box-text' markdown="1">
 
+
+
+[Evaluate changes in respiratory rate of lateral lying sows around onset of parturition using depth camera](https://www.sciencedirect.com/science/article/pii/S2772283X25007654)
+
+Yu Wang, Siya Chen, **Ziyuan Zhao**, Jianfeng Zhou, Timothy Safranski, Jeffrey Wiegert, Ziteng Xu<sup>*</sup>
+
+- Under Review
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IECON 2024</div>
+      <img src='images/IECON.jpg' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+
+
+
+
+
+
 [Intelligent Warehouse Robot for Classifying, Sorting, and Transporting Goods’ Boxes](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10905340)
 
 **Ziyuan Zhao**, Amna Mazen, Youssef Bazzi<sup>*</sup>, Bingyi Wang, Sushuang Li
