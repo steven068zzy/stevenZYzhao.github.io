@@ -46,6 +46,11 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 
 - Under Review
 
+
+
+
+
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -64,6 +69,11 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 </div>
 
 
+
+
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICPECA 2023</div><img src='images/BH.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -74,6 +84,28 @@ Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
 - This paper investigates the spatial electromagnetic field distribution of a transformer core considering the nonlinear B-H curve using a COMSOL-based E-type transformer model. The results show that magnetic saturation causes strong nonlinear field concentration in the central core, leading to excessive losses, current distortion, and rapid output current reduction, which may damage the transformer.
 </div>
 </div>
+
+
+
+
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">USPLF 2025</div><img src='images/Sow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Evaluate changes in respiratory rate of lateral lying sows around onset of parturition using depth camera](https://www.sciencedirect.com/science/article/pii/S2772283X25007654)
+
+Yu Wang, Siya Chen, **Ziyuan Zhao**, Jianfeng Zhou, Timothy Safranski, Jeffrey Wiegert, Ziteng Xu<sup>*</sup>
+
+- Monitoring sow’s respiratory rate (RR) is important for predicting the onset of parturition. This study proposes a non-contact method for RR monitoring in lateral lying (LL) sows using depth camera. The pipeline is composed of several deep-learning modules. A posture recognition model was trained to identify lateral lying sows. RR is evaluated based on the changes in average pixel intensity of the grayscale depth video within a fixed bounding box near the sow’s abdomen region. Two sows were evaluated in this study. Noticeable increases in daily activity level and respiratory rate were observed before the onset of parturition.
+</div>
+</div>
+
+
+
+
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Materials, Processing and Design</div><img src='images/C4.png' alt="sym" width="100%"></div></div>
