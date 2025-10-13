@@ -74,7 +74,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICPECA 2023</div><img src='images/BH.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICPECA 2023</div><img src='images/BH.png' alt="sym" width="100%"><img src='images/Trans.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Simulation analysis of spatial electromagnetic field of transformer core considering nonlinear B-H curve](https://ieeexplore.ieee.org/abstract/document/10076147)
