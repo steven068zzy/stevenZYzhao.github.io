@@ -42,7 +42,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 
 
 
-[6.	Investigation of broiler preferences among non-perforated floor with different groove width using computer vision techniques]
+[Investigation of broiler preferences among non-perforated floor with different groove width using computer vision techniques]
 
 **Ziyuan Zhao**, Yu Wang, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
 
