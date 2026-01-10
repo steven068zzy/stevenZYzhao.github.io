@@ -44,14 +44,14 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 
 [Investigation of broiler preferences among non-perforated floor with different groove width using computer vision techniques]()
 
-**Ziyuan Zhao**, Yu Wang, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
+**Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
 
 - In Preparation
 
 
 [Differentiate Moderate Woody Breast from Normal Chicken Breast Using Monofilament Needles](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5475288)
 
-**Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
+**Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
 
 - Under Review
 
