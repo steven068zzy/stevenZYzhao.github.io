@@ -49,11 +49,22 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 - In Preparation
 
 
-[Differentiate Moderate Woody Breast from Normal Chicken Breast Using Monofilament Needles](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5475288)
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IECON 2024</div>
+      <img src='images/IECON.jpg' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+[Differentiate Moderate Woody Breast from Normal Chicken Breast Using Monofilament Needles](https://www.sciencedirect.com/science/article/pii/S2772502226002520)
 
 **Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
 
-- Under Review
+-In this study, we bridge mechanical beam buckling theory and poultry meat quality evaluation by introducing a monofilament needle-based approach with high accuracy. 
+</div>
+</div>
 
 
 
@@ -76,6 +87,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 - This paper presents an integrated intelligent warehouse robot system that combines computer vision, robotic manipulation, and autonomous navigation to perform box classification, sorting, and transportation. Using YOLOv5 and a Kinect camera, the system classifies boxes by size, while a WidowX robotic arm handles pick-and-place operations and a Pioneer P3-DX mobile robot with LiDAR navigates to designated storage areas. Experimental results in a simulated warehouse demonstrate reliable detection, obstacle avoidance, and precise placement, showing the system’s potential to improve warehouse efficiency and automation.
 </div>
 </div>
+
 
 
 
