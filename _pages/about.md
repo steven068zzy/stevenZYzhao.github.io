@@ -56,7 +56,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
   <div class='paper-box-image'>
     <div>
       <div class="badge">IECON 2024</div>
-      <img src='images/IECON.jpg' alt="sym" width="100%">
+      <img src='images/needle_equ.png' alt="sym" width="100%">
     </div>
   </div>
 <div class='paper-box-text' markdown="1">
