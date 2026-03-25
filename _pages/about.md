@@ -150,14 +150,14 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 [Research on preparation process of ethanol and C4 olefin based on linear and nonlinear regression fitting algorithm](https://clausiuspress.com/article/2206.html)
 
-Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
+**Ziyuan Zhao<sup>*</sup>**, Shougan Ye
 
 - This paper studies ethanol-to-C4 olefin preparation by analyzing the effects of catalyst combinations and temperature on conversion and selectivity. Linear and nonlinear regression models solved with MATLAB and SPSS reveal functional relationships, enabling trend prediction and offering insights for catalyst-driven chemical processes.
 </div>
 </div>
 
 
-# 💻 Working Experiences
+# 💻 Internship Experiences
 
 <div class='paper-box'>
   <div class='paper-box-image'>
