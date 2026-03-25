@@ -49,6 +49,9 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 - In Preparation
 
 
+
+
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -60,7 +63,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 
 [Differentiate Moderate Woody Breast from Normal Chicken Breast Using Monofilament Needles](https://www.sciencedirect.com/science/article/pii/S2772502226002520)
 
-**Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
+**Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*
 
 -In this study, we bridge mechanical beam buckling theory and poultry meat quality evaluation by introducing a monofilament needle-based approach with high accuracy. 
 </div>
@@ -74,7 +77,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">IECON 2024</div>
+      <div class="badge">Applied Food Research</div>
       <img src='images/IECON.jpg' alt="sym" width="100%">
     </div>
   </div>
