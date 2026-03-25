@@ -374,11 +374,13 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 
 # 🎤 Conference Presentations & Posters
-- *Jul 2025*, Poultry Science Association Annual Meeting, Raleigh, NC, USA
-- *Jun 2025*, Workshop on Smart Robots for a Scalable and Resilient Future of Agriculture, College Station, TX, USA
-- *May 2025*, US Precision Livestock Farming, Lincoln, NE, USA
-- *Jan 2025*, The International Production & Processing Expo, Atlanta, GA, USA
-- *Aug 2024*, World Robot Conference, Beijing, China
+- *Apr. 2026*, AI in Agriculture 2026, Raleigh, NC, USA
+- *Feb. 2026*, The International Production & Processing Expo, Atlanta, GA, USA
+- *Jul. 2025*, Poultry Science Association Annual Meeting, Raleigh, NC, USA
+- *Jun. 2025*, Workshop on Smart Robots for a Scalable and Resilient Future of Agriculture, College Station, TX, USA
+- *May. 2025*, US Precision Livestock Farming, Lincoln, NE, USA
+- *Jan. 2025*, The International Production & Processing Expo, Atlanta, GA, USA
+- *Aug. 2024*, World Robot Conference, Beijing, China
 
 
 # 🏆 Honors and Awards
