@@ -373,7 +373,8 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 
 
-# 🎤 Conference Presentations & Posters
+# 🎤 Conference Presentations
+- *Jul. 2026*, ASABE（American Society of Agricultural and Biological Engineers）Annual Meeting, Indianapolis, IN, USA
 - *Apr. 2026*, AI in Agriculture 2026, Raleigh, NC, USA
 - *Feb. 2026*, The International Production & Processing Expo, Atlanta, GA, USA
 - *Jul. 2025*, Poultry Science Association Annual Meeting, Raleigh, NC, USA
