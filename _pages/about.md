@@ -371,7 +371,8 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 </div>
 
 
-
+# ✏️ Journal Reviewer
+- Automation in Construction
 
 # 🎤 Conference Presentations
 - *Jul. 2026*, ASABE（American Society of Agricultural and Biological Engineers）Annual Meeting, Indianapolis, IN, USA
