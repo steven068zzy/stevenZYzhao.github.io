@@ -57,6 +57,14 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 
 
 
+[Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels]()
+
+Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Athrey, Gregory Archer, Samson Oladokun, Sushil Paudyal, Kiju Lee, Ziteng Xu<sup>*</sup>
+
+- Under Review
+
+
+
 
 
 <div class='paper-box'>
