@@ -49,6 +49,13 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 - In Preparation
 
 
+[Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)]()
+
+**Ziyuan Zhao**, Yu Wang, Ziteng Xu<sup>*</sup>
+
+- Submitted
+
+
 
 
 
@@ -238,6 +245,21 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 </div>
 </div>
 
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/indoorcomb.png' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+- *PoultryTrack*
+  - PoultryTrack is a purpose-built cloud research platform that transforms how poultry scientists capture, share, and interpret experimental data — replacing fragmented spreadsheets and paper logs with a unified, real-time system. Designed at Texas A&M University, the platform streamlines the entire research lifecycle: from experiment setup and structured daily inspections to advanced welfare assessment and automated cross-experiment analytics, including mortality trends, welfare scoring, and Feed Conversion Ratio (FCR) computation. Built on a modern React and Supabase architecture with row-level security and TAMU-restricted access, PoultryTrack delivers institutional-grade data integrity, seamless multi-device synchronization, and flexible private-or-public sharing — empowering researchers to focus on discovery rather than data wrangling.
+    
+</div>
+</div>
 
 
 
