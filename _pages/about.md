@@ -230,6 +230,33 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 # 🚀 Selected Projects
 
+
+
+<div class='paper-box' style="display: flex; align-items: center; gap: 15px;">
+  <!-- 左边两张图并排 -->
+  <div class='paper-box-image' style="flex: 1;">
+    <div style="display: flex; gap: 10px;">
+      <img src="images/map11.gif" alt="sym" style="width: 50%;">
+      <img src="images/map2.png" alt="sym" style="width: 50%;">
+    </div>
+  </div>
+
+  <!-- 右边文字 -->
+  <div class='paper-box-text' style="flex: 1;" markdown="1">
+
+  - **PoultryTrack**  
+    - PoultryTrack is a purpose-built cloud research platform that transforms how poultry scientists capture, share, and interpret experimental data — replacing fragmented spreadsheets and paper logs with a unified, real-time system. Designed at Texas A&M University, the platform streamlines the entire research lifecycle: from experiment setup and structured daily inspections to advanced welfare assessment and automated cross-experiment analytics, including mortality trends, welfare scoring, and Feed Conversion Ratio (FCR) computation. PoultryTrack is built on a modern React and Supabase architecture with row-level security and TAMU-restricted access. It delivers institutional-grade data integrity, seamless multi-device synchronization, and flexible private or public sharing so that researchers can focus on discovery rather than data wrangling.
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -241,22 +268,6 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 - **An Indoor Office Environment-based Delivery Vehicle**
   - **National First Prize** of College Students' Innovation Competition.
   - Aimed to design an intelligent distribution car involving the Internet of Things, intelligent hardware, and logistics transportation technology. And took on the responsibilities of mechanical structure modeling and physical fabrication, as well as implementing wireless charging solutions and multi-sensor fusion.
-    
-</div>
-</div>
-
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/indoorcomb.png' alt="sym" width="100%">
-    </div>
-  </div>
-<div class='paper-box-text' markdown="1">
-
-- *PoultryTrack*
-  - PoultryTrack is a purpose-built cloud research platform that transforms how poultry scientists capture, share, and interpret experimental data — replacing fragmented spreadsheets and paper logs with a unified, real-time system. Designed at Texas A&M University, the platform streamlines the entire research lifecycle: from experiment setup and structured daily inspections to advanced welfare assessment and automated cross-experiment analytics, including mortality trends, welfare scoring, and Feed Conversion Ratio (FCR) computation. Built on a modern React and Supabase architecture with row-level security and TAMU-restricted access, PoultryTrack delivers institutional-grade data integrity, seamless multi-device synchronization, and flexible private-or-public sharing — empowering researchers to focus on discovery rather than data wrangling.
     
 </div>
 </div>
