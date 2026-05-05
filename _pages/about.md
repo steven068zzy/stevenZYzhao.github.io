@@ -51,7 +51,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 
 [Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)]()
 
-**Ziyuan Zhao**, Yu Wang, Ziteng Xu<sup>*</sup>
+**Ziyuan Zhao**, Yu Wang, Jill Domel, Ziteng Xu<sup>*</sup>
 
 - Submitted
 
