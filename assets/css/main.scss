@@ -40,70 +40,396 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.paper-box {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
-
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
-    }
-
-
+/* ================================================================
+   CSS Custom Properties
+   ================================================================ */
+:root {
+  --accent-1:        #1e40af;
+  --accent-2:        #2563eb;
+  --accent-sky:      #38bdf8;
+  --accent-light:    #dbeafe;
+  --grad-accent:     linear-gradient(135deg, #1e40af, #2563eb);
+  --grad-progress:   linear-gradient(to right, #1e40af, #38bdf8);
+  --surface:         #ffffff;
+  --bg-page:         #f4f7fb;
+  --text-primary:    #1e293b;
+  --text-muted:      #64748b;
+  --border:          #e2e8f0;
+  --shadow-sm:       0 1px 4px rgba(0,0,0,0.07);
+  --shadow-md:       0 4px 16px rgba(30,64,175,0.10);
+  --shadow-lg:       0 10px 32px rgba(30,64,175,0.14);
+  --radius:          10px;
+  --radius-sm:       6px;
+  --ease:            cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
+/* ================================================================
+   Base: Font + Background
+   ================================================================ */
+body {
+  font-family: 'Inter', 'Trebuchet MS', Helvetica, sans-serif;
+  background-color: var(--bg-page);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.badge {
+/* ================================================================
+   Scroll Progress Bar (populated by ui-enhance.js)
+   ================================================================ */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: var(--grad-progress);
+  z-index: 9999;
+  border-radius: 0 2px 2px 0;
+  pointer-events: none;
+}
+
+/* ================================================================
+   Navigation — frosted glass + hover chips
+   ================================================================ */
+.masthead {
+  background: rgba(255,255,255,0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+  border-bottom: 1px solid var(--border);
+}
+
+.masthead__menu-item a {
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  padding: 0.3em 0.65em;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s var(--ease);
+  letter-spacing: 0.01em;
+
+  &:hover {
+    color: var(--accent-1);
+    background: var(--accent-light);
+    text-decoration: none;
+  }
+}
+
+.masthead__menu-item--lg a {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+
+  &:hover {
+    color: var(--accent-1);
+    background: transparent;
+  }
+}
+
+.masthead__menu-item a.nav-active {
+  color: var(--accent-1);
+  background: var(--accent-light);
+}
+
+/* ================================================================
+   Sidebar / Author Profile
+   ================================================================ */
+.sidebar {
+  background: var(--surface);
+
+  @include breakpoint($large) {
+    background: transparent;
+  }
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid var(--accent-light);
+  box-shadow: 0 0 0 2px var(--accent-2), var(--shadow-md);
+  transition: all 0.3s var(--ease);
+
+  &:hover {
+    box-shadow: 0 0 0 3px var(--accent-1), var(--shadow-lg);
+    transform: scale(1.03);
+  }
+}
+
+.author__name {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.author__bio {
+  color: var(--text-muted);
+  font-size: 0.84rem;
+  font-style: italic;
+  line-height: 1.55;
+}
+
+.author__urls a {
+  border-radius: var(--radius-sm);
+  padding: 3px 8px;
+  transition: all 0.2s var(--ease);
+
+  &:hover {
+    background: var(--accent-light);
+    color: var(--accent-1);
+    text-decoration: none;
+  }
+}
+
+/* ================================================================
+   Page Content — section headings
+   ================================================================ */
+.page__content {
+  h1 {
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: var(--text-primary);
+    border-bottom: none;
     padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+    border-left: 4px solid var(--accent-2);
+    margin-top: 1.8em;
+    margin-bottom: 0.9em;
+
+    &::after {
+      content: '';
+      display: block;
+      height: 2px;
+      background: linear-gradient(to right, #93c5fd, transparent);
+      margin-top: 0.4em;
+      border-radius: 1px;
+    }
+  }
+
+  /* Italic date/time tags */
+  li em, p > em {
+    font-style: normal;
+    background: #f1f5f9;
+    color: var(--text-muted);
+    padding: 0.1em 0.5em;
+    border-radius: 4px;
+    font-size: 0.87em;
+    font-weight: 500;
+  }
+
+  /* Links */
+  a {
+    color: var(--accent-1);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s var(--ease), color 0.2s var(--ease);
+
+    &:hover {
+      color: var(--accent-2);
+      border-bottom-color: #93c5fd;
+      text-decoration: none;
+    }
+  }
+}
+
+/* ================================================================
+   Paper Box — card with hover lift
+   ================================================================ */
+.paper-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1.4em 1.5em;
+  margin-bottom: 1.1em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.25s var(--ease), transform 0.25s var(--ease), border-color 0.25s var(--ease);
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
+    border-color: #bfdbfe;
+  }
+
+  .paper-box-image {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    order: 2;
+
+    img {
+      max-width: 400px;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      object-fit: cover;
+      transition: box-shadow 0.25s var(--ease), transform 0.25s var(--ease);
+    }
+  }
+
+  &:hover .paper-box-image img {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.14);
+    transform: scale(1.01);
+  }
+
+  .paper-box-text {
+    max-width: 100%;
+    order: 1;
+  }
+
+  @include breakpoint($medium) {
+    .paper-box-image {
+      justify-content: left;
+      min-width: 200px;
+      max-width: 40%;
+      order: 1;
+    }
+
+    .paper-box-text {
+      justify-content: left;
+      padding-left: 2em;
+      max-width: 60%;
+      order: 2;
+    }
+  }
+}
+
+/* ================================================================
+   Scroll anchor offset (preserved)
+   ================================================================ */
+$scroll_offset: 2em;
+h1:before, .anchor:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: $scroll_offset;
+  margin-top: -$scroll_offset;
+}
+
+/* ================================================================
+   Badge — gradient pill
+   ================================================================ */
+.badge {
+  padding: 0.22em 0.75em;
+  position: absolute;
+  margin-top: 0.55em;
+  margin-left: 0.5em;
+  color: white;
+  background: var(--grad-accent);
+  font-size: 0.70em;
+  font-weight: 700;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.38);
+}
+
+/* ================================================================
+   Horizontal rule
+   ================================================================ */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, #bfdbfe, var(--border), transparent);
+  margin: 2.5em 0;
+}
+
+/* ================================================================
+   Back-to-top button (populated by ui-enhance.js)
+   ================================================================ */
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--grad-accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(30, 64, 175, 0.42);
+  z-index: 999;
+  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+  font-size: 1.25rem;
+  line-height: 1;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(30, 64, 175, 0.55);
+  }
+
+  &.visible {
+    display: flex;
+  }
+}
+
+/* ================================================================
+   Main area white card on light bg
+   ================================================================ */
+.page {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1.5em 2em;
+  box-shadow: var(--shadow-sm);
+
+  @include breakpoint($large) {
+    border-radius: 12px;
+  }
+}
+
+/* ================================================================
+   Footer
+   ================================================================ */
+.page__footer {
+  background: #1e293b;
+  margin-top: 3em;
+
+  footer {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    padding: 1.2em;
+    text-align: center;
+
+    a {
+      color: #93c5fd;
+      text-decoration: none;
+      border-bottom: none;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+/* ================================================================
+   Mobile
+   ================================================================ */
+@media (max-width: 768px) {
+  .paper-box {
+    padding: 1em;
+    border-radius: 8px;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+  .page {
+    padding: 1em 1.2em;
+    border-radius: 8px;
+  }
+
+  #back-to-top {
+    bottom: 1.2rem;
+    right: 1.2rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
 }
