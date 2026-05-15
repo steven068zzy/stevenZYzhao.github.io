@@ -451,16 +451,116 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 # 📚 Reading List
 
-Reading is one of the best habits I've cultivated. A good book slows me down in the best way — it pushes me to think more carefully, challenges assumptions I didn't know I had, and opens up worlds and lives far beyond my own. Below are books I've genuinely loved and would recommend without hesitation.
+<style>
+.book-shelf-intro{font-style:italic;color:#4b5563;font-size:1.02em;line-height:1.85;margin:0 0 28px;padding:14px 20px;border-left:4px solid #3b82f6;background:linear-gradient(90deg,rgba(59,130,246,.07),transparent);border-radius:0 8px 8px 0;}
+.book-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:0;padding:0;}
+.book-card{border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.10),0 8px 28px rgba(0,0,0,.07);transition:transform .30s cubic-bezier(.22,.68,0,1.2),box-shadow .30s ease;background:#fff;display:flex;flex-direction:column;}
+.book-card:hover{transform:translateY(-10px) scale(1.018);box-shadow:0 8px 24px rgba(0,0,0,.15),0 24px 56px rgba(0,0,0,.12);}
+.book-cover-wrap{position:relative;width:100%;padding-top:150%;overflow:hidden;flex-shrink:0;}
+.book-cover-wrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:2;}
+.book-ph{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px;text-align:center;}
+.book-ph-initial{font-size:2.4em;font-weight:800;color:rgba(255,255,255,.82);line-height:1;margin-bottom:10px;letter-spacing:-1px;}
+.book-ph-name{font-size:.58em;color:rgba(255,255,255,.65);font-weight:500;line-height:1.35;}
+.book-meta{padding:10px 12px 14px;flex:1;display:flex;flex-direction:column;}
+.book-title{font-size:.78em;font-weight:700;color:#111827;line-height:1.35;margin-bottom:3px;}
+.book-author{font-size:.70em;color:#6b7280;}
+@media(max-width:768px){.book-grid{grid-template-columns:repeat(3,1fr);gap:15px;}}
+@media(max-width:480px){.book-grid{grid-template-columns:repeat(2,1fr);gap:12px;}}
+</style>
 
-- *Elon Musk* — Walter Isaacson
-- *What Are You Going to Do with Your Life?* — John Wooden
-- *Think Beyond Value: Building Strategy to Win*
-- *Big Breasts and Wide Hips* — Mo Yan
-- *One Sentence Worth Ten Thousand* — Liu Zhenyun
-- *To Live* — Yu Hua
-- *Rich Dad Poor Dad* — Robert T. Kiyosaki
-- *The Three-Body Problem* — Liu Cixin
-- *The Prisoner* — Yan Geling
-- *The Ninth Widow* — Yan Geling
-- *Youth* — Yan Geling
+<p class="book-shelf-intro">A good book slows me down in the best way — it pushes me to think more carefully, challenges assumptions I didn't know I had, and opens up worlds and lives far beyond my own. Below are books I've genuinely loved and would recommend without hesitation.</p>
+
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9781982181284-L.jpg" alt="Elon Musk" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#0f2042,#1d4ed8);"><div class="book-ph-initial">EM</div><div class="book-ph-name">Elon Musk</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Elon Musk</div><div class="book-author">Walter Isaacson</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9781931722018-L.jpg" alt="What Are You Going to Do with Your Life?" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#1a1a2e,#4f46e5);"><div class="book-ph-initial">WL</div><div class="book-ph-name">What Are You Going to Do with Your Life?</div></div>
+</div>
+<div class="book-meta"><div class="book-title">What Are You Going to Do with Your Life?</div><div class="book-author">John Wooden</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<div class="book-ph" style="background:linear-gradient(145deg,#0c4a6e,#0ea5e9);"><div class="book-ph-initial">TV</div><div class="book-ph-name">Think Beyond Value</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Think Beyond Value: Building Strategy to Win</div><div class="book-author"></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9780143035398-L.jpg" alt="Big Breasts and Wide Hips" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#450a0a,#dc2626);"><div class="book-ph-initial">BB</div><div class="book-ph-name">Big Breasts and Wide Hips</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Big Breasts and Wide Hips</div><div class="book-author">Mo Yan</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<div class="book-ph" style="background:linear-gradient(145deg,#2e1065,#7c3aed);"><div class="book-ph-initial">OS</div><div class="book-ph-name">One Sentence Worth Ten Thousand</div></div>
+</div>
+<div class="book-meta"><div class="book-title">One Sentence Worth Ten Thousand</div><div class="book-author">Liu Zhenyun</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9781400033225-L.jpg" alt="To Live" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#1c1917,#57534e);"><div class="book-ph-initial">TL</div><div class="book-ph-name">To Live</div></div>
+</div>
+<div class="book-meta"><div class="book-title">To Live</div><div class="book-author">Yu Hua</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg" alt="Rich Dad Poor Dad" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#431407,#ea580c);"><div class="book-ph-initial">RP</div><div class="book-ph-name">Rich Dad Poor Dad</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Rich Dad Poor Dad</div><div class="book-author">Robert T. Kiyosaki</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9780765382030-L.jpg" alt="The Three-Body Problem" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#0c1445,#1e40af);"><div class="book-ph-initial">3B</div><div class="book-ph-name">The Three-Body Problem</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The Three-Body Problem</div><div class="book-author">Liu Cixin</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<div class="book-ph" style="background:linear-gradient(145deg,#14532d,#16a34a);"><div class="book-ph-initial">PR</div><div class="book-ph-name">The Prisoner</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The Prisoner</div><div class="book-author">Yan Geling</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<div class="book-ph" style="background:linear-gradient(145deg,#134e4a,#0d9488);"><div class="book-ph-initial">NW</div><div class="book-ph-name">The Ninth Widow</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The Ninth Widow</div><div class="book-author">Yan Geling</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<div class="book-ph" style="background:linear-gradient(145deg,#4a044e,#a21caf);"><div class="book-ph-initial">YT</div><div class="book-ph-name">Youth</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Youth</div><div class="book-author">Yan Geling</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9781848163027-L.jpg" alt="Science Research Writing" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#1e3a5f,#2563eb);"><div class="book-ph-initial">SR</div><div class="book-ph-name">Science Research Writing</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Science Research Writing for Non-native Speakers of English</div><div class="book-author">Hilary Glasman-Deal</div></div>
+</div>
+
+</div>
