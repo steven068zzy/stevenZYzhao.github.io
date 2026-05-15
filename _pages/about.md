@@ -604,7 +604,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9783031114175-L.jpg" alt="Mastering Your PhD" loading="lazy" onerror="this.style.display='none'">
+<img src="images/book-mastering-phd.jpg" alt="Mastering Your PhD" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#4a044e,#c2410c);"><div class="book-ph-initial">MP</div><div class="book-ph-name">Mastering Your PhD</div></div>
 </div>
 <div class="book-meta"><div class="book-title">Mastering Your PhD</div><div class="book-author">Patricia Gosling &amp; Bart Noordam</div><div class="book-tags"><span class="book-tag">PhD Life</span><span class="book-tag">Research Skills</span><span class="book-tag">Academic Career</span></div></div>
