@@ -30,6 +30,7 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 # 📖 Educations
 - *Aug 2024 – Present*. [Texas A&M University]([https://www.columbia.edu/](https://www.tamu.edu/index.html)), College Station, TX, USA
   - Ph.D. in Poultry Science (Robotics Track)
+  - Graduate Certificate in Entrepreneurship
 
 - *Dec 2022 - Apr 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
   - B.E. in Mechatronics, Robotics, and Automation Engineering
