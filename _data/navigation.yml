@@ -3,20 +3,22 @@ main:
     url: "#about-me"
 
   - title: "Education"
-    url: "#-education"
+    url: "#educations"
 
   - title: "Publications"
-    url: "#-publications"
+    url: "#publications"
 
-  - title: "Working Experiences"
-    url: "#-working-experiences"
+  - title: "Internship Experiences"
+    url: "#internship-experiences"
+
+  - title: "Selected Projects"
+    url: "#selected-projects"
 
   - title: "Journal Reviewer"
-    url: "#-journal-reviewer"
+    url: "#journal-reviewer"
 
   - title: "Conference Presentations"
-    url: "#-conference-presentations"
+    url: "#conference-presentations"
 
   - title: "Honors and Awards"
-    url: "#-honors-and-awards"
-
+    url: "#honors-and-awards"
