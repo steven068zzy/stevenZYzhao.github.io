@@ -167,9 +167,13 @@ body {
   line-height: 1.55;
 }
 
+.author__urls li {
+  padding-left: 8px;
+}
+
 .author__urls a {
   border-radius: var(--radius-sm);
-  padding: 3px 8px;
+  padding: 3px 8px 3px 0;
   transition: all 0.2s var(--ease);
 
   &:hover {
