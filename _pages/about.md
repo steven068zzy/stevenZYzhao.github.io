@@ -481,7 +481,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9781982181284-L.jpg" alt="Elon Musk" loading="lazy" onerror="this.style.display='none'">
+<img src="images/book-elon-musk.jpg" alt="Elon Musk" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#0f2042,#1d4ed8);"><div class="book-ph-initial">EM</div><div class="book-ph-name">Elon Musk</div></div>
 </div>
 <div class="book-meta"><div class="book-title">Elon Musk</div><div class="book-author">Walter Isaacson</div><div class="book-tags"><span class="book-tag">Innovation</span><span class="book-tag">Entrepreneurship</span><span class="book-tag">Vision</span></div></div>
@@ -504,7 +504,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg" alt="Rich Dad Poor Dad" loading="lazy" onerror="this.style.display='none'">
+<img src="images/book-rich-dad.jpg" alt="Rich Dad Poor Dad" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#431407,#ea580c);"><div class="book-ph-initial">RP</div><div class="book-ph-name">Rich Dad Poor Dad</div></div>
 </div>
 <div class="book-meta"><div class="book-title">Rich Dad Poor Dad</div><div class="book-author">Robert T. Kiyosaki</div><div class="book-tags"><span class="book-tag">Financial Literacy</span><span class="book-tag">Investing</span><span class="book-tag">Wealth Mindset</span></div></div>
@@ -581,7 +581,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9780765382030-L.jpg" alt="The Three-Body Problem" loading="lazy" onerror="this.style.display='none'">
+<img src="images/book-three-body.jpg" alt="The Three-Body Problem" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#0c1445,#1e40af);"><div class="book-ph-initial">3B</div><div class="book-ph-name">The Three-Body Problem</div></div>
 </div>
 <div class="book-meta"><div class="book-title">The Three-Body Problem</div><div class="book-author">Liu Cixin</div><div class="book-tags"><span class="book-tag">First Contact</span><span class="book-tag">Physics</span><span class="book-tag">Civilization</span></div></div>
