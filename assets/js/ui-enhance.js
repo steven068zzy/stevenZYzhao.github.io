@@ -23,13 +23,7 @@
     var scrollTop = window.scrollY || document.documentElement.scrollTop;
     var docH = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     bar.style.width = (docH > 0 ? (scrollTop / docH) * 100 : 0) + '%';
-
-    if (scrollTop > 400) {
-      btn.classList.add('visible');
-    } else {
-      btn.classList.remove('visible');
-    }
-
+    btn.classList.toggle('visible', scrollTop > 400);
     updateActiveNav(scrollTop);
   }
 
@@ -65,41 +59,80 @@
     });
   }
 
-  /* ---- Fade-in on scroll via IntersectionObserver ---- */
+  /* ---- Staggered fade-in for paper-box cards ---- */
   function initFadeIn() {
-    if (!('IntersectionObserver' in window)) return;
-
-    var style = document.createElement('style');
-    style.textContent = [
-      '.paper-box{opacity:0;transform:translateY(18px);}',
-      '.paper-box.sz-visible{opacity:1;transform:translateY(0);transition:opacity .45s ease,transform .45s ease;}'
-    ].join('');
-    document.head.appendChild(style);
-
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) {
-          e.target.classList.add('sz-visible');
-          io.unobserve(e.target);
-        }
+    if (!('IntersectionObserver' in window)) {
+      // Fallback: just show all cards
+      document.querySelectorAll('.paper-box').forEach(function (el) {
+        el.classList.add('sz-visible');
       });
-    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+      return;
+    }
 
-    document.querySelectorAll('.paper-box').forEach(function (el) {
+    var cards = document.querySelectorAll('.paper-box');
+    cards.forEach(function (el, idx) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            // Stagger: each card enters 80ms after the previous one in the same viewport batch
+            setTimeout(function () {
+              el.classList.add('sz-visible');
+            }, (idx % 4) * 80); // reset stagger every 4 cards
+            io.unobserve(el);
+          }
+        });
+      }, { threshold: 0.07, rootMargin: '0px 0px -30px 0px' });
       io.observe(el);
     });
   }
 
-  /* ---- Init on DOM ready ---- */
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () {
-      buildNavMap();
-      initFadeIn();
-      onScroll();
+  /* ---- Publication status chips ---- */
+  function injectPubStatus() {
+    var statusMap = {
+      'In Preparation': 'pub-status pub-status--prep',
+      'Under Review':   'pub-status pub-status--review',
+      'Submitted':      'pub-status pub-status--review',
+    };
+
+    document.querySelectorAll('.page__content li').forEach(function (li) {
+      var text = li.textContent.trim();
+      if (statusMap[text]) {
+        li.innerHTML = '<span class="' + statusMap[text] + '">' + text + '</span>';
+      }
     });
-  } else {
+  }
+
+  /* ---- Awards gold accent ---- */
+  function injectAwardStyle() {
+    // Find the Awards h1 and style the following li items
+    var awardsAnchor = document.getElementById('honors-and-awards');
+    if (!awardsAnchor) return;
+
+    // Walk siblings until next h1 or end
+    var el = awardsAnchor.nextElementSibling;
+    while (el) {
+      if (el.tagName === 'H1') break;
+      if (el.tagName === 'UL') {
+        el.querySelectorAll('li').forEach(function (li) {
+          li.classList.add('award-item');
+        });
+      }
+      el = el.nextElementSibling;
+    }
+  }
+
+  /* ---- Init on DOM ready ---- */
+  function init() {
     buildNavMap();
     initFadeIn();
+    injectPubStatus();
+    injectAwardStyle();
     onScroll();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 })();
