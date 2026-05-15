@@ -27,6 +27,13 @@ redirect_from:
 Email: ziyuanzhao@tamu.edu  
 LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)  
 
+<div style="display: flex; gap: 30px; margin: 20px 0; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <div style="font-size: 1.6em; font-weight: bold;">$21,400+</div>
+    <div style="font-size: 0.9em; color: #666;">Total Scholarship</div>
+  </div>
+</div>
+
 <span class='anchor' id='educations'></span>
 
 # 📖 Educations
