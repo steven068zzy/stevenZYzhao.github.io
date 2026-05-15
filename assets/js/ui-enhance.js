@@ -124,17 +124,14 @@
     var educationsAnchor = document.getElementById('educations');
     if (!educationsAnchor) return;
 
-    var pubCount   = document.querySelectorAll('.paper-box').length;
-    var awardCount = 0; // counted after injectAwardStyle runs
-
     var bar = document.createElement('div');
     bar.className = 'stats-bar';
 
     var defs = [
-      { label: 'Publications', id: 'stat-pub',   value: pubCount },
-      { label: 'Citations',    id: 'stat-cite',  value: null },
-      { label: 'Presentations',id: 'stat-pres',  value: null },
-      { label: 'Awards',       id: 'stat-award', value: null },
+      { label: 'Publications', id: 'stat-pub'   },
+      { label: 'Citations',    id: 'stat-cite'  },
+      { label: 'Internships',  id: 'stat-intern' },
+      { label: 'Awards',       id: 'stat-award'  },
     ];
 
     defs.forEach(function (d) {
@@ -154,48 +151,30 @@
       triggered = true;
       io.disconnect();
 
-      // Publications
-      var pubEl = document.getElementById('stat-pub');
-      if (pubEl && pubCount > 0) countUp(pubEl, pubCount, 1200);
+      // Hardcoded values
+      var internEl = document.getElementById('stat-intern');
+      if (internEl) countUp(internEl, 3, 1000);
 
-      // Awards — re-count now that injectAwardStyle has run
       var awardEl = document.getElementById('stat-award');
-      if (awardEl) {
-        awardCount = document.querySelectorAll('.award-item').length;
-        if (awardCount > 0) countUp(awardEl, awardCount, 1200);
-        else awardEl.textContent = '—';
-      }
+      if (awardEl) countUp(awardEl, 7, 1000);
 
-      // Presentations — traverse DOM
-      var presEl = document.getElementById('stat-pres');
-      var presAnchor = document.getElementById('conference-presentations');
-      if (presEl && presAnchor) {
-        var presCount = 0;
-        var sib = presAnchor.nextElementSibling;
-        if (sib && sib.tagName === 'H1') sib = sib.nextElementSibling;
-        while (sib) {
-          if (sib.tagName === 'H1' || (sib.tagName === 'SPAN' && sib.classList.contains('anchor'))) break;
-          if (sib.tagName === 'UL') presCount += sib.querySelectorAll('li').length;
-          sib = sib.nextElementSibling;
-        }
-        if (presCount > 0) countUp(presEl, presCount, 1200);
-        else presEl.textContent = '—';
-      } else if (presEl) {
-        presEl.textContent = '—';
-      }
-
-      // Citations — fetch from Google Scholar JSON
+      // Publications + Citations — both from gs_data.json on google-scholar-stats branch
+      var gsUrl = 'https://raw.githubusercontent.com/steven068zzy/stevenZYzhao.github.io/google-scholar-stats/gs_data.json';
+      var pubEl  = document.getElementById('stat-pub');
       var citeEl = document.getElementById('stat-cite');
-      if (citeEl) {
-        fetch('https://raw.githubusercontent.com/steven068zzy/stevenZYzhao.github.io/main/google-scholar-stats/gs_data_shieldsio.json')
-          .then(function (r) { return r.json(); })
-          .then(function (data) {
-            var n = parseInt(data.message || data.value || '0', 10);
-            if (n > 0) countUp(citeEl, n, 1500);
-            else citeEl.textContent = '—';
-          })
-          .catch(function () { citeEl.textContent = '—'; });
-      }
+
+      fetch(gsUrl)
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          var citations = parseInt(data.citedby || 0, 10);
+          var papers    = data.publications ? Object.keys(data.publications).length : 0;
+          if (pubEl)  { if (papers    > 0) countUp(pubEl,  papers,    1200); else pubEl.textContent  = '—'; }
+          if (citeEl) { if (citations > 0) countUp(citeEl, citations, 1400); else citeEl.textContent = '—'; }
+        })
+        .catch(function () {
+          if (pubEl)  pubEl.textContent  = '—';
+          if (citeEl) citeEl.textContent = '—';
+        });
     }, { threshold: 0.2 });
 
     io.observe(bar);
