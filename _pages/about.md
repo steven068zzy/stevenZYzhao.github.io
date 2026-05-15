@@ -585,7 +585,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 </div>
 
 <div class="book-category">
-<div class="book-cat-label">Personal Growth · 3</div>
+<div class="book-cat-label">Personal Growth · 4</div>
 <div class="book-grid">
 
 <div class="book-card">
@@ -610,6 +610,14 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <div class="book-ph" style="background:linear-gradient(145deg,#0c4a6e,#0284c7);"><div class="book-ph-initial">DL</div><div class="book-ph-name">Designing Your Life</div></div>
 </div>
 <div class="book-meta"><div class="book-title">Designing Your Life</div><div class="book-author">Bill Burnett &amp; Dave Evans</div><div class="book-tags"><span class="book-tag">Life Design</span><span class="book-tag">Career</span><span class="book-tag">Mindset</span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-5-love-languages.jpg" alt="The 5 Love Languages" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#7f1d1d,#f97316);"><div class="book-ph-initial">5L</div><div class="book-ph-name">The 5 Love Languages</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The 5 Love Languages: Singles Edition</div><div class="book-author">Gary Chapman</div><div class="book-tags"><span class="book-tag">Relationships</span><span class="book-tag">Communication</span><span class="book-tag">Self-Awareness</span></div></div>
 </div>
 
 </div>
