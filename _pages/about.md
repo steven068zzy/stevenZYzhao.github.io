@@ -452,7 +452,10 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 # 📚 Reading List
 
 <style>
-.book-shelf-intro{font-style:italic;color:#4b5563;font-size:1.02em;line-height:1.85;margin:0 0 28px;padding:14px 20px;border-left:4px solid #3b82f6;background:linear-gradient(90deg,rgba(59,130,246,.07),transparent);border-radius:0 8px 8px 0;}
+.book-shelf-intro{font-style:italic;color:#4b5563;font-size:1.02em;line-height:1.85;margin:0 0 32px;padding:14px 20px;border-left:4px solid #3b82f6;background:linear-gradient(90deg,rgba(59,130,246,.07),transparent);border-radius:0 8px 8px 0;}
+.book-category{margin-bottom:40px;}
+.book-cat-label{font-size:.72em;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3b82f6;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #e5e7eb;display:flex;align-items:center;gap:8px;}
+.book-cat-label::before{content:'';display:inline-block;width:4px;height:15px;background:#3b82f6;border-radius:2px;flex-shrink:0;}
 .book-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:0;padding:0;}
 .book-card{border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.10),0 8px 28px rgba(0,0,0,.07);transition:transform .30s cubic-bezier(.22,.68,0,1.2),box-shadow .30s ease;background:#fff;display:flex;flex-direction:column;}
 .book-card:hover{transform:translateY(-10px) scale(1.018);box-shadow:0 8px 24px rgba(0,0,0,.15),0 24px 56px rgba(0,0,0,.12);}
@@ -461,15 +464,19 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 .book-ph{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px;text-align:center;}
 .book-ph-initial{font-size:2.4em;font-weight:800;color:rgba(255,255,255,.82);line-height:1;margin-bottom:10px;letter-spacing:-1px;}
 .book-ph-name{font-size:.58em;color:rgba(255,255,255,.65);font-weight:500;line-height:1.35;}
-.book-meta{padding:10px 12px 14px;flex:1;display:flex;flex-direction:column;}
+.book-meta{padding:10px 12px 12px;flex:1;display:flex;flex-direction:column;}
 .book-title{font-size:.78em;font-weight:700;color:#111827;line-height:1.35;margin-bottom:3px;}
-.book-author{font-size:.70em;color:#6b7280;}
+.book-author{font-size:.70em;color:#6b7280;margin-bottom:7px;}
+.book-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto;}
+.book-tag{font-size:.60em;padding:2px 8px;border-radius:999px;background:#eff6ff;color:#2563eb;font-weight:500;white-space:nowrap;}
 @media(max-width:768px){.book-grid{grid-template-columns:repeat(3,1fr);gap:15px;}}
 @media(max-width:480px){.book-grid{grid-template-columns:repeat(2,1fr);gap:12px;}}
 </style>
 
 <p class="book-shelf-intro">A good book slows me down in the best way — it pushes me to think more carefully, challenges assumptions I didn't know I had, and opens up worlds and lives far beyond my own. Below are books I've genuinely loved and would recommend without hesitation.</p>
 
+<div class="book-category">
+<div class="book-cat-label">Biography</div>
 <div class="book-grid">
 
 <div class="book-card">
@@ -477,47 +484,22 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <img src="https://covers.openlibrary.org/b/isbn/9781982181284-L.jpg" alt="Elon Musk" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#0f2042,#1d4ed8);"><div class="book-ph-initial">EM</div><div class="book-ph-name">Elon Musk</div></div>
 </div>
-<div class="book-meta"><div class="book-title">Elon Musk</div><div class="book-author">Walter Isaacson</div></div>
+<div class="book-meta"><div class="book-title">Elon Musk</div><div class="book-author">Walter Isaacson</div><div class="book-tags"><span class="book-tag">Innovation</span><span class="book-tag">Entrepreneurship</span><span class="book-tag">Vision</span></div></div>
 </div>
 
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-what-are-you.jpg" alt="What Are You Going to Do with Your Life?" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#d4c9b8,#f5f0e8);"><div class="book-ph-initial" style="color:rgba(60,40,20,.6);">WL</div><div class="book-ph-name" style="color:rgba(60,40,20,.5);">What Are You Going to Do with Your Life?</div></div>
 </div>
-<div class="book-meta"><div class="book-title">What Are You Going to Do with Your Life?</div><div class="book-author">J.D. Greear</div></div>
 </div>
+
+<div class="book-category">
+<div class="book-cat-label">Business & Strategy</div>
+<div class="book-grid">
 
 <div class="book-card">
 <div class="book-cover-wrap">
 <img src="images/book-think-beyond-value.jpg" alt="Think Beyond Value" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#4a0d1a,#8b1a2e);"><div class="book-ph-initial">TV</div><div class="book-ph-name">Think Beyond Value</div></div>
 </div>
-<div class="book-meta"><div class="book-title">Think Beyond Value: Building Strategy to Win</div><div class="book-author">David Flint</div></div>
-</div>
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-big-breasts.jpg" alt="Big Breasts and Wide Hips" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#450a0a,#dc2626);"><div class="book-ph-initial">BB</div><div class="book-ph-name">Big Breasts and Wide Hips</div></div>
-</div>
-<div class="book-meta"><div class="book-title">Big Breasts and Wide Hips</div><div class="book-author">Mo Yan</div></div>
-</div>
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-someone-to-talk.jpg" alt="Someone to Talk To" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#7c2d12,#ea580c);"><div class="book-ph-initial">ST</div><div class="book-ph-name">Someone to Talk To</div></div>
-</div>
-<div class="book-meta"><div class="book-title">Someone to Talk To</div><div class="book-author">Liu Zhenyun</div></div>
-</div>
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-to-live.jpg" alt="To Live" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#1c1917,#57534e);"><div class="book-ph-initial">TL</div><div class="book-ph-name">To Live</div></div>
-</div>
-<div class="book-meta"><div class="book-title">To Live</div><div class="book-author">Yu Hua</div></div>
+<div class="book-meta"><div class="book-title">Think Beyond Value: Building Strategy to Win</div><div class="book-author">David Flint</div><div class="book-tags"><span class="book-tag">Strategy</span><span class="book-tag">Competitive Advantage</span><span class="book-tag">Leadership</span></div></div>
 </div>
 
 <div class="book-card">
@@ -525,15 +507,53 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <img src="https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg" alt="Rich Dad Poor Dad" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#431407,#ea580c);"><div class="book-ph-initial">RP</div><div class="book-ph-name">Rich Dad Poor Dad</div></div>
 </div>
-<div class="book-meta"><div class="book-title">Rich Dad Poor Dad</div><div class="book-author">Robert T. Kiyosaki</div></div>
+<div class="book-meta"><div class="book-title">Rich Dad Poor Dad</div><div class="book-author">Robert T. Kiyosaki</div><div class="book-tags"><span class="book-tag">Financial Literacy</span><span class="book-tag">Investing</span><span class="book-tag">Wealth Mindset</span></div></div>
+</div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Personal Growth</div>
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-what-are-you.jpg" alt="What Are You Going to Do with Your Life?" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#d4c9b8,#f5f0e8);"><div class="book-ph-initial" style="color:rgba(60,40,20,.6);">WL</div><div class="book-ph-name" style="color:rgba(60,40,20,.5);">What Are You Going to Do with Your Life?</div></div>
+</div>
+<div class="book-meta"><div class="book-title">What Are You Going to Do with Your Life?</div><div class="book-author">J.D. Greear</div><div class="book-tags"><span class="book-tag">Purpose</span><span class="book-tag">Faith</span><span class="book-tag">Life Direction</span></div></div>
+</div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Literary Fiction</div>
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-big-breasts.jpg" alt="Big Breasts and Wide Hips" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#450a0a,#dc2626);"><div class="book-ph-initial">BB</div><div class="book-ph-name">Big Breasts and Wide Hips</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Big Breasts and Wide Hips</div><div class="book-author">Mo Yan</div><div class="book-tags"><span class="book-tag">Chinese History</span><span class="book-tag">Family Saga</span><span class="book-tag">War & Survival</span></div></div>
 </div>
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9780765382030-L.jpg" alt="The Three-Body Problem" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#0c1445,#1e40af);"><div class="book-ph-initial">3B</div><div class="book-ph-name">The Three-Body Problem</div></div>
+<img src="images/book-someone-to-talk.jpg" alt="Someone to Talk To" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#7c2d12,#ea580c);"><div class="book-ph-initial">ST</div><div class="book-ph-name">Someone to Talk To</div></div>
 </div>
-<div class="book-meta"><div class="book-title">The Three-Body Problem</div><div class="book-author">Liu Cixin</div></div>
+<div class="book-meta"><div class="book-title">Someone to Talk To</div><div class="book-author">Liu Zhenyun</div><div class="book-tags"><span class="book-tag">Loneliness</span><span class="book-tag">Human Connection</span><span class="book-tag">Chinese Society</span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-to-live.jpg" alt="To Live" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#1c1917,#57534e);"><div class="book-ph-initial">TL</div><div class="book-ph-name">To Live</div></div>
+</div>
+<div class="book-meta"><div class="book-title">To Live</div><div class="book-author">Yu Hua</div><div class="book-tags"><span class="book-tag">Resilience</span><span class="book-tag">Suffering</span><span class="book-tag">Chinese History</span></div></div>
 </div>
 
 <div class="book-card">
@@ -541,7 +561,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <img src="images/book-criminal-lu.jpg" alt="The Criminal Lu Yanshi" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#1c1410,#4a3728);"><div class="book-ph-initial">CL</div><div class="book-ph-name">The Criminal Lu Yanshi</div></div>
 </div>
-<div class="book-meta"><div class="book-title">The Criminal Lu Yanshi</div><div class="book-author">Yan Geling</div></div>
+<div class="book-meta"><div class="book-title">The Criminal Lu Yanshi</div><div class="book-author">Yan Geling</div><div class="book-tags"><span class="book-tag">Political Persecution</span><span class="book-tag">Love & Loyalty</span><span class="book-tag">Identity</span></div></div>
 </div>
 
 <div class="book-card">
@@ -549,15 +569,46 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <img src="images/book-ninth-widow.jpg" alt="The Ninth Widow" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#e8ddd0,#f5f0e8);"><div class="book-ph-initial" style="color:rgba(60,40,20,.5);">NW</div><div class="book-ph-name" style="color:rgba(60,40,20,.4);">The Ninth Widow</div></div>
 </div>
-<div class="book-meta"><div class="book-title">The Ninth Widow</div><div class="book-author">Yan Geling</div></div>
+<div class="book-meta"><div class="book-title">The Ninth Widow</div><div class="book-author">Yan Geling</div><div class="book-tags"><span class="book-tag">War</span><span class="book-tag">Survival</span><span class="book-tag">Rural China</span></div></div>
 </div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Science Fiction</div>
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9780765382030-L.jpg" alt="The Three-Body Problem" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#0c1445,#1e40af);"><div class="book-ph-initial">3B</div><div class="book-ph-name">The Three-Body Problem</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The Three-Body Problem</div><div class="book-author">Liu Cixin</div><div class="book-tags"><span class="book-tag">First Contact</span><span class="book-tag">Physics</span><span class="book-tag">Civilization</span></div></div>
+</div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Academic</div>
+<div class="book-grid">
 
 <div class="book-card">
 <div class="book-cover-wrap">
 <img src="images/book-science-writing.jpg" alt="Science Research Writing" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#854d0e,#ca8a04);"><div class="book-ph-initial">SR</div><div class="book-ph-name">Science Research Writing</div></div>
 </div>
-<div class="book-meta"><div class="book-title">Science Research Writing for Non-native Speakers of English</div><div class="book-author">Hilary Glasman-Deal</div></div>
+<div class="book-meta"><div class="book-title">Science Research Writing for Non-native Speakers of English</div><div class="book-author">Hilary Glasman-Deal</div><div class="book-tags"><span class="book-tag">Academic Writing</span><span class="book-tag">Research Skills</span><span class="book-tag">ESL</span></div></div>
 </div>
 
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="https://covers.openlibrary.org/b/isbn/9783031114175-L.jpg" alt="Mastering Your PhD" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#4a044e,#c2410c);"><div class="book-ph-initial">MP</div><div class="book-ph-name">Mastering Your PhD</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Mastering Your PhD</div><div class="book-author">Patricia Gosling &amp; Bart Noordam</div><div class="book-tags"><span class="book-tag">PhD Life</span><span class="book-tag">Research Skills</span><span class="book-tag">Academic Career</span></div></div>
+</div>
+
+</div>
 </div>
