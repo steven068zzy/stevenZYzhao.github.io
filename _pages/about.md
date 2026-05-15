@@ -86,7 +86,6 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 **Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
 
 - In this study, we bridge mechanical beam buckling theory and poultry meat quality evaluation by introducing a monofilament needle-based approach with high accuracy.
-- Cite: Zhao, Z., Wang, Y., Villegas, C., Farnell, M., Archer, G., Athrey, G., Lee, K., Feng, D., & Xu, Z. (2026). Differentiate moderate woody breast from normal chicken breast using monofilament needles. Applied Food Research, 6, 101912.
 </div>
 </div>
 
