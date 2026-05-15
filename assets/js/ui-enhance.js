@@ -128,8 +128,9 @@
     bar.className = 'stats-bar';
 
     var defs = [
-      { label: 'Publications', id: 'stat-pub'   },
-      { label: 'Citations',    id: 'stat-cite'  },
+      { label: 'Publications', id: 'stat-pub'    },
+      { label: 'Citations',    id: 'stat-cite'   },
+      { label: 'Conferences',  id: 'stat-conf'   },
       { label: 'Internships',  id: 'stat-intern' },
       { label: 'Awards',       id: 'stat-award'  },
     ];
@@ -152,15 +153,17 @@
       io.disconnect();
 
       // Hardcoded values
-      var pubEl   = document.getElementById('stat-pub');
-      var citeEl  = document.getElementById('stat-cite');
+      var pubEl    = document.getElementById('stat-pub');
+      var citeEl   = document.getElementById('stat-cite');
+      var confEl   = document.getElementById('stat-conf');
       var internEl = document.getElementById('stat-intern');
-      var awardEl = document.getElementById('stat-award');
+      var awardEl  = document.getElementById('stat-award');
 
-      if (pubEl)   countUp(pubEl,   6, 1000);
-      if (citeEl)  countUp(citeEl,  6, 1000);
+      if (pubEl)    countUp(pubEl,    6, 1000);
+      if (citeEl)   countUp(citeEl,   6, 1000);
+      if (confEl)   countUp(confEl,   9, 1000);
       if (internEl) countUp(internEl, 3, 1000);
-      if (awardEl) countUp(awardEl, 7, 1000);
+      if (awardEl)  countUp(awardEl,  7, 1000);
     }, { threshold: 0.2 });
 
     io.observe(bar);
