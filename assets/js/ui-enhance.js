@@ -133,7 +133,7 @@
       if (awardEl)  countUp(awardEl,  7, 1000);
 
       var scholarEl = document.getElementById('stat-scholarship');
-      if (scholarEl) scholarEl.textContent = '$21,400+';
+      if (scholarEl) scholarEl.textContent = '$22,400+';
     }, { threshold: 0.2 });
 
     io.observe(bar);
