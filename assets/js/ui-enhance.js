@@ -152,29 +152,15 @@
       io.disconnect();
 
       // Hardcoded values
+      var pubEl   = document.getElementById('stat-pub');
+      var citeEl  = document.getElementById('stat-cite');
       var internEl = document.getElementById('stat-intern');
-      if (internEl) countUp(internEl, 3, 1000);
-
       var awardEl = document.getElementById('stat-award');
+
+      if (pubEl)   countUp(pubEl,   6, 1000);
+      if (citeEl)  countUp(citeEl,  6, 1000);
+      if (internEl) countUp(internEl, 3, 1000);
       if (awardEl) countUp(awardEl, 7, 1000);
-
-      // Publications + Citations — both from gs_data.json on google-scholar-stats branch
-      var gsUrl = 'https://raw.githubusercontent.com/steven068zzy/stevenZYzhao.github.io/google-scholar-stats/gs_data.json';
-      var pubEl  = document.getElementById('stat-pub');
-      var citeEl = document.getElementById('stat-cite');
-
-      fetch(gsUrl)
-        .then(function (r) { return r.json(); })
-        .then(function (data) {
-          var citations = parseInt(data.citedby || 0, 10);
-          var papers    = data.publications ? Object.keys(data.publications).length : 0;
-          if (pubEl)  { if (papers    > 0) countUp(pubEl,  papers,    1200); else pubEl.textContent  = '—'; }
-          if (citeEl) { if (citations > 0) countUp(citeEl, citations, 1400); else citeEl.textContent = '—'; }
-        })
-        .catch(function () {
-          if (pubEl)  pubEl.textContent  = '—';
-          if (citeEl) citeEl.textContent = '—';
-        });
     }, { threshold: 0.2 });
 
     io.observe(bar);
