@@ -433,3 +433,128 @@ hr {
     font-size: 1rem;
   }
 }
+
+/* ================================================================
+   DESIGN LAYER v2 — More visual character
+   ================================================================ */
+
+/* 1. Dot grid texture on page background */
+body {
+  background-image: radial-gradient(circle, #b8cce0 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* 2. Hero gradient at top of main content card */
+.page {
+  background:
+    linear-gradient(168deg, rgba(219,234,254,0.6) 0%, rgba(255,255,255,0) 280px),
+    var(--surface);
+}
+
+/* 3. Gradient text for section headings */
+.page__content h1 {
+  background: linear-gradient(110deg, #1e3a8a 0%, #2563eb 50%, #0284c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 4. Paper-box: inset left accent stripe on hover */
+.paper-box {
+  box-shadow: var(--shadow-sm), inset 4px 0 0 transparent;
+  transition: box-shadow 0.28s var(--ease), transform 0.25s var(--ease), border-color 0.25s var(--ease);
+
+  &:hover {
+    box-shadow: var(--shadow-md), inset 4px 0 0 var(--accent-2);
+    transform: translateY(-3px);
+    border-color: #bfdbfe;
+  }
+}
+
+/* 5. Sidebar: glassmorphism card + gradient stripe on large screens */
+@include breakpoint($large) {
+  .sidebar {
+    background: rgba(255,255,255,0.68);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.9);
+    border-radius: 16px;
+    padding: 1.5em 1.2em;
+    box-shadow: 0 4px 28px rgba(30,64,175,0.08), 0 1px 4px rgba(0,0,0,0.04);
+
+    &::before {
+      content: '';
+      display: block;
+      height: 3px;
+      background: linear-gradient(to right, var(--accent-1), var(--accent-sky));
+      border-radius: 3px;
+      margin-bottom: 1.4em;
+    }
+  }
+}
+
+/* 6. Publication status chip styles (injected by JS) */
+.pub-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2em 0.85em;
+  border-radius: 20px;
+  font-size: 0.76em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+
+  &--prep {
+    background: #f8fafc;
+    color: #64748b;
+    border: 1px solid #cbd5e1;
+  }
+
+  &--review {
+    background: #fffbeb;
+    color: #b45309;
+    border: 1px solid #fbbf24;
+  }
+}
+
+/* 7. Awards: gold left accent (injected class by JS) */
+.award-item {
+  padding-left: 0.7em;
+  border-left: 3px solid #f59e0b;
+  border-radius: 0 4px 4px 0;
+  transition: border-left-color 0.2s ease, background 0.2s ease;
+
+  &:hover {
+    background: rgba(251,191,36,0.06);
+    border-left-color: #d97706;
+  }
+}
+
+/* 8. Animated underline for content links */
+.page__content a:not([class]) {
+  border-bottom: none !important;
+  background-image: linear-gradient(90deg, var(--accent-2), var(--accent-sky));
+  background-size: 0% 1.5px;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 0.3s var(--ease), color 0.2s var(--ease);
+
+  &:hover {
+    color: var(--accent-2);
+    background-size: 100% 1.5px;
+    border-bottom: none !important;
+  }
+}
+
+/* 9. Staggered card entrance animation (CSS side) */
+.paper-box {
+  opacity: 0;
+  transform: translateY(16px);
+
+  &.sz-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.48s var(--ease), transform 0.48s var(--ease),
+                box-shadow 0.28s var(--ease), border-color 0.25s var(--ease);
+  }
+}
