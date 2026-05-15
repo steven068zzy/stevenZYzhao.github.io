@@ -446,3 +446,21 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 - *May 2022*, People's Scholarship in School Year 2021 - 2022 Term 1 in BUCT
 - *Dec 2021*, People's Scholarship in School Year 2020 - 2021 Term 2 in BUCT
 - *Apr 2021*, Outstanding Student Leader in BUCT
+
+<span class='anchor' id='reading-list'></span>
+
+# 📚 Reading List
+
+Reading is one of the best habits I've cultivated. A good book slows me down in the best way — it pushes me to think more carefully, challenges assumptions I didn't know I had, and opens up worlds and lives far beyond my own. Below are books I've genuinely loved and would recommend without hesitation.
+
+- *Elon Musk* — Walter Isaacson
+- *What Are You Going to Do with Your Life?* — John Wooden
+- *Think Beyond Value: Building Strategy to Win*
+- *Big Breasts and Wide Hips* — Mo Yan
+- *One Sentence Worth Ten Thousand* — Liu Zhenyun
+- *To Live* — Yu Hua
+- *Rich Dad Poor Dad* — Robert T. Kiyosaki
+- *The Three-Body Problem* — Liu Cixin
+- *The Prisoner* — Yan Geling
+- *The Ninth Widow* — Yan Geling
+- *Youth* — Yan Geling
