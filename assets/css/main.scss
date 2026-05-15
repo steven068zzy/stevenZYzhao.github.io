@@ -169,24 +169,29 @@ body {
 
 .author__urls {
   list-style: none;
-  padding-left: 0;
+  padding: 0 !important;
 
   li {
     list-style: none;
     display: flex;
     align-items: center;
-    padding: 1px 0 1px 6px;
-    margin-bottom: 3px;
+    padding: 2px 0 !important;
+    margin-bottom: 2px;
     white-space: nowrap;
   }
 
+  /* Plain items (e.g. Texas, USA) — match the left padding of <a> items */
+  li:not(:has(> a)) {
+    padding-left: 6px !important;
+  }
+
   a {
-    display: flex;
+    display: flex !important;
     align-items: center;
     width: 100%;
     border-radius: var(--radius-sm);
-    padding: 3px 6px 3px 0;
-    margin: 0;
+    padding: 3px 6px !important;
+    margin: 0 !important;
     transition: all 0.2s var(--ease);
 
     &:hover {
