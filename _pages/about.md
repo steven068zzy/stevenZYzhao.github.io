@@ -27,6 +27,8 @@ redirect_from:
 Email: ziyuanzhao@tamu.edu  
 LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)  
 
+<span class='anchor' id='educations'></span>
+
 # 📖 Educations
 - *Aug 2024 – Present*. [Texas A&M University]([https://www.columbia.edu/](https://www.tamu.edu/index.html)), College Station, TX, USA
   - Ph.D. in Poultry Science (Robotics Track)
@@ -38,6 +40,8 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
 - *Sep 2020 - Apr 2024*. [Beijing University of Chemical Technology](https://en-sie.buct.edu.cn/main.htm), Beijing, CN
   - B.E. in Mechanical Design, Manufacturing, and Automation
 
+
+<span class='anchor' id='publications'></span>
 
 # 📝 Publications 
 
@@ -174,6 +178,8 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 </div>
 
 
+<span class='anchor' id='internship-experiences'></span>
+
 # 💻 Internship Experiences
 
 <div class='paper-box'>
@@ -236,6 +242,8 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 </div>
 </div>
+
+<span class='anchor' id='selected-projects'></span>
 
 # 🚀 Selected Projects
 
@@ -410,8 +418,12 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 </div>
 
 
+<span class='anchor' id='journal-reviewer'></span>
+
 # ✏️ Journal Reviewer
 - Automation in Construction
+
+<span class='anchor' id='conference-presentations'></span>
 
 # 🎤 Conference Presentations
 - *Jul. 2026*, ASABE（American Society of Agricultural and Biological Engineers）Annual Meeting, Indianapolis, IN, USA
@@ -423,6 +435,8 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 - *Jan. 2025*, The International Production & Processing Expo, Atlanta, GA, USA
 - *Aug. 2024*, World Robot Conference, Beijing, China
 
+
+<span class='anchor' id='honors-and-awards'></span>
 
 # 🏆 Honors and Awards
 - *Sep 2025*, David B Mellor '57 Graduate Scholarship in TAMU
