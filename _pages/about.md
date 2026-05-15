@@ -35,10 +35,10 @@ LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)
   - Graduate Certificate in Entrepreneurship
 
 - *Dec 2022 - Apr 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
-  - B.E. in Mechatronics, Robotics, and Automation Engineering
+  - B.E. in Robotics Engineering
 
 - *Sep 2020 - Apr 2024*. [Beijing University of Chemical Technology](https://en-sie.buct.edu.cn/main.htm), Beijing, CN
-  - B.E. in Mechanical Design, Manufacturing, and Automation
+  - B.E. in Robotics Engineering
 
 
 <span class='anchor' id='publications'></span>
