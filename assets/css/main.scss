@@ -167,19 +167,33 @@ body {
   line-height: 1.55;
 }
 
-.author__urls li {
-  padding-left: 8px;
-}
+.author__urls {
+  list-style: none;
+  padding-left: 0;
 
-.author__urls a {
-  border-radius: var(--radius-sm);
-  padding: 3px 8px 3px 0;
-  transition: all 0.2s var(--ease);
+  li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+    margin-bottom: 3px;
+    white-space: nowrap;
+  }
 
-  &:hover {
-    background: var(--accent-light);
-    color: var(--accent-1);
-    text-decoration: none;
+  a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: var(--radius-sm);
+    padding: 3px 6px;
+    margin: 0;
+    transition: all 0.2s var(--ease);
+
+    &:hover {
+      background: var(--accent-light);
+      color: var(--accent-1);
+      text-decoration: none;
+    }
   }
 }
 
