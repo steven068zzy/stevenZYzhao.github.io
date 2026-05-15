@@ -482,22 +482,23 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9781931722018-L.jpg" alt="What Are You Going to Do with Your Life?" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#1a1a2e,#4f46e5);"><div class="book-ph-initial">WL</div><div class="book-ph-name">What Are You Going to Do with Your Life?</div></div>
+<img src="images/book-what-are-you.jpg" alt="What Are You Going to Do with Your Life?" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#d4c9b8,#f5f0e8);"><div class="book-ph-initial" style="color:rgba(60,40,20,.6);">WL</div><div class="book-ph-name" style="color:rgba(60,40,20,.5);">What Are You Going to Do with Your Life?</div></div>
 </div>
-<div class="book-meta"><div class="book-title">What Are You Going to Do with Your Life?</div><div class="book-author">John Wooden</div></div>
-</div>
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<div class="book-ph" style="background:linear-gradient(145deg,#0c4a6e,#0ea5e9);"><div class="book-ph-initial">TV</div><div class="book-ph-name">Think Beyond Value</div></div>
-</div>
-<div class="book-meta"><div class="book-title">Think Beyond Value: Building Strategy to Win</div><div class="book-author"></div></div>
+<div class="book-meta"><div class="book-title">What Are You Going to Do with Your Life?</div><div class="book-author">J.D. Greear</div></div>
 </div>
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9780143035398-L.jpg" alt="Big Breasts and Wide Hips" loading="lazy" onerror="this.style.display='none'">
+<img src="images/book-think-beyond-value.jpg" alt="Think Beyond Value" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#4a0d1a,#8b1a2e);"><div class="book-ph-initial">TV</div><div class="book-ph-name">Think Beyond Value</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Think Beyond Value: Building Strategy to Win</div><div class="book-author">David Flint</div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-big-breasts.jpg" alt="Big Breasts and Wide Hips" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#450a0a,#dc2626);"><div class="book-ph-initial">BB</div><div class="book-ph-name">Big Breasts and Wide Hips</div></div>
 </div>
 <div class="book-meta"><div class="book-title">Big Breasts and Wide Hips</div><div class="book-author">Mo Yan</div></div>
@@ -505,14 +506,15 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<div class="book-ph" style="background:linear-gradient(145deg,#2e1065,#7c3aed);"><div class="book-ph-initial">OS</div><div class="book-ph-name">One Sentence Worth Ten Thousand</div></div>
+<img src="images/book-someone-to-talk.jpg" alt="Someone to Talk To" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#7c2d12,#ea580c);"><div class="book-ph-initial">ST</div><div class="book-ph-name">Someone to Talk To</div></div>
 </div>
-<div class="book-meta"><div class="book-title">One Sentence Worth Ten Thousand</div><div class="book-author">Liu Zhenyun</div></div>
+<div class="book-meta"><div class="book-title">Someone to Talk To</div><div class="book-author">Liu Zhenyun</div></div>
 </div>
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9781400033225-L.jpg" alt="To Live" loading="lazy" onerror="this.style.display='none'">
+<img src="images/book-to-live.jpg" alt="To Live" loading="lazy" onerror="this.style.display='none'">
 <div class="book-ph" style="background:linear-gradient(145deg,#1c1917,#57534e);"><div class="book-ph-initial">TL</div><div class="book-ph-name">To Live</div></div>
 </div>
 <div class="book-meta"><div class="book-title">To Live</div><div class="book-author">Yu Hua</div></div>
@@ -536,29 +538,24 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<div class="book-ph" style="background:linear-gradient(145deg,#14532d,#16a34a);"><div class="book-ph-initial">PR</div><div class="book-ph-name">The Prisoner</div></div>
+<img src="images/book-criminal-lu.jpg" alt="The Criminal Lu Yanshi" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#1c1410,#4a3728);"><div class="book-ph-initial">CL</div><div class="book-ph-name">The Criminal Lu Yanshi</div></div>
 </div>
-<div class="book-meta"><div class="book-title">The Prisoner</div><div class="book-author">Yan Geling</div></div>
+<div class="book-meta"><div class="book-title">The Criminal Lu Yanshi</div><div class="book-author">Yan Geling</div></div>
 </div>
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<div class="book-ph" style="background:linear-gradient(145deg,#134e4a,#0d9488);"><div class="book-ph-initial">NW</div><div class="book-ph-name">The Ninth Widow</div></div>
+<img src="images/book-ninth-widow.jpg" alt="The Ninth Widow" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#e8ddd0,#f5f0e8);"><div class="book-ph-initial" style="color:rgba(60,40,20,.5);">NW</div><div class="book-ph-name" style="color:rgba(60,40,20,.4);">The Ninth Widow</div></div>
 </div>
 <div class="book-meta"><div class="book-title">The Ninth Widow</div><div class="book-author">Yan Geling</div></div>
 </div>
 
 <div class="book-card">
 <div class="book-cover-wrap">
-<div class="book-ph" style="background:linear-gradient(145deg,#4a044e,#a21caf);"><div class="book-ph-initial">YT</div><div class="book-ph-name">Youth</div></div>
-</div>
-<div class="book-meta"><div class="book-title">Youth</div><div class="book-author">Yan Geling</div></div>
-</div>
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="https://covers.openlibrary.org/b/isbn/9781848163027-L.jpg" alt="Science Research Writing" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#1e3a5f,#2563eb);"><div class="book-ph-initial">SR</div><div class="book-ph-name">Science Research Writing</div></div>
+<img src="images/book-science-writing.jpg" alt="Science Research Writing" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#854d0e,#ca8a04);"><div class="book-ph-initial">SR</div><div class="book-ph-name">Science Research Writing</div></div>
 </div>
 <div class="book-meta"><div class="book-title">Science Research Writing for Non-native Speakers of English</div><div class="book-author">Hilary Glasman-Deal</div></div>
 </div>
