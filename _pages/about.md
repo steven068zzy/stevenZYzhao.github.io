@@ -476,60 +476,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <p class="book-shelf-intro">A good book slows me down in the best way — it pushes me to think more carefully, challenges assumptions I didn't know I had, and opens up worlds and lives far beyond my own. Below are books I've genuinely loved and would recommend without hesitation.</p>
 
 <div class="book-category">
-<div class="book-cat-label">Biography</div>
-<div class="book-grid">
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-elon-musk.jpg" alt="Elon Musk" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#0f2042,#1d4ed8);"><div class="book-ph-initial">EM</div><div class="book-ph-name">Elon Musk</div></div>
-</div>
-<div class="book-meta"><div class="book-title">Elon Musk</div><div class="book-author">Walter Isaacson</div><div class="book-tags"><span class="book-tag">Innovation</span><span class="book-tag">Entrepreneurship</span><span class="book-tag">Vision</span></div></div>
-</div>
-
-</div>
-</div>
-
-<div class="book-category">
-<div class="book-cat-label">Business & Strategy</div>
-<div class="book-grid">
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-think-beyond-value.jpg" alt="Think Beyond Value" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#4a0d1a,#8b1a2e);"><div class="book-ph-initial">TV</div><div class="book-ph-name">Think Beyond Value</div></div>
-</div>
-<div class="book-meta"><div class="book-title">Think Beyond Value: Building Strategy to Win</div><div class="book-author">David Flint</div><div class="book-tags"><span class="book-tag">Strategy</span><span class="book-tag">Competitive Advantage</span><span class="book-tag">Leadership</span></div></div>
-</div>
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-rich-dad.jpg" alt="Rich Dad Poor Dad" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#431407,#ea580c);"><div class="book-ph-initial">RP</div><div class="book-ph-name">Rich Dad Poor Dad</div></div>
-</div>
-<div class="book-meta"><div class="book-title">Rich Dad Poor Dad</div><div class="book-author">Robert T. Kiyosaki</div><div class="book-tags"><span class="book-tag">Financial Literacy</span><span class="book-tag">Investing</span><span class="book-tag">Wealth Mindset</span></div></div>
-</div>
-
-</div>
-</div>
-
-<div class="book-category">
-<div class="book-cat-label">Personal Growth</div>
-<div class="book-grid">
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-what-are-you.jpg" alt="What Are You Going to Do with Your Life?" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#d4c9b8,#f5f0e8);"><div class="book-ph-initial" style="color:rgba(60,40,20,.6);">WL</div><div class="book-ph-name" style="color:rgba(60,40,20,.5);">What Are You Going to Do with Your Life?</div></div>
-</div>
-<div class="book-meta"><div class="book-title">What Are You Going to Do with Your Life?</div><div class="book-author">J.D. Greear</div><div class="book-tags"><span class="book-tag">Purpose</span><span class="book-tag">Faith</span><span class="book-tag">Life Direction</span></div></div>
-</div>
-
-</div>
-</div>
-
-<div class="book-category">
-<div class="book-cat-label">Literary Fiction</div>
+<div class="book-cat-label">Literary Fiction · 5</div>
 <div class="book-grid">
 
 <div class="book-card">
@@ -576,22 +523,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 </div>
 
 <div class="book-category">
-<div class="book-cat-label">Science Fiction</div>
-<div class="book-grid">
-
-<div class="book-card">
-<div class="book-cover-wrap">
-<img src="images/book-three-body.jpg" alt="The Three-Body Problem" loading="lazy" onerror="this.style.display='none'">
-<div class="book-ph" style="background:linear-gradient(145deg,#0c1445,#1e40af);"><div class="book-ph-initial">3B</div><div class="book-ph-name">The Three-Body Problem</div></div>
-</div>
-<div class="book-meta"><div class="book-title">The Three-Body Problem</div><div class="book-author">Liu Cixin</div><div class="book-tags"><span class="book-tag">First Contact</span><span class="book-tag">Physics</span><span class="book-tag">Civilization</span></div></div>
-</div>
-
-</div>
-</div>
-
-<div class="book-category">
-<div class="book-cat-label">Academic</div>
+<div class="book-cat-label">Academic · 3</div>
 <div class="book-grid">
 
 <div class="book-card">
@@ -608,6 +540,106 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <div class="book-ph" style="background:linear-gradient(145deg,#4a044e,#c2410c);"><div class="book-ph-initial">MP</div><div class="book-ph-name">Mastering Your PhD</div></div>
 </div>
 <div class="book-meta"><div class="book-title">Mastering Your PhD</div><div class="book-author">Patricia Gosling &amp; Bart Noordam</div><div class="book-tags"><span class="book-tag">PhD Life</span><span class="book-tag">Research Skills</span><span class="book-tag">Academic Career</span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-scientists-guide.jpg" alt="The Scientist's Guide to Writing" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#1e293b,#475569);"><div class="book-ph-initial">SG</div><div class="book-ph-name">The Scientist's Guide to Writing</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The Scientist's Guide to Writing</div><div class="book-author">Stephen B. Heard</div><div class="book-tags"><span class="book-tag">Scientific Writing</span><span class="book-tag">Communication</span><span class="book-tag">Research Career</span></div></div>
+</div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Business & Strategy · 3</div>
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-think-beyond-value.jpg" alt="Think Beyond Value" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#4a0d1a,#8b1a2e);"><div class="book-ph-initial">TV</div><div class="book-ph-name">Think Beyond Value</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Think Beyond Value: Building Strategy to Win</div><div class="book-author">David Flint</div><div class="book-tags"><span class="book-tag">Strategy</span><span class="book-tag">Competitive Advantage</span><span class="book-tag">Leadership</span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-rich-dad.jpg" alt="Rich Dad Poor Dad" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#431407,#ea580c);"><div class="book-ph-initial">RP</div><div class="book-ph-name">Rich Dad Poor Dad</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Rich Dad Poor Dad</div><div class="book-author">Robert T. Kiyosaki</div><div class="book-tags"><span class="book-tag">Financial Literacy</span><span class="book-tag">Investing</span><span class="book-tag">Wealth Mindset</span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-starting-something.jpg" alt="Starting Something" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#365314,#65a30d);"><div class="book-ph-initial">SS</div><div class="book-ph-name">Starting Something</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Starting Something</div><div class="book-author">Wayne McVicker</div><div class="book-tags"><span class="book-tag">Entrepreneurship</span><span class="book-tag">Corporate Culture</span><span class="book-tag">Startup</span></div></div>
+</div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Personal Growth · 3</div>
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-what-are-you.jpg" alt="What Are You Going to Do with Your Life?" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#d4c9b8,#f5f0e8);"><div class="book-ph-initial" style="color:rgba(60,40,20,.6);">WL</div><div class="book-ph-name" style="color:rgba(60,40,20,.5);">What Are You Going to Do with Your Life?</div></div>
+</div>
+<div class="book-meta"><div class="book-title">What Are You Going to Do with Your Life?</div><div class="book-author">J.D. Greear</div><div class="book-tags"><span class="book-tag">Purpose</span><span class="book-tag">Faith</span><span class="book-tag">Life Direction</span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-road-less-traveled.jpg" alt="The Road Less Traveled" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#7f1d1d,#b91c1c);"><div class="book-ph-initial">RL</div><div class="book-ph-name">The Road Less Traveled</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The Road Less Traveled</div><div class="book-author">M. Scott Peck</div><div class="book-tags"><span class="book-tag">Psychology</span><span class="book-tag">Spiritual Growth</span><span class="book-tag">Self-Discipline</span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-designing-your-life.jpg" alt="Designing Your Life" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#0c4a6e,#0284c7);"><div class="book-ph-initial">DL</div><div class="book-ph-name">Designing Your Life</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Designing Your Life</div><div class="book-author">Bill Burnett &amp; Dave Evans</div><div class="book-tags"><span class="book-tag">Life Design</span><span class="book-tag">Career</span><span class="book-tag">Mindset</span></div></div>
+</div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Biography · 1</div>
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-elon-musk.jpg" alt="Elon Musk" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#0f2042,#1d4ed8);"><div class="book-ph-initial">EM</div><div class="book-ph-name">Elon Musk</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Elon Musk</div><div class="book-author">Walter Isaacson</div><div class="book-tags"><span class="book-tag">Innovation</span><span class="book-tag">Entrepreneurship</span><span class="book-tag">Vision</span></div></div>
+</div>
+
+</div>
+</div>
+
+<div class="book-category">
+<div class="book-cat-label">Science Fiction · 1</div>
+<div class="book-grid">
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-three-body.jpg" alt="The Three-Body Problem" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#0c1445,#1e40af);"><div class="book-ph-initial">3B</div><div class="book-ph-name">The Three-Body Problem</div></div>
+</div>
+<div class="book-meta"><div class="book-title">The Three-Body Problem</div><div class="book-author">Liu Cixin</div><div class="book-tags"><span class="book-tag">First Contact</span><span class="book-tag">Physics</span><span class="book-tag">Civilization</span></div></div>
 </div>
 
 </div>
