@@ -181,7 +181,7 @@ body {
   }
 
   /* Plain items (e.g. Texas, USA) — match the left padding of <a> items */
-  li:not(:has(> a)) {
+  li.no-url {
     padding-left: 6px !important;
   }
 
