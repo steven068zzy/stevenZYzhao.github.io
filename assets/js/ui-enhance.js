@@ -94,11 +94,12 @@
     bar.className = 'stats-bar';
 
     var defs = [
-      { label: 'Publications', id: 'stat-pub'    },
-      { label: 'Citations',    id: 'stat-cite'   },
-      { label: 'Conferences',  id: 'stat-conf'   },
-      { label: 'Internships',  id: 'stat-intern' },
-      { label: 'Awards',       id: 'stat-award'  },
+      { label: 'Publications', id: 'stat-pub'        },
+      { label: 'Citations',    id: 'stat-cite'        },
+      { label: 'Conferences',  id: 'stat-conf'        },
+      { label: 'Internships',  id: 'stat-intern'      },
+      { label: 'Awards',       id: 'stat-award'       },
+      { label: 'Scholarship',  id: 'stat-scholarship' },
     ];
 
     defs.forEach(function (d) {
@@ -130,6 +131,9 @@
       if (confEl)   countUp(confEl,   9, 1000);
       if (internEl) countUp(internEl, 3, 1000);
       if (awardEl)  countUp(awardEl,  7, 1000);
+
+      var scholarEl = document.getElementById('stat-scholarship');
+      if (scholarEl) scholarEl.textContent = '$21,400+';
     }, { threshold: 0.2 });
 
     io.observe(bar);

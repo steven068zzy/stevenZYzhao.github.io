@@ -27,33 +27,6 @@ redirect_from:
 Email: ziyuanzhao@tamu.edu  
 LinkedIn: [Homepage](https://linkedin.com/in/steven-zhao-89195326b)  
 
-<div style="display: flex; gap: 30px; margin: 20px 0; flex-wrap: wrap;">
-  <div style="text-align: center;">
-    <div style="font-size: 1.6em; font-weight: bold;">6</div>
-    <div style="font-size: 0.9em; color: #666;">Publications</div>
-  </div>
-  <div style="text-align: center;">
-    <div style="font-size: 1.6em; font-weight: bold;">6</div>
-    <div style="font-size: 0.9em; color: #666;">Citations</div>
-  </div>
-  <div style="text-align: center;">
-    <div style="font-size: 1.6em; font-weight: bold;">9</div>
-    <div style="font-size: 0.9em; color: #666;">Conferences</div>
-  </div>
-  <div style="text-align: center;">
-    <div style="font-size: 1.6em; font-weight: bold;">3</div>
-    <div style="font-size: 0.9em; color: #666;">Internships</div>
-  </div>
-  <div style="text-align: center;">
-    <div style="font-size: 1.6em; font-weight: bold;">7</div>
-    <div style="font-size: 0.9em; color: #666;">Awards</div>
-  </div>
-  <div style="text-align: center;">
-    <div style="font-size: 1.6em; font-weight: bold;">$21,400+</div>
-    <div style="font-size: 0.9em; color: #666;">Total Scholarship</div>
-  </div>
-</div>
-
 <span class='anchor' id='educations'></span>
 
 # 📖 Educations
