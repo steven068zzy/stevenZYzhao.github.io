@@ -2,35 +2,220 @@
   'use strict';
 
   /* ---- Scroll progress bar ---- */
-  var bar = document.createElement('div');
-  bar.id = 'scroll-progress';
-  document.body.insertBefore(bar, document.body.firstChild);
+  var progressBar = document.createElement('div');
+  progressBar.id = 'scroll-progress';
+  document.body.insertBefore(progressBar, document.body.firstChild);
 
   /* ---- Back-to-top button ---- */
-  var btn = document.createElement('button');
-  btn.id = 'back-to-top';
-  btn.setAttribute('aria-label', 'Back to top');
-  btn.title = 'Back to top';
-  btn.innerHTML = '&#8679;';
-  document.body.appendChild(btn);
+  var backBtn = document.createElement('button');
+  backBtn.id = 'back-to-top';
+  backBtn.setAttribute('aria-label', 'Back to top');
+  backBtn.title = 'Back to top';
+  backBtn.innerHTML = '&#8679;';
+  document.body.appendChild(backBtn);
 
-  btn.addEventListener('click', function () {
+  backBtn.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  /* ---- Scroll handler ---- */
+  /* ================================================================
+     1. Floating orbs background
+     ================================================================ */
+  function injectOrbs() {
+    var wrap = document.createElement('div');
+    wrap.id = 'bg-orbs';
+    var orbData = [
+      { w: 440, h: 440, top: '-100px', left: '58%',  color: '#3b82f6', dur: '28s', delay: '0s',    op: 0.20 },
+      { w: 310, h: 310, top: '58%',   left: '-70px', color: '#0ea5e9', dur: '22s', delay: '-8s',   op: 0.16 },
+      { w: 270, h: 270, top: '28%',   left: '72%',   color: '#818cf8', dur: '19s', delay: '-14s',  op: 0.13 },
+      { w: 360, h: 360, top: '78%',   left: '42%',   color: '#38bdf8', dur: '34s', delay: '-5s',   op: 0.11 },
+    ];
+    orbData.forEach(function (d) {
+      var el = document.createElement('div');
+      el.className = 'bg-orb';
+      el.style.cssText =
+        'width:' + d.w + 'px;height:' + d.h + 'px;' +
+        'top:' + d.top + ';left:' + d.left + ';' +
+        'background:' + d.color + ';' +
+        '--orb-dur:' + d.dur + ';' +
+        '--orb-delay:' + d.delay + ';' +
+        '--orb-op:' + d.op + ';';
+      wrap.appendChild(el);
+    });
+    document.body.insertBefore(wrap, document.body.firstChild);
+  }
+
+  /* ================================================================
+     2. Dark mode toggle
+     ================================================================ */
+  function initDarkMode() {
+    var saved = localStorage.getItem('sz-theme');
+    if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+
+    var toggle = document.createElement('button');
+    toggle.id = 'dark-mode-toggle';
+    toggle.setAttribute('aria-label', 'Toggle dark mode');
+    toggle.title = 'Toggle dark mode';
+
+    function updateIcon() {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      toggle.innerHTML = isDark
+        ? '<i class="fas fa-sun"></i>'
+        : '<i class="fas fa-moon"></i>';
+    }
+    updateIcon();
+    document.body.appendChild(toggle);
+
+    toggle.addEventListener('click', function () {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('sz-theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('sz-theme', 'dark');
+      }
+      updateIcon();
+    });
+  }
+
+  /* ================================================================
+     3. 3D perspective tilt on paper-box
+     ================================================================ */
+  function init3DTilt() {
+    if (!window.matchMedia('(hover: hover)').matches) return;
+
+    document.querySelectorAll('.paper-box').forEach(function (card) {
+      card.addEventListener('mousemove', function (e) {
+        var rect = card.getBoundingClientRect();
+        var dx = (e.clientX - (rect.left + rect.width  / 2)) / (rect.width  / 2);
+        var dy = (e.clientY - (rect.top  + rect.height / 2)) / (rect.height / 2);
+        var rotY =  dx * 5;
+        var rotX = -dy * 4;
+        card.style.transform =
+          'perspective(900px) rotateX(' + rotX + 'deg) rotateY(' + rotY + 'deg) translateY(-4px)';
+        card.style.willChange = 'transform';
+      });
+
+      card.addEventListener('mouseleave', function () {
+        card.style.transform = '';
+        card.style.willChange = '';
+      });
+    });
+  }
+
+  /* ================================================================
+     4. Stats counter bar
+     ================================================================ */
+  function countUp(el, target, duration) {
+    var startTime = null;
+    var suffix = target >= 100 ? '+' : '';
+    function step(ts) {
+      if (!startTime) startTime = ts;
+      var pct = Math.min((ts - startTime) / duration, 1);
+      el.textContent = Math.floor(pct * target) + suffix;
+      if (pct < 1) requestAnimationFrame(step);
+      else el.textContent = target + suffix;
+    }
+    requestAnimationFrame(step);
+  }
+
+  function initStatsBar() {
+    var educationsAnchor = document.getElementById('educations');
+    if (!educationsAnchor) return;
+
+    var pubCount   = document.querySelectorAll('.paper-box').length;
+    var awardCount = 0; // counted after injectAwardStyle runs
+
+    var bar = document.createElement('div');
+    bar.className = 'stats-bar';
+
+    var defs = [
+      { label: 'Publications', id: 'stat-pub',   value: pubCount },
+      { label: 'Citations',    id: 'stat-cite',  value: null },
+      { label: 'Presentations',id: 'stat-pres',  value: null },
+      { label: 'Awards',       id: 'stat-award', value: null },
+    ];
+
+    defs.forEach(function (d) {
+      var item = document.createElement('div');
+      item.className = 'stat-item';
+      item.innerHTML =
+        '<span class="stat-number" id="' + d.id + '">—</span>' +
+        '<span class="stat-label">' + d.label + '</span>';
+      bar.appendChild(item);
+    });
+
+    educationsAnchor.parentNode.insertBefore(bar, educationsAnchor);
+
+    var triggered = false;
+    var io = new IntersectionObserver(function (entries) {
+      if (triggered || !entries[0].isIntersecting) return;
+      triggered = true;
+      io.disconnect();
+
+      // Publications
+      var pubEl = document.getElementById('stat-pub');
+      if (pubEl && pubCount > 0) countUp(pubEl, pubCount, 1200);
+
+      // Awards — re-count now that injectAwardStyle has run
+      var awardEl = document.getElementById('stat-award');
+      if (awardEl) {
+        awardCount = document.querySelectorAll('.award-item').length;
+        if (awardCount > 0) countUp(awardEl, awardCount, 1200);
+        else awardEl.textContent = '—';
+      }
+
+      // Presentations — traverse DOM
+      var presEl = document.getElementById('stat-pres');
+      var presAnchor = document.getElementById('conference-presentations');
+      if (presEl && presAnchor) {
+        var presCount = 0;
+        var sib = presAnchor.nextElementSibling;
+        if (sib && sib.tagName === 'H1') sib = sib.nextElementSibling;
+        while (sib) {
+          if (sib.tagName === 'H1' || (sib.tagName === 'SPAN' && sib.classList.contains('anchor'))) break;
+          if (sib.tagName === 'UL') presCount += sib.querySelectorAll('li').length;
+          sib = sib.nextElementSibling;
+        }
+        if (presCount > 0) countUp(presEl, presCount, 1200);
+        else presEl.textContent = '—';
+      } else if (presEl) {
+        presEl.textContent = '—';
+      }
+
+      // Citations — fetch from Google Scholar JSON
+      var citeEl = document.getElementById('stat-cite');
+      if (citeEl) {
+        fetch('https://raw.githubusercontent.com/steven068zzy/stevenZYzhao.github.io/main/google-scholar-stats/gs_data_shieldsio.json')
+          .then(function (r) { return r.json(); })
+          .then(function (data) {
+            var n = parseInt(data.message || data.value || '0', 10);
+            if (n > 0) countUp(citeEl, n, 1500);
+            else citeEl.textContent = '—';
+          })
+          .catch(function () { citeEl.textContent = '—'; });
+      }
+    }, { threshold: 0.2 });
+
+    io.observe(bar);
+  }
+
+  /* ================================================================
+     Scroll handler
+     ================================================================ */
   function onScroll() {
     var scrollTop = window.scrollY || document.documentElement.scrollTop;
     var docH = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    bar.style.width = (docH > 0 ? (scrollTop / docH) * 100 : 0) + '%';
-    btn.classList.toggle('visible', scrollTop > 400);
+    progressBar.style.width = (docH > 0 ? (scrollTop / docH) * 100 : 0) + '%';
+    backBtn.classList.toggle('visible', scrollTop > 400);
     updateActiveNav(scrollTop);
   }
 
   window.addEventListener('scroll', onScroll, { passive: true });
 
   /* ---- Active nav highlight ---- */
-  var anchors = [];
+  var anchors  = [];
   var navLinks = [];
 
   function buildNavMap() {
@@ -62,22 +247,19 @@
   /* ---- Staggered fade-in for paper-box cards ---- */
   function initFadeIn() {
     if (!('IntersectionObserver' in window)) {
-      // Fallback: just show all cards
       document.querySelectorAll('.paper-box').forEach(function (el) {
         el.classList.add('sz-visible');
       });
       return;
     }
 
-    var cards = document.querySelectorAll('.paper-box');
-    cards.forEach(function (el, idx) {
+    document.querySelectorAll('.paper-box').forEach(function (el, idx) {
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
           if (e.isIntersecting) {
-            // Stagger: each card enters 80ms after the previous one in the same viewport batch
             setTimeout(function () {
               el.classList.add('sz-visible');
-            }, (idx % 4) * 80); // reset stagger every 4 cards
+            }, (idx % 4) * 80);
             io.unobserve(el);
           }
         });
@@ -93,7 +275,6 @@
       'Under Review':   'pub-status pub-status--review',
       'Submitted':      'pub-status pub-status--review',
     };
-
     document.querySelectorAll('.page__content li').forEach(function (li) {
       var text = li.textContent.trim();
       if (statusMap[text]) {
@@ -104,11 +285,8 @@
 
   /* ---- Awards gold accent ---- */
   function injectAwardStyle() {
-    // Find the Awards h1 and style the following li items
     var awardsAnchor = document.getElementById('honors-and-awards');
     if (!awardsAnchor) return;
-
-    // Walk siblings until next h1 or end
     var el = awardsAnchor.nextElementSibling;
     while (el) {
       if (el.tagName === 'H1') break;
@@ -121,12 +299,18 @@
     }
   }
 
-  /* ---- Init on DOM ready ---- */
+  /* ================================================================
+     Init
+     ================================================================ */
   function init() {
+    injectOrbs();
+    initDarkMode();
     buildNavMap();
     initFadeIn();
     injectPubStatus();
-    injectAwardStyle();
+    injectAwardStyle();  // must precede initStatsBar (award count)
+    initStatsBar();
+    init3DTilt();
     onScroll();
   }
 
