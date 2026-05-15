@@ -46,40 +46,6 @@
   }
 
   /* ================================================================
-     2. Dark mode toggle
-     ================================================================ */
-  function initDarkMode() {
-    var saved = localStorage.getItem('sz-theme');
-    if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
-
-    var toggle = document.createElement('button');
-    toggle.id = 'dark-mode-toggle';
-    toggle.setAttribute('aria-label', 'Toggle dark mode');
-    toggle.title = 'Toggle dark mode';
-
-    function updateIcon() {
-      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-      toggle.innerHTML = isDark
-        ? '<i class="fas fa-sun"></i>'
-        : '<i class="fas fa-moon"></i>';
-    }
-    updateIcon();
-    document.body.appendChild(toggle);
-
-    toggle.addEventListener('click', function () {
-      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-      if (isDark) {
-        document.documentElement.removeAttribute('data-theme');
-        localStorage.setItem('sz-theme', 'light');
-      } else {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('sz-theme', 'dark');
-      }
-      updateIcon();
-    });
-  }
-
-  /* ================================================================
      3. 3D perspective tilt on paper-box
      ================================================================ */
   function init3DTilt() {
@@ -272,7 +238,6 @@
      ================================================================ */
   function init() {
     injectOrbs();
-    initDarkMode();
     buildNavMap();
     initFadeIn();
     injectPubStatus();
