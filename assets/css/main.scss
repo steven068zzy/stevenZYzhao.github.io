@@ -721,3 +721,219 @@ body {
     font-size: 1.4rem;
   }
 }
+
+/* ================================================================
+   MOBILE OPTIMIZATION — systematic improvements for small screens
+   ================================================================ */
+
+/* ── 1. Prevent horizontal overflow ── */
+html, body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+
+  /* ── 2. Masthead: always show site name, wrap nav gracefully ── */
+  .masthead__menu-home-item {
+    display: block !important;
+  }
+
+  .masthead__inner-wrap nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 0.1em;
+  }
+
+  .masthead__menu-item a {
+    font-size: 0.84rem;
+    padding: 0.3em 0.5em;
+  }
+
+  /* ── 3. Author profile: centered vertical layout ── */
+  .profile_box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5em;
+    padding: 0.6em 0 0.2em;
+  }
+
+  .author__avatar {
+    width: auto;
+    display: block;
+
+    img {
+      width: 90px;
+      min-width: 90px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  .author__content {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .author__name {
+    font-size: 1.2rem;
+  }
+
+  .author__bio {
+    font-size: 0.82rem;
+    margin-top: 0.25em;
+  }
+
+  /* ── 4. Social icons: always-visible icon buttons, hide dropdown ── */
+  .author__urls-wrapper {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+
+    /* Hide the "Follow" dropdown trigger — icons shown directly */
+    > button {
+      display: none !important;
+    }
+  }
+
+  .author__urls_sm {
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.45em;
+    padding: 0.4em 0.2em 0.3em;
+    font-size: 1.25em;
+
+    a {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: var(--accent-light);
+      color: var(--accent-2);
+      transition: background 0.2s var(--ease), color 0.2s var(--ease), transform 0.18s var(--ease);
+      text-decoration: none !important;
+
+      &:hover {
+        background: var(--accent-2);
+        color: #fff;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  /* ── 5. Paper-box: full-width image on top, text below ── */
+  .paper-box {
+    flex-direction: column;
+
+    .paper-box-image {
+      order: 1;
+      width: 100%;
+      max-width: 100%;
+
+      img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .paper-box-text {
+      order: 2;
+      max-width: 100%;
+      padding-left: 0;
+      margin-top: 0.65em;
+    }
+  }
+
+  /* ── 6. Content: overflow protection + readability ── */
+  .page__content {
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+    h1 {
+      font-size: 1.22rem;
+      padding-left: 0.6rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    li em, p > em {
+      white-space: normal;
+    }
+  }
+
+  /* ── 7. Sidebar dropdown items: allow wrapping ── */
+  .author__urls li {
+    white-space: normal;
+  }
+
+  /* ── 8. Tables: scroll instead of overflow ── */
+  .page__content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* ── 9. Page container: slightly tighter side padding ── */
+  #main {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  /* ── 10. Back-to-top: keep inside safe area ── */
+  #back-to-top {
+    bottom: 1rem;
+    right: 0.75rem;
+  }
+}
+
+/* ── Extra small: < 480px ── */
+@media (max-width: 480px) {
+  .masthead__inner-wrap {
+    padding: 0.3em 0.4em;
+  }
+
+  .masthead__menu-item a {
+    font-size: 0.78rem;
+    padding: 0.26em 0.36em;
+  }
+
+  .page {
+    padding: 0.75em 0.7em;
+    border-radius: 6px;
+  }
+
+  .author__avatar img {
+    width: 76px;
+    min-width: 76px;
+  }
+
+  .author__urls_sm {
+    font-size: 1.1em;
+
+    a {
+      width: 34px;
+      height: 34px;
+    }
+  }
+
+  .stat-number {
+    font-size: 1.2rem;
+  }
+
+  .badge {
+    font-size: 0.62em;
+    padding: 0.16em 0.5em;
+  }
+}
