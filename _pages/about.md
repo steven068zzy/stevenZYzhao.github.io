@@ -289,17 +289,15 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 
 
-<div class='paper-box' style="display: flex; align-items: center; gap: 15px;">
-  <!-- 左边两张图并排 -->
-  <div class='paper-box-image' style="flex: 1;">
+<div class='paper-box'>
+  <div class='paper-box-image'>
     <div style="display: flex; gap: 10px;">
       <img src="images/map11.gif" alt="sym" style="width: 50%;">
       <img src="images/map2.png" alt="sym" style="width: 50%;">
     </div>
   </div>
 
-  <!-- 右边文字 -->
-  <div class='paper-box-text' style="flex: 1;" markdown="1">
+  <div class='paper-box-text' markdown="1">
 
   - **INav-SLAM: Intelligent Navigation and Mapping Robot**  
     - Utilizes SLAM algorithms (Cartographer, Gmapping) for real-time mapping and localization in unknown environments.  
