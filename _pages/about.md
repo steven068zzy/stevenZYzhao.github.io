@@ -439,6 +439,7 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <span class='anchor' id='honors-and-awards'></span>
 
 # 🏆 Honors and Awards
+- *May 2026*, TAMU Grad School Travel Award
 - *Sep 2025*, David B Mellor '57 Graduate Scholarship in TAMU
 - *Jul 2025*, Poultry Science Association Student Travel Award
 - *Jul 2023*, Outstanding International Students Scholarship in UDM
