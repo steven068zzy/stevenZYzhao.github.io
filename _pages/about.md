@@ -30,11 +30,11 @@ redirect_from:
 <span class='anchor' id='educations'></span>
 
 # <span lang="en">📖 Educations</span><span lang="zh">📖 教育经历</span>
-- *Aug 2024 – Present*. [Texas A&M University](https://www.tamu.edu/index.html), College Station, TX, USA
+- <span lang="en">*Aug 2024 – Present*</span><span lang="zh">*2024年8月 – 至今*</span>. [Texas A&M University](https://www.tamu.edu/index.html), College Station, TX, USA
   - <span lang="en">Ph.D. in Poultry Science (Robotics Track)</span><span lang="zh">家禽科学博士（机器人方向）</span>
   - <span lang="en">Graduate Certificate in Entrepreneurship</span><span lang="zh">创业研究生证书</span>
 
-- *Aug 2020 - Apr 2024*. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
+- <span lang="en">*Aug 2020 - Apr 2024*</span><span lang="zh">*2020年8月 - 2024年4月*</span>. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
   - <span lang="en">B.E. in Robotics Engineering</span><span lang="zh">机器人工程学士</span>
 
 
@@ -187,7 +187,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
   </div>
 <div class='paper-box-text' markdown="1">
 
-- *May 2024 - Aug 2024*, [Ford(Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
+- <span lang="en">*May 2024 - Aug 2024*</span><span lang="zh">*2024年5月 - 2024年8月*</span>, [Ford(Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
   <span lang="en">**Research Engineer Intern (Control Algorithm Focus)**</span><span lang="zh">**研究工程师实习生（聚焦控制算法）**</span>
 - <span lang="en">Developed next-generation active suspension system for vehicles, including the F-150 and Lincoln</span><span lang="zh">为 F-150 与 Lincoln 等车型开发下一代主动悬架系统</span>
   - <span lang="en">Built 1/4 car, half-car, and full-car models in MATLAB to support control algorithm development.</span><span lang="zh">在 MATLAB 中搭建 1/4 车、半车与整车模型，以支撑控制算法开发。</span>
@@ -206,7 +206,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
   </div>
 <div class='paper-box-text' markdown="1">
 
-- *May 2023 - Aug 2023*, [Chinese Academy of Science](https://english.siat.ac.cn/), Shenzhen, Guangdong, CN  
+- <span lang="en">*May 2023 - Aug 2023*</span><span lang="zh">*2023年5月 - 2023年8月*</span>, [Chinese Academy of Science](https://english.siat.ac.cn/), Shenzhen, Guangdong, CN  
   <span lang="en">**Automation Engineer Intern**</span><span lang="zh">**自动化工程师实习生**</span>
 - <span lang="en">Design and Implementation of High-Throughput Imaging System</span><span lang="zh">高通量成像系统的设计与实现</span>
   - <span lang="en">Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with brain imaging.</span><span lang="zh">将 VISoR 系统的固定底座重新设计为旋转底座，显著降低脑成像工作中的人工与时间成本。</span>
@@ -229,7 +229,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
   </div>
 <div class='paper-box-text' markdown="1">
 
-- *Jan 2021 - Feb 2021*, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Singapore 
+- <span lang="en">*Jan 2021 - Feb 2021*</span><span lang="zh">*2021年1月 - 2021年2月*</span>, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Singapore 
   <span lang="en">**AI Intern**</span><span lang="zh">**人工智能实习生**</span>
 
   - <span lang="en">Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.</span><span lang="zh">参与多个人工智能项目，重点开发与优化一种皮肤癌分类模型。基于卷积神经网络（CNN）与 WEKA 工具，对 Kaggle 上 ISIC Archive 数据集中 1800 张良性与 1497 张恶性皮肤癌图像进行预处理与分类，经过多轮模型实验，分类准确率达到 86%。</span>
@@ -448,28 +448,28 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 <span class='anchor' id='conference-presentations'></span>
 
 # <span lang="en">🎤 Conference Presentations</span><span lang="zh">🎤 会议报告</span>
-- *Jul. 2026*, ASABE (American Society of Agricultural and Biological Engineers) Annual Meeting, Indianapolis, IN, USA
-- *Apr. 2026*, AI in Agriculture 2026, Raleigh, NC, USA
-- *Feb. 2026*, The International Production & Processing Expo, Atlanta, GA, USA
-- *Aug. 2025*, SuperZoo Annual Pet Industry Trade Show, Las Vegas, NV, USA
-- *Jul. 2025*, Poultry Science Association Annual Meeting, Raleigh, NC, USA
-- *Jun. 2025*, Workshop on Smart Robots for a Scalable and Resilient Future of Agriculture, College Station, TX, USA
-- *May. 2025*, US Precision Livestock Farming, Lincoln, NE, USA
-- *Jan. 2025*, The International Production & Processing Expo, Atlanta, GA, USA
-- *Aug. 2024*, World Robot Conference, Beijing, China
+- <span lang="en">*Jul. 2026*, ASABE (American Society of Agricultural and Biological Engineers) Annual Meeting, Indianapolis, IN, USA</span><span lang="zh">*2026年7月*，美国农业与生物工程师学会（ASABE）年会，印第安纳波利斯，印第安纳州，美国</span>
+- <span lang="en">*Apr. 2026*, AI in Agriculture 2026, Raleigh, NC, USA</span><span lang="zh">*2026年4月*，2026 农业人工智能大会（AI in Agriculture），罗利，北卡罗来纳州，美国</span>
+- <span lang="en">*Feb. 2026*, The International Production & Processing Expo, Atlanta, GA, USA</span><span lang="zh">*2026年2月*，国际生产与加工博览会（IPPE），亚特兰大，佐治亚州，美国</span>
+- <span lang="en">*Aug. 2025*, SuperZoo Annual Pet Industry Trade Show, Las Vegas, NV, USA</span><span lang="zh">*2025年8月*，SuperZoo 宠物行业年度展会，拉斯维加斯，内华达州，美国</span>
+- <span lang="en">*Jul. 2025*, Poultry Science Association Annual Meeting, Raleigh, NC, USA</span><span lang="zh">*2025年7月*，家禽科学协会（PSA）年会，罗利，北卡罗来纳州，美国</span>
+- <span lang="en">*Jun. 2025*, Workshop on Smart Robots for a Scalable and Resilient Future of Agriculture, College Station, TX, USA</span><span lang="zh">*2025年6月*，"面向可扩展与韧性农业未来的智能机器人"研讨会，大学城，得克萨斯州，美国</span>
+- <span lang="en">*May. 2025*, US Precision Livestock Farming, Lincoln, NE, USA</span><span lang="zh">*2025年5月*，美国精准畜牧养殖大会（US PLF），林肯，内布拉斯加州，美国</span>
+- <span lang="en">*Jan. 2025*, The International Production & Processing Expo, Atlanta, GA, USA</span><span lang="zh">*2025年1月*，国际生产与加工博览会（IPPE），亚特兰大，佐治亚州，美国</span>
+- <span lang="en">*Aug. 2024*, World Robot Conference, Beijing, China</span><span lang="zh">*2024年8月*，世界机器人大会（WRC），北京，中国</span>
 
 
 <span class='anchor' id='honors-and-awards'></span>
 
 # <span lang="en">🏆 Honors and Awards</span><span lang="zh">🏆 荣誉与奖项</span>
-- *May 2026*, TAMU Grad School Travel Award
-- *Sep 2025*, David B Mellor '57 Graduate Scholarship in TAMU
-- *Jul 2025*, Poultry Science Association Student Travel Award
-- *Jul 2023*, Outstanding International Students Scholarship in UDM
-- *Dec 2022*, People's Scholarship in School Year 2021 - 2022 Term 2 in BUCT
-- *May 2022*, People's Scholarship in School Year 2021 - 2022 Term 1 in BUCT
-- *Dec 2021*, People's Scholarship in School Year 2020 - 2021 Term 2 in BUCT
-- *Apr 2021*, Outstanding Student Leader in BUCT
+- <span lang="en">*May 2026*</span><span lang="zh">*2026年5月*</span>, TAMU Grad School Travel Award
+- <span lang="en">*Sep 2025*</span><span lang="zh">*2025年9月*</span>, David B Mellor '57 Graduate Scholarship in TAMU
+- <span lang="en">*Jul 2025*</span><span lang="zh">*2025年7月*</span>, Poultry Science Association Student Travel Award
+- <span lang="en">*Jul 2023*</span><span lang="zh">*2023年7月*</span>, Outstanding International Students Scholarship in UDM
+- <span lang="en">*Dec 2022*</span><span lang="zh">*2022年12月*</span>, People's Scholarship in School Year 2021 - 2022 Term 2 in BUCT
+- <span lang="en">*May 2022*</span><span lang="zh">*2022年5月*</span>, People's Scholarship in School Year 2021 - 2022 Term 1 in BUCT
+- <span lang="en">*Dec 2021*</span><span lang="zh">*2021年12月*</span>, People's Scholarship in School Year 2020 - 2021 Term 2 in BUCT
+- <span lang="en">*Apr 2021*</span><span lang="zh">*2021年4月*</span>, Outstanding Student Leader in BUCT
 
 <span class='anchor' id='reading-list'></span>
 
