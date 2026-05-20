@@ -18,6 +18,12 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Ruby 3.4 removed these from the default gem set; Jekyll 3.9 still requires them.
+gem "csv"
+gem "logger"
+gem "base64"
+gem "bigdecimal"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
