@@ -13,7 +13,11 @@
 <script>
   (function () {
     var lang = 'en';
-    try { lang = localStorage.getItem('siteLang') || 'en'; } catch (e) {}
+    try {
+      // Clear any pre-v2 stored choice so the site defaults to English on next visit.
+      localStorage.removeItem('siteLang');
+      lang = localStorage.getItem('siteLang_v2') || 'en';
+    } catch (e) {}
     if (lang !== 'en' && lang !== 'zh') lang = 'en';
     document.documentElement.classList.add('lang-' + lang);
     document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
