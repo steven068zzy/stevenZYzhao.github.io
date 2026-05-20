@@ -203,14 +203,13 @@ body {
 }
 
 .masthead__menu-item a {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   font-weight: 500;
   color: var(--text-muted);
-  padding: 0.32em 0.6em;
+  padding: 0.3em 0.55em;
   border-radius: var(--radius-sm);
   transition: all 0.2s var(--ease);
   letter-spacing: 0.005em;
-  white-space: nowrap;
 
   &:hover {
     color: var(--accent-1);
@@ -223,31 +222,11 @@ body {
   font-weight: 700;
   font-size: 1.02rem;
   color: var(--text-primary);
-  padding-right: 0.9em;
-  position: relative;
-
-  &::after {
-    content: '';
-    position: absolute;
-    right: 0.15em;
-    top: 25%;
-    bottom: 25%;
-    width: 1px;
-    background: var(--border);
-  }
 
   &:hover {
     color: var(--accent-1);
     background: transparent;
   }
-}
-
-/* Greedy-nav: ensure visible-links sit on one row, evenly spaced */
-.greedy-nav .visible-links {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 0.1em;
 }
 
 .masthead__menu-item a.nav-active {
