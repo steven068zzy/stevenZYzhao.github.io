@@ -133,8 +133,8 @@
   ],
   "sameAs": [
     "{{ site.author.googlescholar }}",
-    "https://www.linkedin.com/in/{{ site.author.linkedin }}",
-    "https://github.com/{{ site.author.github }}"{% if site.author.orcid %},
+    "https://www.linkedin.com/in/{{ site.author.linkedin }}"{% if site.author.github %},
+    "https://github.com/{{ site.author.github }}"{% endif %}{% if site.author.orcid %},
     "{{ site.author.orcid }}"{% endif %}
   ]
 }
