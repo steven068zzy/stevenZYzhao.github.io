@@ -2,7 +2,6 @@
   <div class="masthead__inner-wrap masthead__inner-wrap--flex">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" target="_self"><span lang="en">Homepage</span><span lang="zh">主页</span></a></li>
           {% for link in site.data.navigation.main %}
@@ -13,6 +12,7 @@
       </nav>
     </div>
     <div class="lang-toggle" role="group" aria-label="Language">
+      <span class="lang-toggle__indicator" aria-hidden="true"></span>
       <button type="button" data-lang="en" aria-label="English">EN</button>
       <button type="button" data-lang="zh" aria-label="简体中文">中文</button>
     </div>

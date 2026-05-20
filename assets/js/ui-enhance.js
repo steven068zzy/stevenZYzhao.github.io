@@ -256,7 +256,7 @@
     document.querySelectorAll('.lang-toggle [data-lang]').forEach(function (b) {
       b.classList.toggle('active', b.getAttribute('data-lang') === lang);
     });
-    try { localStorage.setItem('siteLang', lang); } catch (e) {}
+    try { localStorage.setItem('siteLang_v2', lang); } catch (e) {}
   }
 
   function initLangToggle() {
