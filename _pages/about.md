@@ -420,27 +420,31 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 # ✏️ Journal Reviewer
 
 <style>
-.jr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin:18px 0 8px;}
-.jr-card{position:relative;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 18px;border-radius:12px;background:#fff;border:1px solid #e5e7eb;box-shadow:0 1px 2px rgba(0,0,0,.04);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;overflow:hidden;}
-.jr-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,#3b82f6,#60a5fa);}
+.jr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin:18px 0 8px;}
+.jr-card{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:12px;background:#fff;border:1px solid #e5e7eb;box-shadow:0 1px 2px rgba(0,0,0,.04);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
 .jr-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(59,130,246,.12);border-color:#bfdbfe;}
-.jr-info{min-width:0;display:flex;flex-direction:column;gap:4px;}
+.jr-icon{flex-shrink:0;width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;align-items:center;justify-content:center;color:#2563eb;}
+.jr-icon svg{width:22px;height:22px;}
+.jr-info{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;}
 .jr-name{font-size:1.0em;font-weight:600;color:#111827;line-height:1.3;}
-.jr-label{font-size:.72em;letter-spacing:.08em;text-transform:uppercase;color:#6b7280;font-weight:500;}
-.jr-count{flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:54px;height:54px;padding:0 10px;border-radius:12px;background:linear-gradient(135deg,#eff6ff,#dbeafe);border:1px solid #bfdbfe;}
-.jr-count-num{font-size:1.35em;font-weight:800;color:#2563eb;line-height:1;}
-.jr-count-unit{font-size:.58em;letter-spacing:.06em;text-transform:uppercase;color:#3b82f6;font-weight:600;margin-top:2px;}
+.jr-sub{font-size:.78em;color:#6b7280;}
+.jr-count{flex-shrink:0;display:inline-flex;align-items:baseline;gap:5px;padding:6px 12px;border-radius:999px;background:#eff6ff;border:1px solid #bfdbfe;color:#2563eb;font-weight:600;}
+.jr-count-num{font-size:1.05em;}
+.jr-count-text{font-size:.78em;}
 </style>
 
 <div class="jr-grid">
   <div class="jr-card">
-    <div class="jr-info">
-      <span class="jr-label">Peer Review</span>
-      <span class="jr-name">Automation in Construction</span>
+    <div class="jr-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 14 11 16 15 12"/></svg>
     </div>
-    <div class="jr-count">
+    <div class="jr-info">
+      <span class="jr-name">Automation in Construction</span>
+      <span class="jr-sub">Peer Reviewer</span>
+    </div>
+    <div class="jr-count" title="Manuscripts reviewed">
       <span class="jr-count-num">2</span>
-      <span class="jr-count-unit">MS</span>
+      <span class="jr-count-text">reviews</span>
     </div>
   </div>
 </div>
