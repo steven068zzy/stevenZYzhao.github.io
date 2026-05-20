@@ -10,6 +10,16 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<script>
+  (function () {
+    var lang = 'en';
+    try { lang = localStorage.getItem('siteLang') || 'en'; } catch (e) {}
+    if (lang !== 'en' && lang !== 'zh') lang = 'en';
+    document.documentElement.classList.add('lang-' + lang);
+    document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+  })();
+</script>
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="assets/css/main.css">
 

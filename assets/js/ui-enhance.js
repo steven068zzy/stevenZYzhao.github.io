@@ -94,12 +94,12 @@
     bar.className = 'stats-bar';
 
     var defs = [
-      { label: 'Publications', id: 'stat-pub'        },
-      { label: 'Citations',    id: 'stat-cite'        },
-      { label: 'Conferences',  id: 'stat-conf'        },
-      { label: 'Internships',  id: 'stat-intern'      },
-      { label: 'Awards',       id: 'stat-award'       },
-      { label: 'Scholarship',  id: 'stat-scholarship' },
+      { label: 'Publications', label_zh: '论文', id: 'stat-pub'        },
+      { label: 'Citations',    label_zh: '引用', id: 'stat-cite'        },
+      { label: 'Conferences',  label_zh: '会议', id: 'stat-conf'        },
+      { label: 'Internships',  label_zh: '实习', id: 'stat-intern'      },
+      { label: 'Awards',       label_zh: '奖项', id: 'stat-award'       },
+      { label: 'Scholarship',  label_zh: '奖学金', id: 'stat-scholarship' },
     ];
 
     defs.forEach(function (d) {
@@ -107,7 +107,10 @@
       item.className = 'stat-item';
       item.innerHTML =
         '<span class="stat-number" id="' + d.id + '">—</span>' +
-        '<span class="stat-label">' + d.label + '</span>';
+        '<span class="stat-label">' +
+          '<span lang="en">' + d.label + '</span>' +
+          '<span lang="zh">' + d.label_zh + '</span>' +
+        '</span>';
       bar.appendChild(item);
     });
 
@@ -206,7 +209,7 @@
     });
   }
 
-  /* ---- Publication status chips ---- */
+  /* ---- Publication status chips (bilingual-aware) ---- */
   function injectPubStatus() {
     var statusMap = {
       'In Preparation': 'pub-status pub-status--prep',
@@ -214,9 +217,10 @@
       'Submitted':      'pub-status pub-status--review',
     };
     document.querySelectorAll('.page__content li').forEach(function (li) {
-      var text = li.textContent.trim();
-      if (statusMap[text]) {
-        li.innerHTML = '<span class="' + statusMap[text] + '">' + text + '</span>';
+      var enEl = li.querySelector('[lang="en"]');
+      var enText = (enEl ? enEl.textContent : li.textContent).trim();
+      if (statusMap[enText]) {
+        li.innerHTML = '<span class="' + statusMap[enText] + '">' + li.innerHTML + '</span>';
       }
     });
   }
@@ -238,6 +242,34 @@
   }
 
   /* ================================================================
+     Language toggle (EN / 中文)
+     The initial class on <html> is set by an inline script in head.html
+     so we don't flash the wrong language. This function just wires up
+     the click handler and keeps the pill's active state in sync.
+     ================================================================ */
+  function setLang(lang) {
+    if (lang !== 'en' && lang !== 'zh') lang = 'en';
+    var html = document.documentElement;
+    html.classList.remove('lang-en', 'lang-zh');
+    html.classList.add('lang-' + lang);
+    html.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+    document.querySelectorAll('.lang-toggle [data-lang]').forEach(function (b) {
+      b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+    });
+    try { localStorage.setItem('siteLang', lang); } catch (e) {}
+  }
+
+  function initLangToggle() {
+    var current = document.documentElement.classList.contains('lang-zh') ? 'zh' : 'en';
+    document.querySelectorAll('.lang-toggle [data-lang]').forEach(function (btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-lang') === current);
+      btn.addEventListener('click', function () {
+        setLang(btn.getAttribute('data-lang'));
+      });
+    });
+  }
+
+  /* ================================================================
      Init
      ================================================================ */
   function init() {
@@ -248,6 +280,7 @@
     injectAwardStyle();  // must precede initStatsBar (award count)
     initStatsBar();
     init3DTilt();
+    initLangToggle();
     onScroll();
   }
 
