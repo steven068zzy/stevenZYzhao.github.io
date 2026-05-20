@@ -237,6 +237,15 @@
     white-space: nowrap;
   }
 
+  li.no-url {
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: $type-size-5;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
