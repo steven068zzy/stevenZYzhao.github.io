@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm Steven"
-excerpt: ""
+title: "Ziyuan Zhao (Steven) — Robotics & Computer Vision PhD, Texas A&M"
+excerpt: "Ziyuan Zhao (Steven) is a Ph.D. student at Texas A&M University researching robotics and computer vision for precision poultry and livestock farming. Previously B.E. in Robotics Engineering at University of Detroit Mercy."
 author_profile: true
 redirect_from: 
   - /about/

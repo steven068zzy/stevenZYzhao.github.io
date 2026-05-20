@@ -7,9 +7,11 @@
 
 # Site Settings
 title                    : "Ziyuan Zhao"
-description              : ""
+description              : "Ziyuan Zhao (Steven) is a Ph.D. student at Texas A&M University researching robotics and computer vision for precision poultry and livestock farming."
+url                      : "https://ziyuanzhao.org"
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
+keywords                 : "Ziyuan Zhao, Steven Zhao, Texas A&M University, Poultry Science, Robotics, Computer Vision, Precision Livestock Farming, Deep Learning, YOLO, broiler, Ph.D."
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -38,7 +40,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "steven068zzy"
   google_plus      :
   keybase          :
   instagram        :
@@ -137,7 +139,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
