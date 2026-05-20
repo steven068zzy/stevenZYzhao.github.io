@@ -418,7 +418,32 @@ valves, etc., create a three-dimensional valve plate model using SolidWorks. Add
 <span class='anchor' id='journal-reviewer'></span>
 
 # ✏️ Journal Reviewer
-- Automation in Construction (2)
+
+<style>
+.jr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin:18px 0 8px;}
+.jr-card{position:relative;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 18px;border-radius:12px;background:#fff;border:1px solid #e5e7eb;box-shadow:0 1px 2px rgba(0,0,0,.04);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;overflow:hidden;}
+.jr-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,#3b82f6,#60a5fa);}
+.jr-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(59,130,246,.12);border-color:#bfdbfe;}
+.jr-info{min-width:0;display:flex;flex-direction:column;gap:4px;}
+.jr-name{font-size:1.0em;font-weight:600;color:#111827;line-height:1.3;}
+.jr-label{font-size:.72em;letter-spacing:.08em;text-transform:uppercase;color:#6b7280;font-weight:500;}
+.jr-count{flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:54px;height:54px;padding:0 10px;border-radius:12px;background:linear-gradient(135deg,#eff6ff,#dbeafe);border:1px solid #bfdbfe;}
+.jr-count-num{font-size:1.35em;font-weight:800;color:#2563eb;line-height:1;}
+.jr-count-unit{font-size:.58em;letter-spacing:.06em;text-transform:uppercase;color:#3b82f6;font-weight:600;margin-top:2px;}
+</style>
+
+<div class="jr-grid">
+  <div class="jr-card">
+    <div class="jr-info">
+      <span class="jr-label">Peer Review</span>
+      <span class="jr-name">Automation in Construction</span>
+    </div>
+    <div class="jr-count">
+      <span class="jr-count-num">2</span>
+      <span class="jr-count-unit">MS</span>
+    </div>
+  </div>
+</div>
 
 <span class='anchor' id='conference-presentations'></span>
 
