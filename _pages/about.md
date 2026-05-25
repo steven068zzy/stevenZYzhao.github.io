@@ -411,12 +411,14 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 </div>
 
 
-<span class='anchor' id='journal-reviewer'></span>
+<span class='anchor' id='professional-service'></span>
 
-# <span lang="en">✏️ Journal Reviewer</span><span lang="zh">✏️ 期刊审稿</span>
+# <span lang="en">🤝 Professional Service</span><span lang="zh">🤝 学术服务</span>
 
 <style>
-.jr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin:18px 0 8px;}
+.jr-sub-title{font-size:1.05em;font-weight:700;color:#111827;margin:22px 0 4px;display:flex;align-items:center;gap:8px;}
+.jr-sub-title::before{content:'';display:inline-block;width:4px;height:16px;background:#3b82f6;border-radius:2px;flex-shrink:0;}
+.jr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin:12px 0 8px;}
 .jr-card{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:12px;background:#fff;border:1px solid #e5e7eb;box-shadow:0 1px 2px rgba(0,0,0,.04);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
 .jr-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(59,130,246,.12);border-color:#bfdbfe;}
 .jr-icon{flex-shrink:0;width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;align-items:center;justify-content:center;color:#2563eb;}
@@ -428,6 +430,8 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 .jr-count-num{font-size:1.05em;}
 .jr-count-text{font-size:.78em;}
 </style>
+
+<div class="jr-sub-title"><span lang="en">Peer Review</span><span lang="zh">审稿</span></div>
 
 <div class="jr-grid">
   <div class="jr-card">
@@ -441,6 +445,29 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
     <div class="jr-count" title="Manuscripts reviewed">
       <span class="jr-count-num">2</span>
       <span class="jr-count-text"><span lang="en">reviews</span><span lang="zh">篇</span></span>
+    </div>
+  </div>
+</div>
+
+<div class="jr-sub-title"><span lang="en">Membership</span><span lang="zh">会员</span></div>
+
+<div class="jr-grid">
+  <div class="jr-card">
+    <div class="jr-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    </div>
+    <div class="jr-info">
+      <span class="jr-name">ASABE</span>
+      <span class="jr-sub"><span lang="en">Member, American Society of Agricultural and Biological Engineers</span><span lang="zh">美国农业与生物工程师学会会员</span></span>
+    </div>
+  </div>
+  <div class="jr-card">
+    <div class="jr-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    </div>
+    <div class="jr-info">
+      <span class="jr-name">PSA</span>
+      <span class="jr-sub"><span lang="en">Member, Poultry Science Association</span><span lang="zh">家禽科学协会会员</span></span>
     </div>
   </div>
 </div>
