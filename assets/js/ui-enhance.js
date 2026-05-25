@@ -270,6 +270,141 @@
   }
 
   /* ================================================================
+     Toast — frosted slide-up notification (bilingual)
+     ================================================================ */
+  var toastEl = null;
+  var toastTimer = null;
+  function showToast(enMsg, zhMsg) {
+    if (!toastEl) {
+      toastEl = document.createElement('div');
+      toastEl.className = 'toast';
+      toastEl.setAttribute('role', 'status');
+      toastEl.setAttribute('aria-live', 'polite');
+      document.body.appendChild(toastEl);
+    }
+    toastEl.innerHTML =
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>' +
+      '<span><span lang="en">' + enMsg + '</span><span lang="zh">' + zhMsg + '</span></span>';
+    // restart enter animation
+    toastEl.classList.remove('toast--show');
+    void toastEl.offsetWidth;
+    toastEl.classList.add('toast--show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toastEl.classList.remove('toast--show');
+    }, 2000);
+  }
+
+  function copyText(text, enMsg, zhMsg) {
+    function done() { showToast(enMsg, zhMsg); }
+    function fallback() {
+      try {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        done();
+      } catch (e) {
+        showToast('Copy failed', '复制失败');
+      }
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else {
+      fallback();
+    }
+  }
+
+  var COPY_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+
+  /* ================================================================
+     Copy citation — button on each published paper-box
+     ================================================================ */
+  function buildCitation(box) {
+    var textEl = box.querySelector('.paper-box-text');
+    if (!textEl) return '';
+    var titleLink = textEl.querySelector('a');
+    var title = titleLink ? titleLink.textContent.trim() : '';
+    var href = titleLink ? (titleLink.getAttribute('href') || '') : '';
+    var authors = '';
+    var ps = textEl.querySelectorAll('p');
+    for (var i = 0; i < ps.length; i++) {
+      if (ps[i].querySelector('strong')) { authors = ps[i].textContent.trim().replace(/\s+/g, ' '); break; }
+    }
+    var badge = box.querySelector('.badge');
+    var venue = badge ? badge.textContent.trim() : '';
+    var parts = [];
+    if (authors) parts.push(authors.replace(/[,\s]+$/, '') + '.');
+    if (title) parts.push('"' + title.replace(/[.\s]+$/, '') + '."');
+    if (venue) parts.push(venue + '.');
+    if (href && /^https?:/.test(href)) parts.push(href);
+    return parts.join(' ');
+  }
+
+  function initCopyCitations() {
+    // .paper-box is reused by Internships and Projects too — only the
+    // Publications section (between #publications and #internship-experiences)
+    // gets citation buttons.
+    var pubAnchor = document.getElementById('publications');
+    if (!pubAnchor) return;
+    var endAnchor = document.getElementById('internship-experiences');
+    var FOLLOWING = Node.DOCUMENT_POSITION_FOLLOWING;
+    document.querySelectorAll('.paper-box').forEach(function (box) {
+      var afterStart = pubAnchor.compareDocumentPosition(box) & FOLLOWING;
+      var beforeEnd = !endAnchor || (box.compareDocumentPosition(endAnchor) & FOLLOWING);
+      if (!afterStart || !beforeEnd) return;
+      var textEl = box.querySelector('.paper-box-text');
+      if (!textEl) return;
+      var citation = buildCitation(box);
+      if (!citation) return;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-cite';
+      btn.title = 'Copy citation';
+      btn.setAttribute('aria-label', 'Copy citation');
+      btn.innerHTML = COPY_SVG;
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        copyText(citation, 'Citation copied', '引用已复制');
+        btn.classList.add('copy-cite--ok');
+        setTimeout(function () { btn.classList.remove('copy-cite--ok'); }, 1400);
+      });
+      box.appendChild(btn);
+    });
+  }
+
+  /* ================================================================
+     Copy email — button beside the sidebar mailto link
+     ================================================================ */
+  function initCopyEmail() {
+    document.querySelectorAll('.author__urls a[href^="mailto:"]').forEach(function (link) {
+      var addr = link.getAttribute('href').replace(/^mailto:/, '').trim();
+      if (!addr) return;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-email';
+      btn.title = 'Copy email';
+      btn.setAttribute('aria-label', 'Copy email address');
+      btn.innerHTML = COPY_SVG;
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        copyText(addr, 'Email copied', '邮箱已复制');
+        btn.classList.add('copy-email--ok');
+        setTimeout(function () { btn.classList.remove('copy-email--ok'); }, 1400);
+      });
+      var li = link.parentNode;
+      li.classList.add('has-copy');
+      li.appendChild(btn);
+    });
+  }
+
+  /* ================================================================
      Init
      ================================================================ */
   function init() {
@@ -281,6 +416,8 @@
     initStatsBar();
     init3DTilt();
     initLangToggle();
+    initCopyCitations();
+    initCopyEmail();
     onScroll();
   }
 
