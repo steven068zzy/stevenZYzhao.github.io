@@ -507,7 +507,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 .book-category{margin-bottom:40px;}
 .book-cat-label{font-size:.72em;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3b82f6;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #e5e7eb;display:flex;align-items:center;gap:8px;}
 .book-cat-label::before{content:'';display:inline-block;width:4px;height:15px;background:#3b82f6;border-radius:2px;flex-shrink:0;}
-.book-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:0;padding:0;}
+.book-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin:0;padding:0;}
 .book-card{border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.10),0 8px 28px rgba(0,0,0,.07);transition:transform .30s cubic-bezier(.22,.68,0,1.2),box-shadow .30s ease;background:#fff;display:flex;flex-direction:column;}
 .book-card:hover{transform:translateY(-10px) scale(1.018);box-shadow:0 8px 24px rgba(0,0,0,.15),0 24px 56px rgba(0,0,0,.12);}
 .book-cover-wrap{position:relative;width:100%;padding-top:150%;overflow:hidden;flex-shrink:0;}
@@ -520,8 +520,8 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 .book-author{font-size:.70em;color:#6b7280;margin-bottom:7px;}
 .book-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto;}
 .book-tag{font-size:.60em;padding:2px 8px;border-radius:999px;background:#eff6ff;color:#2563eb;font-weight:500;white-space:nowrap;}
-@media(max-width:768px){.book-grid{grid-template-columns:repeat(3,1fr);gap:15px;}}
-@media(max-width:480px){.book-grid{grid-template-columns:repeat(2,1fr);gap:12px;}}
+@media(max-width:768px){.book-grid{grid-template-columns:repeat(4,1fr);gap:12px;}}
+@media(max-width:480px){.book-grid{grid-template-columns:repeat(3,1fr);gap:10px;}}
 </style>
 
 <p class="book-shelf-intro"><span lang="en">A good book slows me down in the best way — it pushes me to think more carefully, challenges assumptions I didn't know I had, and opens up worlds and lives far beyond my own. Below are books I've genuinely loved and would recommend without hesitation.</span><span lang="zh">一本好书会以最美的方式让我慢下来——促使我更仔细地思考，挑战我未曾察觉的假设，并向我展现远超自身经历的世界与人生。下面这些书是我真心喜爱、愿意毫无保留推荐的作品。</span></p>
