@@ -379,32 +379,6 @@
   }
 
   /* ================================================================
-     Copy email — button beside the sidebar mailto link
-     ================================================================ */
-  function initCopyEmail() {
-    document.querySelectorAll('.author__urls a[href^="mailto:"]').forEach(function (link) {
-      var addr = link.getAttribute('href').replace(/^mailto:/, '').trim();
-      if (!addr) return;
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'copy-email';
-      btn.title = 'Copy email';
-      btn.setAttribute('aria-label', 'Copy email address');
-      btn.innerHTML = COPY_SVG;
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        copyText(addr, 'Email copied', '邮箱已复制');
-        btn.classList.add('copy-email--ok');
-        setTimeout(function () { btn.classList.remove('copy-email--ok'); }, 1400);
-      });
-      var li = link.parentNode;
-      li.classList.add('has-copy');
-      li.appendChild(btn);
-    });
-  }
-
-  /* ================================================================
      Init
      ================================================================ */
   function init() {
@@ -417,7 +391,6 @@
     init3DTilt();
     initLangToggle();
     initCopyCitations();
-    initCopyEmail();
     onScroll();
   }
 

@@ -15,8 +15,8 @@ main:
     title_zh: "代表性项目"
     url: "#selected-projects"
 
-  - title: "Professional Service"
-    title_zh: "学术服务"
+  - title: "Service"
+    title_zh: "服务"
     url: "#professional-service"
 
   - title: "Presentations"
