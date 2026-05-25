@@ -73,8 +73,8 @@ html.lang-zh [lang="en"] { display: none !important; }
     left: 3px;
     width: calc(50% - 3px);
     border-radius: 999px;
-    background: linear-gradient(135deg, #1e40af, #2563eb);
-    box-shadow: 0 2px 6px rgba(30, 64, 175, 0.28);
+    background: linear-gradient(135deg, #8C1515, #B1040E);
+    box-shadow: 0 2px 6px rgba(140, 21, 21, 0.28);
     transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
   }
@@ -85,7 +85,7 @@ html.lang-zh [lang="en"] { display: none !important; }
     flex: 0 0 auto;
     background: transparent;
     border: 0;
-    color: #475569;
+    color: #5F5E5A;
     padding: 0.38em 0.95em;
     min-width: 2.6em;
     cursor: pointer;
@@ -99,11 +99,11 @@ html.lang-zh [lang="en"] { display: none !important; }
     }
 
     &:not(.active):hover {
-      color: #1e40af;
+      color: #8C1515;
     }
 
     &:focus-visible {
-      outline: 2px solid rgba(37, 99, 235, 0.45);
+      outline: 2px solid rgba(140, 21, 21, 0.45);
       outline-offset: 2px;
     }
   }
@@ -147,20 +147,20 @@ html.lang-zh .lang-toggle__indicator {
    CSS Custom Properties
    ================================================================ */
 :root {
-  --accent-1:        #1e40af;
-  --accent-2:        #2563eb;
-  --accent-sky:      #38bdf8;
-  --accent-light:    #dbeafe;
-  --grad-accent:     linear-gradient(135deg, #1e40af, #2563eb);
-  --grad-progress:   linear-gradient(to right, #1e40af, #38bdf8);
+  --accent-1:        #8C1515;
+  --accent-2:        #B1040E;
+  --accent-sky:      #D23B3B;
+  --accent-light:    #F6E7E7;
+  --grad-accent:     linear-gradient(135deg, #8C1515, #B1040E);
+  --grad-progress:   linear-gradient(to right, #8C1515, #D23B3B);
   --surface:         #ffffff;
-  --bg-page:         #f4f7fb;
-  --text-primary:    #1e293b;
-  --text-muted:      #64748b;
-  --border:          #e2e8f0;
+  --bg-page:         #F4F4F2;
+  --text-primary:    #2E2D29;
+  --text-muted:      #5F5E5A;
+  --border:          #E6E3DD;
   --shadow-sm:       0 1px 4px rgba(0,0,0,0.07);
-  --shadow-md:       0 4px 16px rgba(30,64,175,0.10);
-  --shadow-lg:       0 10px 32px rgba(30,64,175,0.14);
+  --shadow-md:       0 4px 16px rgba(140,21,21,0.10);
+  --shadow-lg:       0 10px 32px rgba(140,21,21,0.14);
   --radius:          10px;
   --radius-sm:       6px;
   --ease:            cubic-bezier(0.4, 0, 0.2, 1);
@@ -323,7 +323,7 @@ body {
       content: '';
       display: block;
       height: 2px;
-      background: linear-gradient(to right, #93c5fd, transparent);
+      background: linear-gradient(to right, #E0A3A3, transparent);
       margin-top: 0.4em;
       border-radius: 1px;
     }
@@ -349,7 +349,7 @@ body {
 
     &:hover {
       color: var(--accent-2);
-      border-bottom-color: #93c5fd;
+      border-bottom-color: #E0A3A3;
       text-decoration: none;
     }
   }
@@ -375,7 +375,7 @@ body {
   &:hover {
     box-shadow: var(--shadow-md);
     transform: translateY(-3px);
-    border-color: #bfdbfe;
+    border-color: #E8C7C7;
   }
 
   .paper-box-image {
@@ -452,7 +452,7 @@ h1:before, .anchor:before {
   border-radius: 20px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.38);
+  box-shadow: 0 2px 8px rgba(140, 21, 21, 0.38);
   z-index: 2;
 }
 
@@ -462,7 +462,7 @@ h1:before, .anchor:before {
 hr {
   border: none;
   height: 1px;
-  background: linear-gradient(to right, #bfdbfe, var(--border), transparent);
+  background: linear-gradient(to right, #E8C7C7, var(--border), transparent);
   margin: 2.5em 0;
 }
 
@@ -483,7 +483,7 @@ hr {
   display: none;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 14px rgba(30, 64, 175, 0.42);
+  box-shadow: 0 4px 14px rgba(140, 21, 21, 0.42);
   z-index: 999;
   transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
   font-size: 1.25rem;
@@ -491,7 +491,7 @@ hr {
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(30, 64, 175, 0.55);
+    box-shadow: 0 8px 24px rgba(140, 21, 21, 0.55);
   }
 
   &.visible {
@@ -517,17 +517,17 @@ hr {
    Footer
    ================================================================ */
 .page__footer {
-  background: #1e293b;
+  background: #2E2D29;
   margin-top: 3em;
 
   footer {
-    color: #94a3b8;
+    color: #A39E94;
     font-size: 0.85rem;
     padding: 1.2em;
     text-align: center;
 
     a {
-      color: #93c5fd;
+      color: #E0A3A3;
       text-decoration: none;
       border-bottom: none;
 
@@ -571,20 +571,20 @@ hr {
 
 /* 1. Dot grid texture on page background */
 body {
-  background-image: radial-gradient(circle, #b8cce0 1px, transparent 1px);
+  background-image: radial-gradient(circle, #E0CFCF 1px, transparent 1px);
   background-size: 30px 30px;
 }
 
 /* 2. Hero gradient at top of main content card */
 .page {
   background:
-    linear-gradient(168deg, rgba(219,234,254,0.6) 0%, rgba(255,255,255,0) 280px),
+    linear-gradient(168deg, rgba(246,231,231,0.65) 0%, rgba(255,255,255,0) 280px),
     var(--surface);
 }
 
 /* 3. Gradient text for section headings */
 .page__content h1 {
-  background: linear-gradient(110deg, #1e3a8a 0%, #2563eb 50%, #0284c7 100%);
+  background: linear-gradient(110deg, #6F0E11 0%, #8C1515 50%, #B1040E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -598,7 +598,7 @@ body {
   &:hover {
     box-shadow: var(--shadow-md), inset 4px 0 0 var(--accent-2);
     transform: translateY(-3px);
-    border-color: #bfdbfe;
+    border-color: #E8C7C7;
   }
 }
 
@@ -611,7 +611,7 @@ body {
     border: 1px solid rgba(255,255,255,0.9);
     border-radius: 16px;
     padding: 1.5em 1.2em;
-    box-shadow: 0 4px 28px rgba(30,64,175,0.08), 0 1px 4px rgba(0,0,0,0.04);
+    box-shadow: 0 4px 28px rgba(140,21,21,0.08), 0 1px 4px rgba(0,0,0,0.04);
 
     &::before {
       content: '';
@@ -749,7 +749,7 @@ body {
   }
   50% {
     box-shadow: var(--shadow-md), inset 4px 0 0 var(--accent-2),
-                0 0 22px 5px rgba(56, 189, 248, 0.22);
+                0 0 22px 5px rgba(177, 4, 14, 0.20);
   }
 }
 

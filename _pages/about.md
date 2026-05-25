@@ -417,16 +417,16 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 <style>
 .jr-sub-title{font-size:1.05em;font-weight:700;color:#111827;margin:22px 0 4px;display:flex;align-items:center;gap:8px;}
-.jr-sub-title::before{content:'';display:inline-block;width:4px;height:16px;background:#3b82f6;border-radius:2px;flex-shrink:0;}
+.jr-sub-title::before{content:'';display:inline-block;width:4px;height:16px;background:#8C1515;border-radius:2px;flex-shrink:0;}
 .jr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin:12px 0 8px;}
 .jr-card{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:12px;background:#fff;border:1px solid #e5e7eb;box-shadow:0 1px 2px rgba(0,0,0,.04);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
-.jr-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(59,130,246,.12);border-color:#bfdbfe;}
-.jr-icon{flex-shrink:0;width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;align-items:center;justify-content:center;color:#2563eb;}
+.jr-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(140,21,21,.12);border-color:#E8C7C7;}
+.jr-icon{flex-shrink:0;width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#F6E7E7,#F0D2D2);display:flex;align-items:center;justify-content:center;color:#8C1515;}
 .jr-icon svg{width:22px;height:22px;}
 .jr-info{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;}
 .jr-name{font-size:1.0em;font-weight:600;color:#111827;line-height:1.3;}
 .jr-sub{font-size:.78em;color:#6b7280;}
-.jr-count{flex-shrink:0;display:inline-flex;align-items:baseline;gap:5px;padding:6px 12px;border-radius:999px;background:#eff6ff;border:1px solid #bfdbfe;color:#2563eb;font-weight:600;}
+.jr-count{flex-shrink:0;display:inline-flex;align-items:baseline;gap:5px;padding:6px 12px;border-radius:999px;background:#F6E7E7;border:1px solid #E8C7C7;color:#8C1515;font-weight:600;}
 .jr-count-num{font-size:1.05em;}
 .jr-count-text{font-size:.78em;}
 </style>
@@ -503,10 +503,10 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 # <span lang="en">📚 Reading List</span><span lang="zh">📚 阅读清单</span>
 
 <style>
-.book-shelf-intro{font-style:italic;color:#4b5563;font-size:1.02em;line-height:1.85;margin:0 0 32px;padding:14px 20px;border-left:4px solid #3b82f6;background:linear-gradient(90deg,rgba(59,130,246,.07),transparent);border-radius:0 8px 8px 0;}
+.book-shelf-intro{font-style:italic;color:#4b5563;font-size:1.02em;line-height:1.85;margin:0 0 32px;padding:14px 20px;border-left:4px solid #8C1515;background:linear-gradient(90deg,rgba(140,21,21,.06),transparent);border-radius:0 8px 8px 0;}
 .book-category{margin-bottom:40px;}
-.book-cat-label{font-size:.72em;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3b82f6;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #e5e7eb;display:flex;align-items:center;gap:8px;}
-.book-cat-label::before{content:'';display:inline-block;width:4px;height:15px;background:#3b82f6;border-radius:2px;flex-shrink:0;}
+.book-cat-label{font-size:.72em;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8C1515;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #e5e7eb;display:flex;align-items:center;gap:8px;}
+.book-cat-label::before{content:'';display:inline-block;width:4px;height:15px;background:#8C1515;border-radius:2px;flex-shrink:0;}
 .book-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:0;padding:0;}
 .book-card{border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.10),0 8px 28px rgba(0,0,0,.07);transition:transform .30s cubic-bezier(.22,.68,0,1.2),box-shadow .30s ease;background:#fff;display:flex;flex-direction:column;}
 .book-card:hover{transform:translateY(-10px) scale(1.018);box-shadow:0 8px 24px rgba(0,0,0,.15),0 24px 56px rgba(0,0,0,.12);}
@@ -519,7 +519,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 .book-title{font-size:.78em;font-weight:700;color:#111827;line-height:1.35;margin-bottom:3px;}
 .book-author{font-size:.70em;color:#6b7280;margin-bottom:7px;}
 .book-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto;}
-.book-tag{font-size:.60em;padding:2px 8px;border-radius:999px;background:#eff6ff;color:#2563eb;font-weight:500;white-space:nowrap;}
+.book-tag{font-size:.60em;padding:2px 8px;border-radius:999px;background:#F6E7E7;color:#8C1515;font-weight:500;white-space:nowrap;}
 @media(max-width:768px){.book-grid{grid-template-columns:repeat(3,1fr);gap:15px;}}
 @media(max-width:480px){.book-grid{grid-template-columns:repeat(2,1fr);gap:12px;}}
 </style>
