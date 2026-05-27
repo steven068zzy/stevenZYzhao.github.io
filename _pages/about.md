@@ -44,14 +44,21 @@ redirect_from:
 
 
 
-[Investigation of broiler preferences among non-perforated floor with different groove width using computer vision techniques]()
+A computer vision proxy for broiler distribution on a non-perforated grooved floor
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
 
 - <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
 
-[Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)]()
+<span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span>
+
+**Ziyuan Zhao**, Ziteng Xu<sup>*</sup>
+
+- <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
+
+
+Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)
 
 **Ziyuan Zhao**, Yu Wang, Jill Domel, Ziteng Xu<sup>*</sup>
 
@@ -59,7 +66,7 @@ redirect_from:
 
 
 
-[Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels]()
+Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels
 
 Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Athrey, Gregory Archer, Samson Oladokun, Sushil Paudyal, Kiju Lee, Ziteng Xu<sup>*</sup>
 
