@@ -44,16 +44,16 @@ redirect_from:
 
 
 
-A computer vision proxy for broiler distribution on a non-perforated grooved floor
+<span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
 
 - <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
 
-<span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span>
+A computer vision proxy for broiler distribution on a non-perforated grooved floor
 
-**Ziyuan Zhao**, Ziteng Xu<sup>*</sup>
+**Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
 
 - <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
