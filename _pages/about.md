@@ -581,7 +581,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 </div>
 
 <div class="book-category">
-<div class="book-cat-label"><span lang="en">Academic · 3</span><span lang="zh">学术 · 3</span></div>
+<div class="book-cat-label"><span lang="en">Academic · 4</span><span lang="zh">学术 · 4</span></div>
 <div class="book-grid">
 
 <div class="book-card">
@@ -606,6 +606,14 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 <div class="book-ph" style="background:linear-gradient(145deg,#1e293b,#475569);"><div class="book-ph-initial">SG</div><div class="book-ph-name">The Scientist's Guide to Writing</div></div>
 </div>
 <div class="book-meta"><div class="book-title">The Scientist's Guide to Writing</div><div class="book-author">Stephen B. Heard</div><div class="book-tags"><span class="book-tag"><span lang="en">Scientific Writing</span><span lang="zh">科学写作</span></span><span class="book-tag"><span lang="en">Communication</span><span lang="zh">沟通</span></span><span class="book-tag"><span lang="en">Research Career</span><span lang="zh">科研生涯</span></span></div></div>
+</div>
+
+<div class="book-card">
+<div class="book-cover-wrap">
+<img src="images/book-deep-learning-python.jpg" alt="Deep Learning with Python" loading="lazy" onerror="this.style.display='none'">
+<div class="book-ph" style="background:linear-gradient(145deg,#0a0a0a,#404040);"><div class="book-ph-initial">DL</div><div class="book-ph-name">Deep Learning with Python</div></div>
+</div>
+<div class="book-meta"><div class="book-title">Deep Learning with Python (3rd Edition)</div><div class="book-author">François Chollet &amp; Matthew Watson</div><div class="book-tags"><span class="book-tag"><span lang="en">Deep Learning</span><span lang="zh">深度学习</span></span><span class="book-tag"><span lang="en">Keras</span><span lang="zh">Keras</span></span><span class="book-tag"><span lang="en">Machine Learning</span><span lang="zh">机器学习</span></span></div></div>
 </div>
 
 </div>
