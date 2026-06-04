@@ -42,6 +42,11 @@ redirect_from:
 
 # <span lang="en">📝 Publications</span><span lang="zh">📝 论文成果</span>
 
+<p style="margin:6px 0 26px;padding:11px 18px;display:inline-block;border-radius:10px;background:#eff6ff;border:1px solid #bfdbfe;font-size:.92em;color:#1e3a8a;line-height:1.7;box-shadow:0 1px 2px rgba(37,99,235,.06);">
+  <span lang="en"><b style="color:#2563eb;font-size:1.1em;">†</b>&nbsp;Equal contribution&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#2563eb;font-size:1.1em;">*</b>&nbsp;Corresponding author</span>
+  <span lang="zh"><b style="color:#2563eb;font-size:1.1em;">†</b>&nbsp;同等贡献（并列作者）&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#2563eb;font-size:1.1em;">*</b>&nbsp;通讯作者</span>
+</p>
+
 
 
 <span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span>
@@ -127,7 +132,7 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 [Simulation analysis of spatial electromagnetic field of transformer core considering nonlinear B-H curve](https://ieeexplore.ieee.org/abstract/document/10076147)
 
-Xianwei Guo, Zhetao Huang, **Ziyuan Zhao<sup>*</sup>**
+Xianwei Guo<sup>†</sup>, Zhetao Huang<sup>†</sup>, **Ziyuan Zhao<sup>†*</sup>**
 
 - <span lang="en">This paper investigates the spatial electromagnetic field distribution of a transformer core considering the nonlinear B-H curve using a COMSOL-based E-type transformer model. The results show that magnetic saturation causes strong nonlinear field concentration in the central core, leading to excessive losses, current distortion, and rapid output current reduction, which may damage the transformer.</span><span lang="zh">本文基于 COMSOL 建立的 E 型变压器模型，在考虑非线性 B-H 曲线的条件下研究了变压器铁芯的空间电磁场分布。结果表明，磁饱和会在铁芯中心引起强烈的非线性场集中，进而导致过大的损耗、电流畸变以及输出电流的快速衰减，可能造成变压器损坏。</span>
 </div>
