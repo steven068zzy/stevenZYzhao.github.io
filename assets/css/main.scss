@@ -757,71 +757,20 @@ body {
   animation: glowPulse 2.6s ease-in-out infinite;
 }
 
-/* ── 4. Stats bar ── */
-.stats-bar {
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
-  flex-wrap: wrap;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.1em 1.5em;
-  margin: 1.2em 0 1.8em 0;
-  box-shadow: var(--shadow-sm);
-  position: relative;
-  overflow: hidden;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-    background: var(--grad-progress);
-    border-radius: var(--radius) var(--radius) 0 0;
-  }
-}
-
-.stat-item {
-  text-align: center;
-  min-width: 70px;
-  padding: 0 0.5em;
-}
-
-.stat-number {
-  display: block;
-  font-size: 1.75rem;
-  font-weight: 700;
-  line-height: 1.1;
-  background: linear-gradient(110deg, var(--accent-1), var(--accent-sky));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.stat-label {
-  display: block;
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  font-weight: 600;
-  margin-top: 0.25em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+/* ── Education school emblems ── */
+.edu-logo {
+  height: 1.6em;
+  width: 1.6em;
+  vertical-align: -0.45em;
+  margin-right: 0.4em;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .paper-box.sz-visible:hover {
     animation: none;
-  }
-
-  .stats-bar {
-    gap: 1em;
-    padding: 0.9em 1em;
-  }
-
-  .stat-number {
-    font-size: 1.4rem;
   }
 }
 
@@ -1029,10 +978,6 @@ html, body {
       width: 34px;
       height: 34px;
     }
-  }
-
-  .stat-number {
-    font-size: 1.2rem;
   }
 
   .badge {

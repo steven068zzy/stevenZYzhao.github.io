@@ -71,78 +71,6 @@
   }
 
   /* ================================================================
-     4. Stats counter bar
-     ================================================================ */
-  function countUp(el, target, duration) {
-    var startTime = null;
-    var suffix = target >= 100 ? '+' : '';
-    function step(ts) {
-      if (!startTime) startTime = ts;
-      var pct = Math.min((ts - startTime) / duration, 1);
-      el.textContent = Math.floor(pct * target) + suffix;
-      if (pct < 1) requestAnimationFrame(step);
-      else el.textContent = target + suffix;
-    }
-    requestAnimationFrame(step);
-  }
-
-  function initStatsBar() {
-    var educationsAnchor = document.getElementById('educations');
-    if (!educationsAnchor) return;
-
-    var bar = document.createElement('div');
-    bar.className = 'stats-bar';
-
-    var defs = [
-      { label: 'Publications', label_zh: '论文', id: 'stat-pub'        },
-      { label: 'Citations',    label_zh: '引用', id: 'stat-cite'        },
-      { label: 'Conferences',  label_zh: '会议', id: 'stat-conf'        },
-      { label: 'Internships',  label_zh: '实习', id: 'stat-intern'      },
-      { label: 'Awards',       label_zh: '奖项', id: 'stat-award'       },
-      { label: 'Scholarship',  label_zh: '奖学金', id: 'stat-scholarship' },
-    ];
-
-    defs.forEach(function (d) {
-      var item = document.createElement('div');
-      item.className = 'stat-item';
-      item.innerHTML =
-        '<span class="stat-number" id="' + d.id + '">—</span>' +
-        '<span class="stat-label">' +
-          '<span lang="en">' + d.label + '</span>' +
-          '<span lang="zh">' + d.label_zh + '</span>' +
-        '</span>';
-      bar.appendChild(item);
-    });
-
-    educationsAnchor.parentNode.insertBefore(bar, educationsAnchor);
-
-    var triggered = false;
-    var io = new IntersectionObserver(function (entries) {
-      if (triggered || !entries[0].isIntersecting) return;
-      triggered = true;
-      io.disconnect();
-
-      // Hardcoded values
-      var pubEl    = document.getElementById('stat-pub');
-      var citeEl   = document.getElementById('stat-cite');
-      var confEl   = document.getElementById('stat-conf');
-      var internEl = document.getElementById('stat-intern');
-      var awardEl  = document.getElementById('stat-award');
-
-      if (pubEl)    countUp(pubEl,    6, 1000);
-      if (citeEl)   countUp(citeEl,   6, 1000);
-      if (confEl)   countUp(confEl,   9, 1000);
-      if (internEl) countUp(internEl, 3, 1000);
-      if (awardEl)  countUp(awardEl,  7, 1000);
-
-      var scholarEl = document.getElementById('stat-scholarship');
-      if (scholarEl) scholarEl.textContent = '$22,400+';
-    }, { threshold: 0.2 });
-
-    io.observe(bar);
-  }
-
-  /* ================================================================
      Scroll handler
      ================================================================ */
   function onScroll() {
@@ -386,8 +314,7 @@
     buildNavMap();
     initFadeIn();
     injectPubStatus();
-    injectAwardStyle();  // must precede initStatsBar (award count)
-    initStatsBar();
+    injectAwardStyle();
     init3DTilt();
     initLangToggle();
     initCopyCitations();

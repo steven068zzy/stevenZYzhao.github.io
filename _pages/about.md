@@ -30,11 +30,11 @@ redirect_from:
 <span class='anchor' id='educations'></span>
 
 # <span lang="en">📖 Educations</span><span lang="zh">📖 教育经历</span>
-- <span lang="en">*Aug 2024 – Present*</span><span lang="zh">*2024年8月 – 至今*</span>. [Texas A&M University](https://www.tamu.edu/index.html), College Station, TX, USA
+- <span lang="en">*Aug 2024 – Present*</span><span lang="zh">*2024年8月 – 至今*</span>. <img src="images/tamu-seal.svg" alt="Texas A&M University seal" class="edu-logo">[Texas A&M University](https://www.tamu.edu/index.html), College Station, TX, USA
   - <span lang="en">Ph.D. in Poultry Science (Robotics Track)</span><span lang="zh">家禽科学博士（机器人方向）</span>
   - <span lang="en">Graduate Certificate in Entrepreneurship</span><span lang="zh">创业研究生证书</span>
 
-- <span lang="en">*Aug 2020 - Apr 2024*</span><span lang="zh">*2020年8月 - 2024年4月*</span>. [University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
+- <span lang="en">*Aug 2020 - Apr 2024*</span><span lang="zh">*2020年8月 - 2024年4月*</span>. <img src="images/udm-seal.svg" alt="University of Detroit Mercy seal" class="edu-logo">[University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
   - <span lang="en">B.E. in Robotics Engineering</span><span lang="zh">机器人工程学士</span>
 
 
