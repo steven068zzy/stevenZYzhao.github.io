@@ -247,12 +247,13 @@ body {
 
 .author__avatar img {
   border-radius: 50%;
-  border: 3px solid var(--accent-light);
-  box-shadow: 0 0 0 2px var(--accent-2), var(--shadow-md);
+  border: none;          /* removed the blue ring (border + box-shadow rings) */
+  padding: 0;            /* drop the theme's 5px frame so the photo is clean */
+  box-shadow: var(--shadow-md);
   transition: all 0.3s var(--ease);
 
   &:hover {
-    box-shadow: 0 0 0 3px var(--accent-1), var(--shadow-lg);
+    box-shadow: var(--shadow-lg);
     transform: scale(1.03);
   }
 }
