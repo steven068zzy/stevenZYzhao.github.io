@@ -774,13 +774,25 @@ body {
   }
 }
 
+/* ── Wider content area: reduce large left/right whitespace ──
+   The theme caps #main at 925px (then 1280px at the x-large breakpoint),
+   which leaves big side margins on wide screens. Let it grow wider. */
+@media (min-width: 925px) {
+  #main {
+    max-width: 1500px;
+  }
+}
+
 /* ================================================================
    MOBILE OPTIMIZATION — systematic improvements for small screens
    ================================================================ */
 
-/* ── 1. Prevent horizontal overflow ── */
+/* ── 1. Prevent horizontal overflow ──
+   Use `clip` (not `hidden`): it clips horizontal overflow WITHOUT turning
+   html/body into a scroll container, so `position: sticky` (left sidebar,
+   masthead) keeps working. `hidden` here would break the sticky sidebar. */
 html, body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @media (max-width: 767px) {
