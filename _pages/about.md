@@ -30,12 +30,58 @@ redirect_from:
 <span class='anchor' id='educations'></span>
 
 # <span lang="en">📖 Educations</span><span lang="zh">📖 教育经历</span>
-- <span lang="en">*Aug 2024 – Present*</span><span lang="zh">*2024年8月 – 至今*</span>. <img src="images/tamu-seal.svg" alt="Texas A&M University seal" class="edu-logo">[Texas A&M University](https://www.tamu.edu/index.html), College Station, TX, USA
-  - <span lang="en">Ph.D. in Poultry Science (Robotics Track)</span><span lang="zh">家禽科学博士（机器人方向）</span>
-  - <span lang="en">Graduate Certificate in Entrepreneurship</span><span lang="zh">创业研究生证书</span>
 
-- <span lang="en">*Aug 2020 - Apr 2024*</span><span lang="zh">*2020年8月 - 2024年4月*</span>. <img src="images/udm-seal.svg" alt="University of Detroit Mercy seal" class="edu-logo">[University of Detroit Mercy](https://www.udmercy.edu/), Detroit, MI, USA
-  - <span lang="en">B.E. in Robotics Engineering</span><span lang="zh">机器人工程学士</span>
+<style>
+/* Shared institution-logo card — used by Education and Internship,
+   so both sections share the same format and visual feel. */
+.cv-org-list{display:flex;flex-direction:column;gap:16px;margin:14px 0 8px;}
+.cv-org{display:flex;gap:22px;padding:18px 22px;border-radius:14px;background:#fff;border:1px solid #e5e7eb;box-shadow:0 1px 2px rgba(0,0,0,.05);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
+.cv-org:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(30,64,175,.10);border-color:#bfdbfe;}
+.cv-org--center{align-items:center;}
+.cv-org--top{align-items:flex-start;}
+.cv-logo{flex:0 0 auto;width:118px;height:118px;border-radius:14px;background:#fff;border:1px solid #eef2f7;box-shadow:0 2px 12px rgba(15,23,42,.07);display:flex;align-items:center;justify-content:center;padding:15px;}
+.cv-logo a{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border-bottom:none !important;background-image:none !important;}
+.cv-logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;}
+.cv-body{flex:1 1 auto;min-width:0;}
+.cv-title{font-size:1.16em;font-weight:700;color:#111827;line-height:1.3;}
+.cv-body .cv-title a{color:#111827 !important;border-bottom:none !important;background-image:none !important;}
+.cv-body .cv-title a:hover{color:#2563eb !important;}
+.cv-place{font-weight:500;color:#6b7280;font-size:.76em;white-space:nowrap;}
+.cv-role{color:#1f2937;font-weight:600;font-size:.96em;margin-top:5px;}
+.cv-sub{color:#374151;font-size:.92em;margin-top:3px;line-height:1.5;}
+.cv-date{display:inline-block;margin-top:9px;padding:.18em .72em;border-radius:6px;background:#eff6ff;border:1px solid #dbeafe;color:#1e40af;font-size:.75em;font-weight:600;}
+.cv-points{margin:9px 0 0;padding-left:1.15em;list-style:disc;}
+.cv-points li{color:#4b5563;font-size:.875em;line-height:1.62;margin:4px 0;}
+.cv-points strong{color:#1f2937;}
+.cv-points .cv-subpoints{margin:4px 0 2px;padding-left:1.1em;list-style:circle;}
+.cv-points .cv-subpoints li{font-size:.96em;margin:3px 0;}
+@media(max-width:600px){
+  .cv-org{gap:13px;padding:14px 15px;}
+  .cv-logo{width:80px;height:80px;border-radius:11px;padding:9px;}
+  .cv-title{font-size:1.04em;}
+  .cv-points li{font-size:.82em;}
+}
+</style>
+
+<div class="cv-org-list">
+  <div class="cv-org cv-org--center">
+    <div class="cv-logo"><a href="https://www.tamu.edu/index.html"><img src="images/tamu-seal.svg" alt="Texas A&amp;M University seal"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://www.tamu.edu/index.html">Texas A&amp;M University</a> <span class="cv-place">· College Station, TX, USA</span></div>
+      <div class="cv-sub"><span lang="en">Ph.D. in Poultry Science (Robotics Track)</span><span lang="zh">家禽科学博士（机器人方向）</span></div>
+      <div class="cv-sub"><span lang="en">Graduate Certificate in Entrepreneurship</span><span lang="zh">创业研究生证书</span></div>
+      <span class="cv-date"><span lang="en">Aug 2024 – Present</span><span lang="zh">2024年8月 – 至今</span></span>
+    </div>
+  </div>
+  <div class="cv-org cv-org--center">
+    <div class="cv-logo"><a href="https://www.udmercy.edu/"><img src="images/udm-seal.svg" alt="University of Detroit Mercy seal"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://www.udmercy.edu/">University of Detroit Mercy</a> <span class="cv-place">· Detroit, MI, USA</span></div>
+      <div class="cv-sub"><span lang="en">B.E. in Robotics Engineering</span><span lang="zh">机器人工程学士</span></div>
+      <span class="cv-date"><span lang="en">Aug 2020 – Apr 2024</span><span lang="zh">2020年8月 – 2024年4月</span></span>
+    </div>
+  </div>
+</div>
 
 
 <span class='anchor' id='publications'></span>
@@ -190,65 +236,54 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 # <span lang="en">💻 Internship Experiences</span><span lang="zh">💻 实习经历</span>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/Ford.jpg' alt="sym" width="100%">
-      <img src='images/FORD.png' alt="sym" width="100%">
+<div class="cv-org-list">
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><a href="https://corporate.ford.com/operations/locations.html"><img src="images/logo-ford.png" alt="Ford Motor Company logo"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://corporate.ford.com/operations/locations.html">Ford <span lang="en">(Global Headquarters)</span><span lang="zh">（全球总部）</span></a> <span class="cv-place">· Dearborn, MI, USA</span></div>
+      <div class="cv-role"><span lang="en">Research Engineer Intern (Control Algorithm Focus)</span><span lang="zh">研究工程师实习生（聚焦控制算法）</span></div>
+      <span class="cv-date"><span lang="en">May 2024 – Aug 2024</span><span lang="zh">2024年5月 – 2024年8月</span></span>
+      <div class="cv-sub"><span lang="en">Developed next-generation active suspension system for vehicles, including the F-150 and Lincoln.</span><span lang="zh">为 F-150 与 Lincoln 等车型开发下一代主动悬架系统。</span></div>
+      <ul class="cv-points">
+        <li><span lang="en">Built 1/4 car, half-car, and full-car models in MATLAB to support control algorithm development.</span><span lang="zh">在 MATLAB 中搭建 1/4 车、半车与整车模型，以支撑控制算法开发。</span></li>
+        <li><span lang="en">Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant performance improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.</span><span lang="zh">设计并实现多输入 PID 与 LQR 控制器，对纵向加速度、俯仰角和侧倾角进行调节。性能显著提升：纵向加速度 RMS 降低 77%，俯仰角 RMS 降低 69%，侧倾角 RMS 降低 58%。</span></li>
+        <li><span lang="en">Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under $4,000.</span><span lang="zh">将能耗控制在 2 kW 以内，并初步将单车实施成本压降至 4,000 美元以下。</span></li>
+      </ul>
     </div>
   </div>
-<div class='paper-box-text' markdown="1">
-
-- <span lang="en">*May 2024 - Aug 2024*</span><span lang="zh">*2024年5月 - 2024年8月*</span>, [Ford(Global Headquarters)](https://corporate.ford.com/operations/locations.html), Dearborn, MI, USA  
-  <span lang="en">**Research Engineer Intern (Control Algorithm Focus)**</span><span lang="zh">**研究工程师实习生（聚焦控制算法）**</span>
-- <span lang="en">Developed next-generation active suspension system for vehicles, including the F-150 and Lincoln</span><span lang="zh">为 F-150 与 Lincoln 等车型开发下一代主动悬架系统</span>
-  - <span lang="en">Built 1/4 car, half-car, and full-car models in MATLAB to support control algorithm development.</span><span lang="zh">在 MATLAB 中搭建 1/4 车、半车与整车模型，以支撑控制算法开发。</span>
-  - <span lang="en">Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant performance improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.</span><span lang="zh">设计并实现多输入 PID 与 LQR 控制器，对纵向加速度、俯仰角和侧倾角进行调节。性能显著提升：纵向加速度 RMS 降低 77%，俯仰角 RMS 降低 69%，侧倾角 RMS 降低 58%。</span>
-  - <span lang="en">Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under $4,000.</span><span lang="zh">将能耗控制在 2 kW 以内，并初步将单车实施成本压降至 4,000 美元以下。</span>
-  
-</div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/VISOR.png' alt="sym" width="100%">
-      <img src='images/VISIOR.gif' alt="sym" width="100%">
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><a href="https://english.siat.ac.cn/"><img src="images/logo-cas.png" alt="Chinese Academy of Sciences seal"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://english.siat.ac.cn/">Chinese Academy of Sciences <span lang="en">(SIAT)</span><span lang="zh">（深圳先进技术研究院）</span></a> <span class="cv-place">· Shenzhen, Guangdong, CN</span></div>
+      <div class="cv-role"><span lang="en">Automation Engineer Intern</span><span lang="zh">自动化工程师实习生</span></div>
+      <span class="cv-date"><span lang="en">May 2023 – Aug 2023</span><span lang="zh">2023年5月 – 2023年8月</span></span>
+      <ul class="cv-points">
+        <li><strong><span lang="en">Design and Implementation of High-Throughput Imaging System</span><span lang="zh">高通量成像系统的设计与实现</span></strong>
+          <ul class="cv-subpoints">
+            <li><span lang="en">Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with brain imaging.</span><span lang="zh">将 VISoR 系统的固定底座重新设计为旋转底座，显著降低脑成像工作中的人工与时间成本。</span></li>
+          </ul>
+        </li>
+        <li><strong><span lang="en">TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments</span><span lang="zh">面向小鼠与猴脑实验的 TM4C 全自动液体交换系统</span></strong>
+          <ul class="cv-subpoints">
+            <li><span lang="en">Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.</span><span lang="zh">设计并搭建集成 TM4C 微控制器的专用硬件平台，实现流体的无缝切换；编写程序对液体交换进行精确时序控制，保证实验条件的稳定与精准。</span></li>
+            <li><span lang="en">Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.</span><span lang="zh">开发了直观的用户界面，便于研究人员配置实验、设定参数并监控进度。</span></li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
-<div class='paper-box-text' markdown="1">
-
-- <span lang="en">*May 2023 - Aug 2023*</span><span lang="zh">*2023年5月 - 2023年8月*</span>, [Chinese Academy of Science](https://english.siat.ac.cn/), Shenzhen, Guangdong, CN  
-  <span lang="en">**Automation Engineer Intern**</span><span lang="zh">**自动化工程师实习生**</span>
-- <span lang="en">Design and Implementation of High-Throughput Imaging System</span><span lang="zh">高通量成像系统的设计与实现</span>
-  - <span lang="en">Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with brain imaging.</span><span lang="zh">将 VISoR 系统的固定底座重新设计为旋转底座，显著降低脑成像工作中的人工与时间成本。</span>
-
-- <span lang="en">TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments</span><span lang="zh">面向小鼠与猴脑实验的 TM4C 全自动液体交换系统</span>
-  - <span lang="en">Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.</span><span lang="zh">设计并搭建集成 TM4C 微控制器的专用硬件平台，实现流体的无缝切换；编写程序对液体交换进行精确时序控制，保证实验条件的稳定与精准。</span>
-  - <span lang="en">Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.</span><span lang="zh">开发了直观的用户界面，便于研究人员配置实验、设定参数并监控进度。</span>
-
-</div>
-</div>
-
-
-
-<div class='paper-box'>
-    <div class='paper-box-image'>
-    <div>
-      <img src='images/nanyang2.png' alt="sym" width="100%">
-      <img src='images/nanyang.png' alt="sym" width="100%">
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><a href="https://www.ntu.edu.sg/"><img src="images/logo-ntu.png" alt="Nanyang Technological University coat of arms"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://www.ntu.edu.sg/">Nanyang Technological University</a> <span class="cv-place">· Singapore</span></div>
+      <div class="cv-role"><span lang="en">AI Intern</span><span lang="zh">人工智能实习生</span></div>
+      <span class="cv-date"><span lang="en">Jan 2021 – Feb 2021</span><span lang="zh">2021年1月 – 2021年2月</span></span>
+      <ul class="cv-points">
+        <li><span lang="en">Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.</span><span lang="zh">参与多个人工智能项目，重点开发与优化一种皮肤癌分类模型。基于卷积神经网络（CNN）与 WEKA 工具，对 Kaggle 上 ISIC Archive 数据集中 1800 张良性与 1497 张恶性皮肤癌图像进行预处理与分类，经过多轮模型实验，分类准确率达到 86%。</span></li>
+        <li><span lang="en">Main tasks included data preprocessing, model configuration, and data augmentation. By converting images into 224x224 pixel RGB format and performing data augmentation operations such as horizontal flipping and vertical shifting, I significantly improved model accuracy. We experimented with configurations ranging from 1 to 5 convolutional layers and resolved overfitting issues by adding Dropout layers and L2 regularization.</span><span lang="zh">主要工作包括数据预处理、模型配置与数据增强：将图像转换为 224×224 像素 RGB 格式，并通过水平翻转、垂直平移等数据增强手段显著提升了模型精度。我们测试了 1 到 5 层卷积层的多种结构，并通过加入 Dropout 层与 L2 正则化有效缓解了过拟合问题。</span></li>
+      </ul>
     </div>
   </div>
-<div class='paper-box-text' markdown="1">
-
-- <span lang="en">*Jan 2021 - Feb 2021*</span><span lang="zh">*2021年1月 - 2021年2月*</span>, [Nanyang Technological University Singapore](https://www.ntu.edu.sg/), Singapore 
-  <span lang="en">**AI Intern**</span><span lang="zh">**人工智能实习生**</span>
-
-  - <span lang="en">Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.</span><span lang="zh">参与多个人工智能项目，重点开发与优化一种皮肤癌分类模型。基于卷积神经网络（CNN）与 WEKA 工具，对 Kaggle 上 ISIC Archive 数据集中 1800 张良性与 1497 张恶性皮肤癌图像进行预处理与分类，经过多轮模型实验，分类准确率达到 86%。</span>
-
-  - <span lang="en">Main tasks included data preprocessing, model configuration, and data augmentation. By converting images into 224x224 pixel RGB format and performing data augmentation operations such as horizontal flipping and vertical shifting, I significantly improved model accuracy. We experimented with configurations ranging from 1 to 5 convolutional layers and resolved overfitting issues by adding Dropout layers and L2 regularization.</span><span lang="zh">主要工作包括数据预处理、模型配置与数据增强：将图像转换为 224×224 像素 RGB 格式，并通过水平翻转、垂直平移等数据增强手段显著提升了模型精度。我们测试了 1 到 5 层卷积层的多种结构，并通过加入 Dropout 层与 L2 正则化有效缓解了过拟合问题。</span>
-
-</div>
 </div>
 
 <span class='anchor' id='selected-projects'></span>

@@ -772,16 +772,6 @@ body {
   animation: glowPulse 2.6s ease-in-out infinite;
 }
 
-/* ── Education school emblems ── */
-.edu-logo {
-  height: 1.6em;
-  width: 1.6em;
-  vertical-align: -0.45em;
-  margin-right: 0.4em;
-  object-fit: contain;
-  border-radius: 50%;
-}
-
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .paper-box.sz-visible:hover {
@@ -1122,4 +1112,37 @@ html, body {
   .toast { transition: opacity 0.01ms; transform: none; }
   .toast--show { transform: translate(-50%, 0); }
   .copy-cite { transform: none; }
+}
+
+/* ================================================================
+   Author profile — dial the headshot back down a bit and scale the
+   text under it to match.  The earlier "larger photo column" change
+   set the avatar to 240px; bring it to 200px (a moderate reduction,
+   still prominent) and shrink the name / bio / links by the same
+   ~0.83x ratio so the sidebar stays balanced.  All other sidebar
+   work (no ring, sticky column, wider content) is left untouched.
+   ================================================================ */
+.author__avatar img {
+  max-width: 200px;          /* was 240px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar .author__name {
+  font-size: 1.0em;          /* was $type-size-4 (1.2em) */
+}
+
+@include breakpoint($medium) {
+  .sidebar .author__name {
+    font-size: 1.16em;       /* was $type-size-3 (1.4em) */
+  }
+}
+
+.author__bio {
+  font-size: 0.72rem;        /* was 0.84rem */
+}
+
+.author__urls a,
+.author__urls li.no-url {
+  font-size: 0.84em;         /* was $type-size-5 (1em) */
 }
