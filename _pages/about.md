@@ -122,7 +122,7 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">AgriEngineering 2026</div>
+      <div class="badge">AgriEngineering</div>
       <img src='images/wb_review.png' alt="sym" width="100%">
     </div>
   </div>
