@@ -109,20 +109,32 @@ A computer vision proxy for broiler distribution on a non-perforated grooved flo
 - <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
 
-Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)
-
-**Ziyuan Zhao**, Yu Wang, Jill Domel, Ziteng Xu<sup>*</sup>
-
-- <span lang="en">Under Review</span><span lang="zh">审稿中</span>
-
-
-
 Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels
 
 Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Athrey, Gregory Archer, Samson Oladokun, Sushil Paudyal, Kiju Lee, Ziteng Xu<sup>*</sup>
 
 - <span lang="en">Under Review</span><span lang="zh">审稿中</span>
 
+
+
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">AgriEngineering 2026</div>
+      <img src='images/wb_review.png' alt="sym" width="100%">
+    </div>
+  </div>
+<div class='paper-box-text' markdown="1">
+
+Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)
+
+**Ziyuan Zhao**, Yu Wang, Jill Domel, Ziteng Xu<sup>*</sup>
+
+- <span lang="en"><b>Accepted, AgriEngineering.</b> This review summarizes recent progress in woody breast (WB) detection technologies reported from 2020 to early 2026 across three main areas: physical and mechanical measurements, biochemical and physiological indicators, and imaging- and artificial-intelligence-based approaches. Physical methods provide relatively interpretable measures of tissue properties, including stiffness, electrical behavior, and water mobility. Biochemical and physiological approaches offer greater insight into the mechanisms underlying WB development and may support earlier prediction, although their routine application remains limited. Imaging and AI-based methods appear to be the most scalable options for automated assessment, but their performance is still constrained by limited datasets and imperfect reference standards.</span><span lang="zh"><b>已被 AgriEngineering 接收。</b>本综述系统梳理了 2020 年至 2026 年初 Woody Breast（WB，木质化胸肌）检测技术在三大方向上的最新进展：物理与机械测量、生化与生理指标，以及基于成像与人工智能的方法。物理方法可对组织特性给出相对可解释的度量，涵盖硬度、电学行为与水分迁移性。生化与生理方法有助于更深入地揭示 WB 发生的内在机制，并可能支持更早期的预测，但其常规应用仍较为有限。成像与人工智能方法被认为是实现自动化评估最具可扩展性的途径，但其性能仍受限于有限的数据集与不完善的参考标准。</span>
+</div>
+</div>
 
 
 
