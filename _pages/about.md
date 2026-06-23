@@ -93,6 +93,18 @@ redirect_from:
   <span lang="zh"><b style="color:#2563eb;font-size:1.1em;">†</b>&nbsp;同等贡献（并列作者）&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#2563eb;font-size:1.1em;">*</b>&nbsp;通讯作者</span>
 </p>
 
+<style>
+/* Citation-count pill for published papers — static snapshot from Google Scholar. */
+.cite-badge{
+  display:inline-block;margin:7px 0 1px;padding:.24em .74em;border-radius:999px;
+  background:#ecfdf5;border:1px solid #a7f3d0;color:#047857 !important;
+  font-size:.74em;font-weight:700;line-height:1.3;letter-spacing:.01em;vertical-align:middle;
+  text-decoration:none !important;border-bottom:none !important;background-image:none !important;
+  transition:transform .2s ease,box-shadow .2s ease,background .2s ease;
+}
+.cite-badge:hover{transform:translateY(-1px);box-shadow:0 4px 13px rgba(5,150,105,.2);background:#d1fae5;color:#047857 !important;}
+</style>
+
 
 
 <span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span>
@@ -152,6 +164,8 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 **Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
 
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 1</span><span lang="zh">被引 1 次</span></a>
+
 - <span lang="en">In this study, we bridge mechanical beam buckling theory and poultry meat quality evaluation by introducing a monofilament needle-based approach with high accuracy.</span><span lang="zh">本研究将机械梁屈曲理论与家禽肉质评价相结合，提出了一种基于单丝针的高精度 Woody Breast 检测方法。</span>
 </div>
 </div>
@@ -174,6 +188,8 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 **Ziyuan Zhao**, Amna Mazen, Youssef Bazzi<sup>*</sup>, Bingyi Wang, Sushuang Li
 
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 2</span><span lang="zh">被引 2 次</span></a>
+
 - <span lang="en">This paper presents an integrated intelligent warehouse robot system that combines computer vision, robotic manipulation, and autonomous navigation to perform box classification, sorting, and transportation. Using YOLOv5 and a Kinect camera, the system classifies boxes by size, while a WidowX robotic arm handles pick-and-place operations and a Pioneer P3-DX mobile robot with LiDAR navigates to designated storage areas. Experimental results in a simulated warehouse demonstrate reliable detection, obstacle avoidance, and precise placement, showing the system’s potential to improve warehouse efficiency and automation.</span><span lang="zh">本文提出了一套融合计算机视觉、机械臂操作与自主导航的智能仓储机器人系统，可完成货箱的分类、分拣与搬运。系统采用 YOLOv5 与 Kinect 相机按尺寸对货箱进行分类，由 WidowX 机械臂执行抓取与放置，并由搭载 LiDAR 的 Pioneer P3-DX 移动机器人导航至指定货位。仿真仓库的实验结果验证了系统在目标检测、避障与精确放置方面的可靠性，展示了其在提升仓储效率与自动化水平方面的应用潜力。</span>
 </div>
 </div>
@@ -192,6 +208,8 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 Xianwei Guo<sup>†</sup>, Zhetao Huang<sup>†</sup>, **Ziyuan Zhao<sup>†*</sup>**
 
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 3</span><span lang="zh">被引 3 次</span></a>
+
 - <span lang="en">This paper investigates the spatial electromagnetic field distribution of a transformer core considering the nonlinear B-H curve using a COMSOL-based E-type transformer model. The results show that magnetic saturation causes strong nonlinear field concentration in the central core, leading to excessive losses, current distortion, and rapid output current reduction, which may damage the transformer.</span><span lang="zh">本文基于 COMSOL 建立的 E 型变压器模型，在考虑非线性 B-H 曲线的条件下研究了变压器铁芯的空间电磁场分布。结果表明，磁饱和会在铁芯中心引起强烈的非线性场集中，进而导致过大的损耗、电流畸变以及输出电流的快速衰减，可能造成变压器损坏。</span>
 </div>
 </div>
@@ -208,6 +226,8 @@ Xianwei Guo<sup>†</sup>, Zhetao Huang<sup>†</sup>, **Ziyuan Zhao<sup>†*</s
 [Evaluate changes in respiratory rate of lateral lying sows around onset of parturition using depth camera](https://www.sciencedirect.com/science/article/pii/S2772283X25007654)
 
 Yu Wang, Siya Chen, **Ziyuan Zhao**, Jianfeng Zhou, Timothy Safranski, Jeffrey Wiegert, Ziteng Xu<sup>*</sup>
+
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 1</span><span lang="zh">被引 1 次</span></a>
 
 - <span lang="en">Monitoring sow’s respiratory rate (RR) is important for predicting the onset of parturition. This study proposes a non-contact method for RR monitoring in lateral lying (LL) sows using depth camera. The pipeline is composed of several deep-learning modules. A posture recognition model was trained to identify lateral lying sows. RR is evaluated based on the changes in average pixel intensity of the grayscale depth video within a fixed bounding box near the sow’s abdomen region. Two sows were evaluated in this study. Noticeable increases in daily activity level and respiratory rate were observed before the onset of parturition.</span><span lang="zh">监测母猪呼吸频率（RR）对于预测分娩起始具有重要意义。本研究提出了一种基于深度相机的非接触式方法，用于侧卧（LL）母猪的呼吸频率监测。整体流程由多个深度学习模块组成：训练一个姿态识别模型以识别侧卧母猪；在母猪腹部区域设置固定边界框，通过分析灰度深度视频在该框内平均像素强度的变化来估计 RR。研究对两头母猪进行了评估，在分娩起始前观察到日活动量和呼吸频率均明显升高。</span>
 </div>
