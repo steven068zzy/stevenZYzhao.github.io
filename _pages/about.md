@@ -327,7 +327,6 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <img src='images/PoultryTrack_cover.jpg' alt="PoultryTrack cover" width="100%" style="border-radius:6px; margin-bottom:8px;">
       <video width="100%" autoplay muted loop playsinline controls style="border-radius:6px;">
         <source src='images/PoultryTrack_Video.mov' type='video/mp4'>
       </video>
