@@ -128,7 +128,7 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
   </div>
 <div class='paper-box-text' markdown="1">
 
-Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)
+[Recent Advances in Woody Breast Detection: From Physical Sensing to Biochemical Markers and Imaging AI (2020-2026)](https://www.mdpi.com/2624-7402/8/6/250)
 
 **Ziyuan Zhao**, Yu Wang, Jill Domel, Ziteng Xu<sup>*</sup>
 
