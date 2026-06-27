@@ -481,7 +481,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
   </div>
 <div class='paper-box-text' markdown="1">
 
-- <span lang="en">**Design of Automatic Fruit Picker for Cherry Tomatoes**</span><span lang="zh">**圣女果自动采摘装置液压系统设计**</span>
+- <span lang="en">**Hydraulic Transmission Design of a Multi-legged Spider Robot**</span><span lang="zh">**多足蛛型机器人液压传动设计**</span>
   - <span lang="en">Defined design requirements, analyzed working conditions, and selected hydraulic components.</span><span lang="zh">明确设计需求、分析工作工况，并选型相应的液压元件。</span>
   - <span lang="en">Based on the selected hydraulic components, such as relief valves, directional control valves, flow control valves, etc., create a three-dimensional valve plate model using SolidWorks. Additionally, generated detailed two-dimensional valve plate sectional views and assembly drawings through CAD.</span><span lang="zh">基于所选液压元件（如溢流阀、换向阀、节流阀等），在 SolidWorks 中建立阀板的三维模型，并通过 CAD 绘制详细的二维阀板剖视图与装配图。</span>
     
