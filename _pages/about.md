@@ -114,7 +114,7 @@ redirect_from:
 - <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
 
-A computer vision proxy for broiler distribution on a non-perforated grooved floor
+Computer vision-based evaluation of broiler spatial distribution and groove-width preference on a novel non-perforated grooved flooring system
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
 
