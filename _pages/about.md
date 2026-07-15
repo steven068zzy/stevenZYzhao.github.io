@@ -118,7 +118,7 @@ Computer vision-based evaluation of broiler spatial distribution and groove-widt
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Kiju Lee, Giridhar Athrey, Gregory Archer, Morgan Farnell, Ziteng Xu<sup>*</sup>
 
-- <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
+- <span lang="en">Under Review</span><span lang="zh">审稿中</span>
 
 
 <span lang="en">Effect of Different Groove Widths in a Non-Perforated Flooring System with Periodical Feces Removal for Rearing Broiler Chickens: Pilot Study Part 1 — Welfare and Productivity Analysis</span><span lang="zh">非穿孔地板系统中不同凹槽宽度结合定期粪便清除对肉鸡饲养的影响：初步研究（第一部分）——福利与生产性能分析</span>
