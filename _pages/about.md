@@ -113,6 +113,11 @@ redirect_from:
 .proc-badge{background:#fffbeb;border:1px solid #fde68a;color:#b45309 !important;}
 </style>
 
+<p style="margin:0 0 26px;font-size:.92em;line-height:1.9;">
+  <span lang="en">Review status of published works:&nbsp;&nbsp;</span><span lang="zh">已发表成果的评审类型：&nbsp;&nbsp;</span>
+  <span class="review-badge"><span lang="en">Peer-Reviewed ×5</span><span lang="zh">同行评审 ×5</span></span>
+  <span class="proc-badge"><span lang="en">Conference Proceeding ×2</span><span lang="zh">会议论文集 ×2</span></span>
+</p>
 
 
 <span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span>
@@ -159,7 +164,6 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 **Ziyuan Zhao**, Yu Wang, Jill Domel, Ziteng Xu<sup>*</sup>
 
-<span class="review-badge"><span lang="en">Peer-Reviewed</span><span lang="zh">同行评审</span></span>
 
 - <span lang="en">A review of woody breast (WB) detection from 2020 to early 2026 across three areas: physical and mechanical measurements, biochemical and physiological indicators, and imaging- and AI-based approaches. Physical methods give interpretable measures of tissue properties such as stiffness, electrical behavior, and water mobility. Biochemical markers reveal the mechanisms behind WB and may enable earlier prediction, though routine use remains limited. Imaging and AI methods are the most scalable for automated assessment, but are still constrained by small datasets and imperfect reference standards.</span><span lang="zh">本综述梳理了 2020 年至 2026 年初 Woody Breast（WB，木质化胸肌）检测的三大方向：物理与机械测量、生化与生理指标，以及基于成像与人工智能的方法。物理方法能对硬度、电学行为、水分迁移性等组织特性给出可解释的度量。生化标志物揭示 WB 的发生机制，有望支持更早期预测，但常规应用仍有限。成像与人工智能方法最具自动化评估的可扩展性，但仍受限于较小的数据集与不完善的参考标准。</span>
 </div>
@@ -181,7 +185,7 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 **Ziyuan Zhao**, Yu Wang, Charles Villegas, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Dan Feng<sup>*</sup>, Ziteng Xu<sup>*</sup>
 
-<span class="review-badge"><span lang="en">Peer-Reviewed</span><span lang="zh">同行评审</span></span><a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 1</span><span lang="zh">被引 1 次</span></a>
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 1</span><span lang="zh">被引 1 次</span></a>
 
 - <span lang="en">In this study, we bridge mechanical beam buckling theory and poultry meat quality evaluation by introducing a monofilament needle-based approach with high accuracy.</span><span lang="zh">本研究将机械梁屈曲理论与家禽肉质评价相结合，提出了一种基于单丝针的高精度 Woody Breast 检测方法。</span>
 </div>
@@ -205,7 +209,7 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 **Ziyuan Zhao**, Amna Mazen, Youssef Bazzi<sup>*</sup>, Bingyi Wang, Sushuang Li
 
-<span class="review-badge"><span lang="en">Peer-Reviewed</span><span lang="zh">同行评审</span></span><a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 2</span><span lang="zh">被引 2 次</span></a>
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 2</span><span lang="zh">被引 2 次</span></a>
 
 - <span lang="en">This paper presents an integrated intelligent warehouse robot system that combines computer vision, robotic manipulation, and autonomous navigation to perform box classification, sorting, and transportation. Using YOLOv5 and a Kinect camera, the system classifies boxes by size, while a WidowX robotic arm handles pick-and-place operations and a Pioneer P3-DX mobile robot with LiDAR navigates to designated storage areas. Experimental results in a simulated warehouse demonstrate reliable detection, obstacle avoidance, and precise placement, showing the system’s potential to improve warehouse efficiency and automation.</span><span lang="zh">本文提出了一套融合计算机视觉、机械臂操作与自主导航的智能仓储机器人系统，可完成货箱的分类、分拣与搬运。系统采用 YOLOv5 与 Kinect 相机按尺寸对货箱进行分类，由 WidowX 机械臂执行抓取与放置，并由搭载 LiDAR 的 Pioneer P3-DX 移动机器人导航至指定货位。仿真仓库的实验结果验证了系统在目标检测、避障与精确放置方面的可靠性，展示了其在提升仓储效率与自动化水平方面的应用潜力。</span>
 </div>
@@ -225,7 +229,7 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Ath
 
 Xianwei Guo<sup>†</sup>, Zhetao Huang<sup>†</sup>, **Ziyuan Zhao<sup>†*</sup>**
 
-<span class="review-badge"><span lang="en">Peer-Reviewed</span><span lang="zh">同行评审</span></span><a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 3</span><span lang="zh">被引 3 次</span></a>
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 3</span><span lang="zh">被引 3 次</span></a>
 
 - <span lang="en">This paper investigates the spatial electromagnetic field distribution of a transformer core considering the nonlinear B-H curve using a COMSOL-based E-type transformer model. The results show that magnetic saturation causes strong nonlinear field concentration in the central core, leading to excessive losses, current distortion, and rapid output current reduction, which may damage the transformer.</span><span lang="zh">本文基于 COMSOL 建立的 E 型变压器模型，在考虑非线性 B-H 曲线的条件下研究了变压器铁芯的空间电磁场分布。结果表明，磁饱和会在铁芯中心引起强烈的非线性场集中，进而导致过大的损耗、电流畸变以及输出电流的快速衰减，可能造成变压器损坏。</span>
 </div>
@@ -244,7 +248,7 @@ Xianwei Guo<sup>†</sup>, Zhetao Huang<sup>†</sup>, **Ziyuan Zhao<sup>†*</s
 
 Yu Wang, Siya Chen, **Ziyuan Zhao**, Jianfeng Zhou, Timothy Safranski, Jeffrey Wiegert, Ziteng Xu<sup>*</sup>
 
-<span class="proc-badge"><span lang="en">Conference Proceeding</span><span lang="zh">会议论文集</span></span><a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 1</span><span lang="zh">被引 1 次</span></a>
+<a class="cite-badge" href="https://scholar.google.com/citations?user=pN4O3wsAAAAJ&hl=en" target="_blank" rel="noopener"><span lang="en">Cited by 1</span><span lang="zh">被引 1 次</span></a>
 
 - <span lang="en">Monitoring sow’s respiratory rate (RR) is important for predicting the onset of parturition. This study proposes a non-contact method for RR monitoring in lateral lying (LL) sows using depth camera. The pipeline is composed of several deep-learning modules. A posture recognition model was trained to identify lateral lying sows. RR is evaluated based on the changes in average pixel intensity of the grayscale depth video within a fixed bounding box near the sow’s abdomen region. Two sows were evaluated in this study. Noticeable increases in daily activity level and respiratory rate were observed before the onset of parturition.</span><span lang="zh">监测母猪呼吸频率（RR）对于预测分娩起始具有重要意义。本研究提出了一种基于深度相机的非接触式方法，用于侧卧（LL）母猪的呼吸频率监测。整体流程由多个深度学习模块组成：训练一个姿态识别模型以识别侧卧母猪；在母猪腹部区域设置固定边界框，通过分析灰度深度视频在该框内平均像素强度的变化来估计 RR。研究对两头母猪进行了评估，在分娩起始前观察到日活动量和呼吸频率均明显升高。</span>
 </div>
@@ -259,7 +263,6 @@ Yu Wang, Siya Chen, **Ziyuan Zhao**, Jianfeng Zhou, Timothy Safranski, Jeffrey W
 
 Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, Ziteng Xu<sup>*</sup>
 
-<span class="proc-badge"><span lang="en">Conference Proceeding</span><span lang="zh">会议论文集</span></span>
 
 - <span lang="en">A mobile platform equipped with an electric cylindrical brush was developed to evaluate the efficiency of manure removal from grooved f loor panels designed for free-range broiler production. The panels were placed beneath 20-week-old caged layers to collect manure samples. An Intel L515 LiDAR camera was used to measure manure volume before and after compression. Cleaning efficiency was assessed under various load conditions, and the relationship between manure weight and volume was analyzed. The results demonstrated that manure can be effectively removed and manure weight can be accurately estimated, which offers a potential method for determining the number of live birds per cage in caged systems.</span><span lang="zh">本研究开发了一套搭载电动圆柱刷的移动平台，用于评估面向放养肉鸡生产设计的开槽地板的粪便清除效率。将开槽地板放置于 20 周龄笼养蛋鸡下方以收集粪便样本，采用 Intel L515 LiDAR 相机测量压实前后的粪便体积。研究在不同负载条件下评估了清扫效率，并分析了粪便重量与体积之间的关系。结果表明，粪便可被有效清除且粪重可被准确估计，为笼养系统中按笼计数活禽提供了一种可行方法。</span>
 </div>
@@ -278,7 +281,6 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 **Ziyuan Zhao<sup>*</sup>**, Shougan Ye
 
-<span class="review-badge"><span lang="en">Peer-Reviewed</span><span lang="zh">同行评审</span></span>
 
 - <span lang="en">This paper studies ethanol-to-C4 olefin preparation by analyzing the effects of catalyst combinations and temperature on conversion and selectivity. Linear and nonlinear regression models solved with MATLAB and SPSS reveal functional relationships, enabling trend prediction and offering insights for catalyst-driven chemical processes.</span><span lang="zh">本文研究乙醇制 C4 烯烃的制备过程，分析催化剂组合与温度对转化率和选择性的影响。借助 MATLAB 与 SPSS 求解线性与非线性回归模型，揭示其函数关系，从而实现趋势预测，并为催化驱动的化学过程提供参考。</span>
 </div>
