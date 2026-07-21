@@ -155,11 +155,6 @@ redirect_from:
 
 # <span lang="en">📝 Publications</span><span lang="zh">📝 论文成果</span>
 
-<p style="margin:6px 0 26px;padding:11px 18px;display:inline-block;border-radius:10px;background:#eff6ff;border:1px solid #bfdbfe;font-size:.92em;color:#1e3a8a;line-height:1.7;box-shadow:0 1px 2px rgba(37,99,235,.06);">
-  <span lang="en"><b style="color:#2563eb;font-size:1.1em;">†</b>&nbsp;Equal contribution&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#2563eb;font-size:1.1em;">*</b>&nbsp;Corresponding author</span>
-  <span lang="zh"><b style="color:#2563eb;font-size:1.1em;">†</b>&nbsp;同等贡献（并列作者）&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#2563eb;font-size:1.1em;">*</b>&nbsp;通讯作者</span>
-</p>
-
 <style>
 /* Citation-count pill for published papers — static snapshot from Google Scholar. */
 .cite-badge{
