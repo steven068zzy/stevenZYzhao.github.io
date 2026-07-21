@@ -289,9 +289,22 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 
 <span class='anchor' id='internship-experiences'></span>
 
-# <span lang="en">💻 Internship Experiences</span><span lang="zh">💻 实习经历</span>
+# <span lang="en">💼 Professional Experience</span><span lang="zh">💼 工作经历</span>
 
 <div class="cv-org-list">
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><img src="images/logo-smartswine.png" alt="Smart Swine, LLC logo"></div>
+    <div class="cv-body">
+      <div class="cv-title">Smart Swine, LLC <span class="cv-place">· Columbia, MO, USA</span></div>
+      <div class="cv-role"><span lang="en">Co-founder</span><span lang="zh">联合创始人</span></div>
+      <span class="cv-date"><span lang="en">Jun 2026 – Present</span><span lang="zh">2026年6月 – 至今</span></span>
+      <div class="cv-sub"><span lang="en">AI-powered robotics and computer vision for modern swine farming, tackling piglet pre-weaning mortality.</span><span lang="zh">面向现代养猪业的人工智能机器人与计算机视觉方案，致力于降低仔猪断奶前死亡率。</span></div>
+      <ul class="cv-points">
+        <li><span lang="en">Pairs edge-deployed computer vision with custom robotics to predict crushing and stillbirth risk in real time and intervene before piglets are lost, moving beyond monitoring to predictive prevention.</span><span lang="zh">将边缘部署的计算机视觉与定制机器人相结合，实时预测压死与死胎风险并在仔猪损失前主动干预，从被动监测走向预测性预防。</span></li>
+        <li><span lang="en">Backed by approximately $1M in non-dilutive NSF and USDA-NIFA support (2026–2029), with industry support from the National Pork Board, Smithfield Foods, the Texas Pork Producers Association, and the Missouri Pork Association. Semifinalist in the 2026 AI Venture Velocity Challenge at Mays Business School, Texas A&amp;M University, advancing from 531 teams across 160 universities to the final 27.</span><span lang="zh">获得约 100 万美元 NSF 与 USDA-NIFA 非稀释性经费（2026–2029），并获 National Pork Board、Smithfield Foods、Texas Pork Producers Association 与 Missouri Pork Association 等行业机构支持。入围 Texas A&amp;M University Mays Business School 主办的 2026 AI Venture Velocity Challenge 半决赛，从 160 所高校的 531 支队伍中晋级 27 强。</span></li>
+      </ul>
+    </div>
+  </div>
   <div class="cv-org cv-org--top">
     <div class="cv-logo"><a href="https://corporate.ford.com/operations/locations.html"><img src="images/logo-ford.png" alt="Ford Motor Company logo"></a></div>
     <div class="cv-body">

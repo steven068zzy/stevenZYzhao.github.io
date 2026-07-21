@@ -7,8 +7,8 @@ main:
     title_zh: "论文成果"
     url: "#publications"
 
-  - title: "Internships"
-    title_zh: "实习经历"
+  - title: "Experience"
+    title_zh: "工作经历"
     url: "#internship-experiences"
 
   - title: "Projects"
