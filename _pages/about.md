@@ -84,6 +84,73 @@ redirect_from:
 </div>
 
 
+<span class='anchor' id='internship-experiences'></span>
+
+# <span lang="en">💼 Professional Experience</span><span lang="zh">💼 工作经历</span>
+
+<div class="cv-org-list">
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><img src="images/logo-smartswine.png" alt="Smart Swine, LLC logo"></div>
+    <div class="cv-body">
+      <div class="cv-title">Smart Swine, LLC <span class="cv-place">· College Station, TX, USA</span></div>
+      <div class="cv-role"><span lang="en">Co-founder</span><span lang="zh">联合创始人</span></div>
+      <span class="cv-date"><span lang="en">Jun 2026 – Present</span><span lang="zh">2026年6月 – 至今</span></span>
+      <div class="cv-sub"><span lang="en">AI-powered robotics and computer vision for modern swine farming, tackling piglet pre-weaning mortality.</span><span lang="zh">面向现代养猪业的人工智能机器人与计算机视觉方案，致力于降低仔猪断奶前死亡率。</span></div>
+      <ul class="cv-points">
+        <li><span lang="en">Pairs edge-deployed computer vision with custom robotics to predict crushing and stillbirth risk in real time and intervene before piglets are lost, moving beyond monitoring to predictive prevention.</span><span lang="zh">将边缘部署的计算机视觉与定制机器人相结合，实时预测压死与死胎风险并在仔猪损失前主动干预，从被动监测走向预测性预防。</span></li>
+        <li><span lang="en">Backed by approximately $1M in non-dilutive NSF and USDA-NIFA support (2026–2029), with industry support from the National Pork Board, Smithfield Foods, the Texas Pork Producers Association, and the Missouri Pork Association. Semifinalist in the 2026 AI Venture Velocity Challenge at Mays Business School, Texas A&amp;M University, advancing from 531 teams across 160 universities to the final 27.</span><span lang="zh">获得约 100 万美元 NSF 与 USDA-NIFA 非稀释性经费（2026–2029），并获 National Pork Board、Smithfield Foods、Texas Pork Producers Association 与 Missouri Pork Association 等行业机构支持。入围 Texas A&amp;M University Mays Business School 主办的 2026 AI Venture Velocity Challenge 半决赛，从 160 所高校的 531 支队伍中晋级 27 强。</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><a href="https://corporate.ford.com/operations/locations.html"><img src="images/logo-ford.png" alt="Ford Motor Company logo"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://corporate.ford.com/operations/locations.html">Ford <span lang="en">(Global Headquarters)</span><span lang="zh">（全球总部）</span></a> <span class="cv-place">· Dearborn, MI, USA</span></div>
+      <div class="cv-role"><span lang="en">Research Engineer Intern (Control Algorithm Focus)</span><span lang="zh">研究工程师实习生（聚焦控制算法）</span></div>
+      <span class="cv-date"><span lang="en">May 2024 – Aug 2024</span><span lang="zh">2024年5月 – 2024年8月</span></span>
+      <div class="cv-sub"><span lang="en">Developed next-generation active suspension system for vehicles, including the F-150 and Lincoln.</span><span lang="zh">为 F-150 与 Lincoln 等车型开发下一代主动悬架系统。</span></div>
+      <ul class="cv-points">
+        <li><span lang="en">Built 1/4 car, half-car, and full-car models in MATLAB to support control algorithm development.</span><span lang="zh">在 MATLAB 中搭建 1/4 车、半车与整车模型，以支撑控制算法开发。</span></li>
+        <li><span lang="en">Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant performance improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.</span><span lang="zh">设计并实现多输入 PID 与 LQR 控制器，对纵向加速度、俯仰角和侧倾角进行调节。性能显著提升：纵向加速度 RMS 降低 77%，俯仰角 RMS 降低 69%，侧倾角 RMS 降低 58%。</span></li>
+        <li><span lang="en">Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under $4,000.</span><span lang="zh">将能耗控制在 2 kW 以内，并初步将单车实施成本压降至 4,000 美元以下。</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><a href="https://english.siat.ac.cn/"><img src="images/logo-cas.png" alt="Chinese Academy of Sciences seal"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://english.siat.ac.cn/">Chinese Academy of Sciences <span lang="en">(SIAT)</span><span lang="zh">（深圳先进技术研究院）</span></a> <span class="cv-place">· Shenzhen, Guangdong, CN</span></div>
+      <div class="cv-role"><span lang="en">Automation Engineer Intern</span><span lang="zh">自动化工程师实习生</span></div>
+      <span class="cv-date"><span lang="en">May 2023 – Aug 2023</span><span lang="zh">2023年5月 – 2023年8月</span></span>
+      <ul class="cv-points">
+        <li><strong><span lang="en">Design and Implementation of High-Throughput Imaging System</span><span lang="zh">高通量成像系统的设计与实现</span></strong>
+          <ul class="cv-subpoints">
+            <li><span lang="en">Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with brain imaging.</span><span lang="zh">将 VISoR 系统的固定底座重新设计为旋转底座，显著降低脑成像工作中的人工与时间成本。</span></li>
+          </ul>
+        </li>
+        <li><strong><span lang="en">TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments</span><span lang="zh">面向小鼠与猴脑实验的 TM4C 全自动液体交换系统</span></strong>
+          <ul class="cv-subpoints">
+            <li><span lang="en">Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.</span><span lang="zh">设计并搭建集成 TM4C 微控制器的专用硬件平台，实现流体的无缝切换；编写程序对液体交换进行精确时序控制，保证实验条件的稳定与精准。</span></li>
+            <li><span lang="en">Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.</span><span lang="zh">开发了直观的用户界面，便于研究人员配置实验、设定参数并监控进度。</span></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="cv-org cv-org--top">
+    <div class="cv-logo"><a href="https://www.ntu.edu.sg/"><img src="images/logo-ntu.png" alt="Nanyang Technological University coat of arms"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://www.ntu.edu.sg/">Nanyang Technological University</a> <span class="cv-place">· Singapore</span></div>
+      <div class="cv-role"><span lang="en">AI Intern</span><span lang="zh">人工智能实习生</span></div>
+      <span class="cv-date"><span lang="en">Jan 2021 – Feb 2021</span><span lang="zh">2021年1月 – 2021年2月</span></span>
+      <ul class="cv-points">
+        <li><span lang="en">Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.</span><span lang="zh">参与多个人工智能项目，重点开发与优化一种皮肤癌分类模型。基于卷积神经网络（CNN）与 WEKA 工具，对 Kaggle 上 ISIC Archive 数据集中 1800 张良性与 1497 张恶性皮肤癌图像进行预处理与分类，经过多轮模型实验，分类准确率达到 86%。</span></li>
+        <li><span lang="en">Main tasks included data preprocessing, model configuration, and data augmentation. By converting images into 224x224 pixel RGB format and performing data augmentation operations such as horizontal flipping and vertical shifting, I significantly improved model accuracy. We experimented with configurations ranging from 1 to 5 convolutional layers and resolved overfitting issues by adding Dropout layers and L2 regularization.</span><span lang="zh">主要工作包括数据预处理、模型配置与数据增强：将图像转换为 224×224 像素 RGB 格式，并通过水平翻转、垂直平移等数据增强手段显著提升了模型精度。我们测试了 1 到 5 层卷积层的多种结构，并通过加入 Dropout 层与 L2 正则化有效缓解了过拟合问题。</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='publications'></span>
 
 # <span lang="en">📝 Publications</span><span lang="zh">📝 论文成果</span>
@@ -286,73 +353,6 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 </div>
 </div>
 
-
-<span class='anchor' id='internship-experiences'></span>
-
-# <span lang="en">💼 Professional Experience</span><span lang="zh">💼 工作经历</span>
-
-<div class="cv-org-list">
-  <div class="cv-org cv-org--top">
-    <div class="cv-logo"><img src="images/logo-smartswine.png" alt="Smart Swine, LLC logo"></div>
-    <div class="cv-body">
-      <div class="cv-title">Smart Swine, LLC <span class="cv-place">· College Station, TX, USA</span></div>
-      <div class="cv-role"><span lang="en">Co-founder</span><span lang="zh">联合创始人</span></div>
-      <span class="cv-date"><span lang="en">Jun 2026 – Present</span><span lang="zh">2026年6月 – 至今</span></span>
-      <div class="cv-sub"><span lang="en">AI-powered robotics and computer vision for modern swine farming, tackling piglet pre-weaning mortality.</span><span lang="zh">面向现代养猪业的人工智能机器人与计算机视觉方案，致力于降低仔猪断奶前死亡率。</span></div>
-      <ul class="cv-points">
-        <li><span lang="en">Pairs edge-deployed computer vision with custom robotics to predict crushing and stillbirth risk in real time and intervene before piglets are lost, moving beyond monitoring to predictive prevention.</span><span lang="zh">将边缘部署的计算机视觉与定制机器人相结合，实时预测压死与死胎风险并在仔猪损失前主动干预，从被动监测走向预测性预防。</span></li>
-        <li><span lang="en">Backed by approximately $1M in non-dilutive NSF and USDA-NIFA support (2026–2029), with industry support from the National Pork Board, Smithfield Foods, the Texas Pork Producers Association, and the Missouri Pork Association. Semifinalist in the 2026 AI Venture Velocity Challenge at Mays Business School, Texas A&amp;M University, advancing from 531 teams across 160 universities to the final 27.</span><span lang="zh">获得约 100 万美元 NSF 与 USDA-NIFA 非稀释性经费（2026–2029），并获 National Pork Board、Smithfield Foods、Texas Pork Producers Association 与 Missouri Pork Association 等行业机构支持。入围 Texas A&amp;M University Mays Business School 主办的 2026 AI Venture Velocity Challenge 半决赛，从 160 所高校的 531 支队伍中晋级 27 强。</span></li>
-      </ul>
-    </div>
-  </div>
-  <div class="cv-org cv-org--top">
-    <div class="cv-logo"><a href="https://corporate.ford.com/operations/locations.html"><img src="images/logo-ford.png" alt="Ford Motor Company logo"></a></div>
-    <div class="cv-body">
-      <div class="cv-title"><a href="https://corporate.ford.com/operations/locations.html">Ford <span lang="en">(Global Headquarters)</span><span lang="zh">（全球总部）</span></a> <span class="cv-place">· Dearborn, MI, USA</span></div>
-      <div class="cv-role"><span lang="en">Research Engineer Intern (Control Algorithm Focus)</span><span lang="zh">研究工程师实习生（聚焦控制算法）</span></div>
-      <span class="cv-date"><span lang="en">May 2024 – Aug 2024</span><span lang="zh">2024年5月 – 2024年8月</span></span>
-      <div class="cv-sub"><span lang="en">Developed next-generation active suspension system for vehicles, including the F-150 and Lincoln.</span><span lang="zh">为 F-150 与 Lincoln 等车型开发下一代主动悬架系统。</span></div>
-      <ul class="cv-points">
-        <li><span lang="en">Built 1/4 car, half-car, and full-car models in MATLAB to support control algorithm development.</span><span lang="zh">在 MATLAB 中搭建 1/4 车、半车与整车模型，以支撑控制算法开发。</span></li>
-        <li><span lang="en">Designed and implemented multi-input PID and LQR controllers to regulate longitudinal acceleration, pitch angle, and roll angle. Achieved significant performance improvements: 77% reduction in RMS longitudinal acceleration, 69% reduction in pitch angle RMS, and 58% reduction in roll angle RMS.</span><span lang="zh">设计并实现多输入 PID 与 LQR 控制器，对纵向加速度、俯仰角和侧倾角进行调节。性能显著提升：纵向加速度 RMS 降低 77%，俯仰角 RMS 降低 69%，侧倾角 RMS 降低 58%。</span></li>
-        <li><span lang="en">Maintained energy consumption under 2 kW and preliminarily reduced per-vehicle implementation cost to under $4,000.</span><span lang="zh">将能耗控制在 2 kW 以内，并初步将单车实施成本压降至 4,000 美元以下。</span></li>
-      </ul>
-    </div>
-  </div>
-  <div class="cv-org cv-org--top">
-    <div class="cv-logo"><a href="https://english.siat.ac.cn/"><img src="images/logo-cas.png" alt="Chinese Academy of Sciences seal"></a></div>
-    <div class="cv-body">
-      <div class="cv-title"><a href="https://english.siat.ac.cn/">Chinese Academy of Sciences <span lang="en">(SIAT)</span><span lang="zh">（深圳先进技术研究院）</span></a> <span class="cv-place">· Shenzhen, Guangdong, CN</span></div>
-      <div class="cv-role"><span lang="en">Automation Engineer Intern</span><span lang="zh">自动化工程师实习生</span></div>
-      <span class="cv-date"><span lang="en">May 2023 – Aug 2023</span><span lang="zh">2023年5月 – 2023年8月</span></span>
-      <ul class="cv-points">
-        <li><strong><span lang="en">Design and Implementation of High-Throughput Imaging System</span><span lang="zh">高通量成像系统的设计与实现</span></strong>
-          <ul class="cv-subpoints">
-            <li><span lang="en">Redesigned the fixed base of the VISoR system into a rotating base, significantly reducing the manual labor and time costs associated with brain imaging.</span><span lang="zh">将 VISoR 系统的固定底座重新设计为旋转底座，显著降低脑成像工作中的人工与时间成本。</span></li>
-          </ul>
-        </li>
-        <li><strong><span lang="en">TM4C-Based Fully Automated Liquid Exchange System for Mouse and Monkey Brain Experiments</span><span lang="zh">面向小鼠与猴脑实验的 TM4C 全自动液体交换系统</span></strong>
-          <ul class="cv-subpoints">
-            <li><span lang="en">Engineered a specialized hardware setup incorporating TM4C microcontrollers to facilitate seamless fluid exchange. And programmed TM4C units to orchestrate the precise timing control of liquid exchanges, which ensures consistent and accurate experimental conditions.</span><span lang="zh">设计并搭建集成 TM4C 微控制器的专用硬件平台，实现流体的无缝切换；编写程序对液体交换进行精确时序控制，保证实验条件的稳定与精准。</span></li>
-            <li><span lang="en">Developed an intuitive user interface to facilitate researchers in setting up experiments, defining parameters, and monitoring progress.</span><span lang="zh">开发了直观的用户界面，便于研究人员配置实验、设定参数并监控进度。</span></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="cv-org cv-org--top">
-    <div class="cv-logo"><a href="https://www.ntu.edu.sg/"><img src="images/logo-ntu.png" alt="Nanyang Technological University coat of arms"></a></div>
-    <div class="cv-body">
-      <div class="cv-title"><a href="https://www.ntu.edu.sg/">Nanyang Technological University</a> <span class="cv-place">· Singapore</span></div>
-      <div class="cv-role"><span lang="en">AI Intern</span><span lang="zh">人工智能实习生</span></div>
-      <span class="cv-date"><span lang="en">Jan 2021 – Feb 2021</span><span lang="zh">2021年1月 – 2021年2月</span></span>
-      <ul class="cv-points">
-        <li><span lang="en">Participated in several AI projects, focusing on developing and optimizing a skin cancer classification model. Using convolutional neural networks (CNN) and WEKA tools, I processed and classified 1800 benign and 1497 malignant skin cancer images from the ISIC Archive dataset on Kaggle. Through multiple model experiments, we achieved an 86% classification accuracy.</span><span lang="zh">参与多个人工智能项目，重点开发与优化一种皮肤癌分类模型。基于卷积神经网络（CNN）与 WEKA 工具，对 Kaggle 上 ISIC Archive 数据集中 1800 张良性与 1497 张恶性皮肤癌图像进行预处理与分类，经过多轮模型实验，分类准确率达到 86%。</span></li>
-        <li><span lang="en">Main tasks included data preprocessing, model configuration, and data augmentation. By converting images into 224x224 pixel RGB format and performing data augmentation operations such as horizontal flipping and vertical shifting, I significantly improved model accuracy. We experimented with configurations ranging from 1 to 5 convolutional layers and resolved overfitting issues by adding Dropout layers and L2 regularization.</span><span lang="zh">主要工作包括数据预处理、模型配置与数据增强：将图像转换为 224×224 像素 RGB 格式，并通过水平翻转、垂直平移等数据增强手段显著提升了模型精度。我们测试了 1 到 5 层卷积层的多种结构，并通过加入 Dropout 层与 L2 正则化有效缓解了过拟合问题。</span></li>
-      </ul>
-    </div>
-  </div>
-</div>
 
 <span class='anchor' id='selected-projects'></span>
 
