@@ -189,7 +189,7 @@ redirect_from:
 - <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
 
-Computer vision-based evaluation of broiler spatial distribution and groove-width preference on a novel non-perforated grooved flooring system
+Deep learning-guided evaluation of broilers' preference among different groove widths in a novel non-perforated grooved flooring system
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Kiju Lee, Giridhar Athrey, Gregory Archer, Morgan Farnell, Ziteng Xu<sup>*</sup>
 
