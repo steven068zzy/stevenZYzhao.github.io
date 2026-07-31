@@ -69,8 +69,15 @@ redirect_from:
     <div class="cv-body">
       <div class="cv-title"><a href="https://www.tamu.edu/index.html">Texas A&amp;M University</a> <span class="cv-place">· College Station, TX, USA</span></div>
       <div class="cv-sub"><span lang="en">Ph.D. in Poultry Science (Robotics Track)</span><span lang="zh">家禽科学博士（机器人方向）</span></div>
-      <div class="cv-sub"><span lang="en">Graduate Certificate in Entrepreneurship</span><span lang="zh">创业研究生证书</span></div>
       <span class="cv-date"><span lang="en">Aug 2024 – Present</span><span lang="zh">2024年8月 – 至今</span></span>
+    </div>
+  </div>
+  <div class="cv-org cv-org--center">
+    <div class="cv-logo"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/"><img src="images/logo-mays.svg" alt="Mays Business School, Texas A&amp;M University logo"></a></div>
+    <div class="cv-body">
+      <div class="cv-title"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/">Mays Business School, Texas A&amp;M University</a> <span class="cv-place">· College Station, TX, USA</span></div>
+      <div class="cv-sub"><span lang="en">Graduate Certificate in Entrepreneurship</span><span lang="zh">创业研究生证书</span></div>
+      <span class="cv-date"><span lang="en">2025 – 2027</span><span lang="zh">2025年 – 2027年</span></span>
     </div>
   </div>
   <div class="cv-org cv-org--center">
