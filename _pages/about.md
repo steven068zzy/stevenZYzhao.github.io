@@ -75,8 +75,8 @@ redirect_from:
   <div class="cv-org cv-org--center">
     <div class="cv-logo"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/"><img src="images/logo-mays.svg" alt="Mays Business School, Texas A&amp;M University logo"></a></div>
     <div class="cv-body">
-      <div class="cv-title"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/">Mays Business School, Texas A&amp;M University</a> <span class="cv-place">· College Station, TX, USA</span></div>
-      <div class="cv-sub"><span lang="en">Graduate Certificate in Entrepreneurship</span><span lang="zh">创业研究生证书</span></div>
+      <div class="cv-title"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/">Texas A&amp;M University</a> <span class="cv-place">· College Station, TX, USA</span></div>
+      <div class="cv-sub"><span lang="en">Entrepreneurship Program</span><span lang="zh">创业教育项目</span></div>
       <span class="cv-date"><span lang="en">2025 – 2027</span><span lang="zh">2025年 – 2027年</span></span>
     </div>
   </div>
