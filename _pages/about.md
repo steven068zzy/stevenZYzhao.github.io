@@ -180,6 +180,22 @@ redirect_from:
 }
 .review-badge{background:#eef2ff;border:1px solid #c7d2fe;color:#4338ca !important;}
 .proc-badge{background:#fffbeb;border:1px solid #fde68a;color:#b45309 !important;}
+
+/* Figure-less variant of .paper-box, for manuscripts that are not yet published.
+   The text column takes the full card width instead of sitting beside an image. */
+.paper-box.paper-box--noimg .paper-box-text{max-width:100%;padding-left:0;order:1;}
+/* Status pill replaces the venue badge these cards have no claim to yet. */
+.status-pill{
+  display:inline-flex;align-items:center;gap:.5em;
+  padding:.26em .82em;border-radius:999px;
+  font-size:.70em;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  line-height:1.45;vertical-align:middle;
+}
+.status-pill::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor;flex:0 0 auto;}
+.status-pill--review{background:#fff7ed;border:1px solid #fed7aa;color:#c2410c;}
+.status-pill--prep{background:#f8fafc;border:1px solid #e2e8f0;color:#475569;}
+/* These titles carry no DOI to link to, so they take the weight a link would give them. */
+.pub-title{display:block;color:#111827;font-weight:600;line-height:1.45;}
 </style>
 
 <p style="margin:0 0 26px;font-size:.92em;line-height:1.9;">
@@ -189,32 +205,52 @@ redirect_from:
 </p>
 
 
-<span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span>
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
+
+<span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
+
+<span class="pub-title"><span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span></span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
+</div>
+</div>
 
-- <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
 
-Deep learning-guided evaluation of broilers' preference among different groove widths in a novel non-perforated grooved flooring system
+<span class="status-pill status-pill--review"><span lang="en">Under Review</span><span lang="zh">审稿中</span></span>
+
+<span class="pub-title">Deep learning-guided evaluation of broilers' preference among different groove widths in a novel non-perforated grooved flooring system</span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Kiju Lee, Giridhar Athrey, Gregory Archer, Morgan Farnell, Ziteng Xu<sup>*</sup>
+</div>
+</div>
 
-- <span lang="en">Under Review</span><span lang="zh">审稿中</span>
 
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
 
-<span lang="en">Effect of Different Groove Widths in a Non-Perforated Flooring System with Periodical Feces Removal for Rearing Broiler Chickens: Pilot Study Part 1 — Welfare and Productivity Analysis</span><span lang="zh">非穿孔地板系统中不同凹槽宽度结合定期粪便清除对肉鸡饲养的影响：初步研究（第一部分）——福利与生产性能分析</span>
+<span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
+
+<span class="pub-title"><span lang="en">Effect of Different Groove Widths in a Non-Perforated Flooring System with Periodical Feces Removal for Rearing Broiler Chickens: Pilot Study Part 1 — Welfare and Productivity Analysis</span><span lang="zh">非穿孔地板系统中不同凹槽宽度结合定期粪便清除对肉鸡饲养的影响：初步研究（第一部分）——福利与生产性能分析</span></span>
 
 Emmanuel Otchere, **Ziyuan Zhao**, Yu Wang, Roland Alaniz, Emily Jiral, Isabella Villareal, Colby Allensworth, Gregory Archer, Ziteng Xu<sup>*</sup>
+</div>
+</div>
 
-- <span lang="en">In Preparation</span><span lang="zh">撰写中</span>
 
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
 
-Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels
+<span class="status-pill status-pill--review"><span lang="en">Under Review</span><span lang="zh">审稿中</span></span>
+
+<span class="pub-title">Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels</span>
 
 Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Athrey, Gregory Archer, Samson Oladokun, Sushil Paudyal, Kiju Lee, Ziteng Xu<sup>*</sup>
-
-- <span lang="en">Under Review</span><span lang="zh">审稿中</span>
+</div>
+</div>
 
 
 
