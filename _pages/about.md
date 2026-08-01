@@ -173,9 +173,11 @@ redirect_from:
 }
 .cite-badge:hover{transform:translateY(-1px);box-shadow:0 4px 13px rgba(5,150,105,.2);background:#d1fae5;color:#047857 !important;}
 /* Review-status pill — peer-reviewed vs. conference proceeding. */
+/* Sized against the label beside them, not against the card badges. The parent
+   paragraph is already .92em, so this lands near the label's own size. */
 .review-badge,.proc-badge{
   display:inline-block;margin:7px 6px 1px 0;padding:.24em .74em;border-radius:999px;
-  font-size:.74em;font-weight:700;line-height:1.3;letter-spacing:.01em;vertical-align:middle;
+  font-size:.95em;font-weight:700;line-height:1.3;letter-spacing:.01em;vertical-align:middle;
   text-decoration:none !important;border-bottom:none !important;background-image:none !important;
 }
 .review-badge{background:#eef2ff;border:1px solid #c7d2fe;color:#4338ca !important;}
