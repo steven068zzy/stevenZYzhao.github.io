@@ -97,9 +97,9 @@ redirect_from:
 
 <div class="cv-org-list">
   <div class="cv-org cv-org--top">
-    <div class="cv-logo"><img src="images/logo-smartswine.png" alt="Smart Swine, LLC logo"></div>
+    <div class="cv-logo"><a href="https://steven068zzy.github.io/smartswine/"><img src="images/logo-smartswine.png" alt="Smart Swine, LLC logo"></a></div>
     <div class="cv-body">
-      <div class="cv-title">Smart Swine, LLC <span class="cv-place">· College Station, TX, USA</span></div>
+      <div class="cv-title"><a href="https://steven068zzy.github.io/smartswine/">Smart Swine, LLC</a> <span class="cv-place">· College Station, TX, USA</span></div>
       <div class="cv-role"><span lang="en">Co-founder</span><span lang="zh">联合创始人</span></div>
       <span class="cv-date"><span lang="en">Jun 2026 – Present</span><span lang="zh">2026年6月 – 至今</span></span>
       <div class="cv-sub"><span lang="en">AI-powered robotics and computer vision for modern swine farming, tackling piglet pre-weaning mortality.</span><span lang="zh">面向现代养猪业的人工智能机器人与计算机视觉方案，致力于降低仔猪断奶前死亡率。</span></div>
