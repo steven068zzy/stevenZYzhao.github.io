@@ -196,8 +196,6 @@ redirect_from:
 .status-pill::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor;flex:0 0 auto;}
 .status-pill--review{background:#fff7ed;border:1px solid #fed7aa;color:#c2410c;}
 .status-pill--prep{background:#f8fafc;border:1px solid #e2e8f0;color:#475569;}
-/* Accepted but not yet assigned a DOI — shares the green of the citation pill. */
-.status-pill--accepted{background:#ecfdf5;border:1px solid #a7f3d0;color:#047857;}
 /* These titles carry no DOI to link to, so they take the weight a link would give them. */
 .pub-title{display:block;color:#111827;font-weight:600;line-height:1.45;}
 </style>
@@ -257,13 +255,11 @@ Emmanuel Otchere, **Ziyuan Zhao**, Yu Wang, Roland Alaniz, Emily Jiral, Isabella
   </div>
 <div class='paper-box-text' markdown="1">
 
-<span class="status-pill status-pill--accepted"><span lang="en">Accepted</span><span lang="zh">已接收</span></span>
-
 <span class="pub-title"><span lang="en">Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels</span><span lang="zh">开槽地板上家禽粪便清除率及基于视觉的粪重估计研究</span></span>
 
 Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Athrey, Gregory Archer, Samson Oladokun, Sushil Paudyal, Kiju Lee, Ziteng Xu<sup>*</sup>
 
-- <span lang="en">Deep-litter housing brings heavy labor demands along with hygiene and welfare problems tied to wet litter. This pilot study evaluated a robotic cleaning prototype on a semicircular grooved floor that separates birds from accumulated feces in cage-free production, and developed a computer-vision algorithm to estimate fecal volume for health monitoring. Fourteen grooved panels were placed underneath battery cages to collect samples from laying hens, a mobile system with rotary brushes removed the feces, and a LiDAR camera scanned the floor before and after removal. One brushing pass removed 87–88% of accumulated feces and a second pass raised removal to roughly 90%, with efficiency unaffected by stocking density or collection interval. The 3D-derived fecal volume was strongly correlated with measured fecal weight (R² = 0.97, MAPE = 3.04%), and both volume and weight rose significantly with stocking density (13–19 birds/m²) and collection interval (18–24 h), indicating that vision-based volume may inform temporospatial density in grooved floor systems or estimate the number of live birds per cage.</span><span lang="zh">传统深垫料饲养方式劳动强度大，且湿垫料带来卫生与福利问题。本初步研究评估了一套机器人清扫样机在半圆形开槽地板上的作业效果，该地板用于在散养生产中将鸡只与堆积粪便隔离，同时开发了用于估计粪便体积的计算机视觉算法，以支撑健康监测。研究将 14 块开槽地板置于层叠笼下方收集蛋鸡粪样，采用搭载旋转毛刷的移动平台清除粪便，并使用 LiDAR 相机在清除前后扫描地板表面。单次刷扫可清除 87–88% 的积累粪便，第二次刷扫可将清除率提升至约 90%，且清除效率不受饲养密度与收集间隔影响。三维重建得到的粪便体积与实测粪重高度相关（R² = 0.97，MAPE = 3.04%），体积与重量均随饲养密度（13–19 只/m²）和收集间隔（18–24 h）显著增加，说明基于视觉的体积估计有望反映开槽地板系统中的时空密度，或用于估计笼内活禽数量。</span>
+- <span lang="en">A robotic prototype with rotary brushes was tested on a semicircular grooved floor that keeps birds away from accumulated feces, using 14 panels placed under battery cages to collect samples from laying hens. One brushing pass removed 87–88% of the feces and a second pass reached roughly 90%, unaffected by stocking density or collection interval. LiDAR-derived fecal volume tracked measured fecal weight closely (R² = 0.97, MAPE = 3.04%), offering a vision-based route to flock density and live bird counts.</span><span lang="zh">本研究在半圆形开槽地板上测试了搭载旋转毛刷的机器人样机，该地板可将鸡只与堆积粪便隔离；实验将 14 块地板置于层叠笼下方收集蛋鸡粪样。单次刷扫清除 87–88% 的粪便，第二次刷扫可达约 90%，且不受饲养密度与收集间隔影响。LiDAR 重建的粪便体积与实测粪重高度吻合（R² = 0.97，MAPE = 3.04%），为基于视觉估计饲养密度与活禽数量提供了可行路径。</span>
 </div>
 </div>
 
