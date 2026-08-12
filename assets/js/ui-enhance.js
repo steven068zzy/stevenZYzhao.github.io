@@ -258,6 +258,15 @@
     var titleLink = textEl.querySelector('a');
     var title = titleLink ? titleLink.textContent.trim() : '';
     var href = titleLink ? (titleLink.getAttribute('href') || '') : '';
+    // Accepted papers have no DOI to link yet, so their title sits in .pub-title.
+    // Take the English span when the title is bilingual, not both at once.
+    if (!title) {
+      var titleEl = textEl.querySelector('.pub-title');
+      if (titleEl) {
+        var enTitle = titleEl.querySelector('[lang="en"]');
+        title = (enTitle || titleEl).textContent.trim();
+      }
+    }
     var authors = '';
     var ps = textEl.querySelectorAll('p');
     for (var i = 0; i < ps.length; i++) {
