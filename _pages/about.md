@@ -49,6 +49,9 @@ redirect_from:
 .cv-place{font-weight:500;color:#6b7280;font-size:.76em;white-space:nowrap;}
 .cv-role{color:#1f2937;font-weight:600;font-size:.96em;margin-top:5px;}
 .cv-sub{color:#374151;font-size:.92em;margin-top:3px;line-height:1.5;}
+/* Second (and later) program inside one school card, e.g. the entrepreneurship
+   program listed under the same Texas A&M entry as the Ph.D. */
+.cv-sub--next{margin-top:12px;}
 .cv-date{display:inline-block;margin-top:9px;padding:.18em .72em;border-radius:6px;background:#eff6ff;border:1px solid #dbeafe;color:#1e40af;font-size:.75em;font-weight:600;}
 .cv-points{margin:9px 0 0;padding-left:1.15em;list-style:disc;}
 .cv-points li{color:#4b5563;font-size:.875em;line-height:1.62;margin:4px 0;}
@@ -70,13 +73,7 @@ redirect_from:
       <div class="cv-title"><a href="https://www.tamu.edu/index.html">Texas A&amp;M University</a> <span class="cv-place">· College Station, TX, USA</span></div>
       <div class="cv-sub"><span lang="en">Ph.D. in Poultry Science (Robotics Track)</span><span lang="zh">家禽科学博士（机器人方向）</span></div>
       <span class="cv-date"><span lang="en">Aug 2024 – Present</span><span lang="zh">2024年8月 – 至今</span></span>
-    </div>
-  </div>
-  <div class="cv-org cv-org--center">
-    <div class="cv-logo"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/"><img src="images/logo-mays.svg" alt="Mays Business School, Texas A&amp;M University logo"></a></div>
-    <div class="cv-body">
-      <div class="cv-title"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/">Texas A&amp;M University</a> <span class="cv-place">· College Station, TX, USA</span></div>
-      <div class="cv-sub"><span lang="en">Entrepreneurship Program</span><span lang="zh">创业教育项目</span></div>
+      <div class="cv-sub cv-sub--next"><span lang="en"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/">Entrepreneurship Program</a>, Mays Business School</span><span lang="zh"><a href="https://mays.tamu.edu/graduate-certificate-in-entrepreneurship/">创业教育项目</a>，Mays 商学院</span></div>
       <span class="cv-date"><span lang="en">2025 – 2027</span><span lang="zh">2025年 – 2027年</span></span>
     </div>
   </div>
