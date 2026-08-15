@@ -209,7 +209,7 @@ redirect_from:
 
 <span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
 
-<span class="pub-title"><span lang="en">Investigation of broiler activity on grooved floors using computer vision techniques</span><span lang="zh">利用计算机视觉技术探究肉鸡在凹槽地板上的活动情况</span></span>
+<span class="pub-title"><span lang="en">Computer vision for pen-level broiler activity: validation against spatiotemporal annotation and application to a grooved floor system</span><span lang="zh">基于计算机视觉的栏位级肉鸡活动量测定：与时空标注的验证及在凹槽地板系统中的应用</span></span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
 </div>
