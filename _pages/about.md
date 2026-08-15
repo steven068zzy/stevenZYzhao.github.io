@@ -198,9 +198,9 @@ redirect_from:
 </style>
 
 <p style="margin:0 0 26px;font-size:.92em;line-height:1.9;">
-  <span lang="en">Review status of published works:&nbsp;&nbsp;</span><span lang="zh">已发表成果的评审类型：&nbsp;&nbsp;</span>
-  <span class="review-badge"><span lang="en">Peer-Reviewed ×6</span><span lang="zh">同行评审 ×6</span></span>
-  <span class="proc-badge"><span lang="en">Conference Proceeding ×2</span><span lang="zh">会议论文集 ×2</span></span>
+  <span lang="en">Published works by type:&nbsp;&nbsp;</span><span lang="zh">已发表成果类型：&nbsp;&nbsp;</span>
+  <span class="review-badge"><span lang="en">Peer-Reviewed Journal Articles ×6</span><span lang="zh">同行评审期刊论文 ×6</span></span>
+  <span class="proc-badge"><span lang="en">Conference Proceedings ×2</span><span lang="zh">会议论文集 ×2</span></span>
 </p>
 
 
