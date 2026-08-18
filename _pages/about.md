@@ -252,7 +252,7 @@ Emmanuel Otchere, **Ziyuan Zhao**, Yu Wang, Roland Alaniz, Emily Jiral, Isabella
   </div>
 <div class='paper-box-text' markdown="1">
 
-<span class="pub-title"><span lang="en">Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels</span><span lang="zh">开槽地板上家禽粪便清除率及基于视觉的粪重估计研究</span></span>
+[<span lang="en">Investigation of poultry feces removal rate and vision-based feces weight estimation on grooved-floor panels</span><span lang="zh">开槽地板上家禽粪便清除率及基于视觉的粪重估计研究</span>](https://www.sciencedirect.com/science/article/pii/S277237552600701X)
 
 Yu Wang, Siya Chen, **Ziyuan Zhao**, Roland Alaniz, Morgan Farnell, Giridhar Athrey, Gregory Archer, Samson Oladokun, Sushil Paudyal, Kiju Lee, Ziteng Xu<sup>*</sup>
 
