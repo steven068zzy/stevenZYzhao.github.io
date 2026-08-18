@@ -44,8 +44,20 @@ redirect_from:
 .cv-logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;}
 .cv-body{flex:1 1 auto;min-width:0;}
 .cv-title{font-size:1.16em;font-weight:700;color:#111827;line-height:1.3;}
-.cv-body .cv-title a{color:#111827 !important;border-bottom:none !important;background-image:none !important;}
-.cv-body .cv-title a:hover{color:#2563eb !important;}
+/* School and company names link out to the organization's own site. The theme's
+   content-link underline is a gradient that wipes in from 0% width, so at rest
+   there is nothing to see — and on touch screens, where there is no hover, the
+   link never announces itself at all. Draw a soft blue rule at rest, then let
+   that same gradient wipe across it on hover and keyboard focus. */
+.cv-body .cv-title a{
+  color:#111827 !important;border-bottom:none !important;padding-bottom:1px;
+  background-image:linear-gradient(90deg,var(--accent-2),var(--accent-sky)),linear-gradient(#bfdbfe,#bfdbfe) !important;
+  background-size:0% 2px,100% 2px !important;background-repeat:no-repeat !important;background-position:0 100%,0 100% !important;
+  transition:background-size .3s var(--ease),color .2s var(--ease);
+}
+.cv-body .cv-title a:hover,.cv-body .cv-title a:focus-visible{color:#2563eb !important;background-size:100% 2px,100% 2px !important;}
+.cv-body .cv-title a:focus-visible{outline:2px solid var(--accent-2);outline-offset:3px;border-radius:2px;}
+@media(prefers-reduced-motion:reduce){.cv-body .cv-title a{transition:none;}}
 .cv-place{font-weight:500;color:#6b7280;font-size:.76em;white-space:nowrap;}
 .cv-role{color:#1f2937;font-weight:600;font-size:.96em;margin-top:5px;}
 .cv-sub{color:#374151;font-size:.92em;margin-top:3px;line-height:1.5;}
