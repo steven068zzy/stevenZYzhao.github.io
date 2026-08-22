@@ -243,6 +243,18 @@ redirect_from:
 <div class='paper-box paper-box--noimg'>
 <div class='paper-box-text' markdown="1">
 
+<span class="status-pill status-pill--review"><span lang="en">Under Review</span><span lang="zh">审稿中</span></span>
+
+<span class="pub-title"><span lang="en">Development of a video processing pipeline for non-contact respiratory monitoring in periparturient lateral lying sows</span><span lang="zh">面向围产期侧卧母猪非接触式呼吸监测的视频处理流程开发</span></span>
+
+Yu Wang, **Ziyuan Zhao**, Siya Chen, Jianfeng Zhou, Timothy J. Safranski, Jeffery Wiegert, Kiju Lee, Ziteng Xu<sup>*</sup>
+</div>
+</div>
+
+
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
+
 <span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
 
 <span class="pub-title"><span lang="en">Effect of Different Groove Widths in a Non-Perforated Flooring System with Periodical Feces Removal for Rearing Broiler Chickens: Pilot Study Part 1 — Welfare and Productivity Analysis</span><span lang="zh">非穿孔地板系统中不同凹槽宽度结合定期粪便清除对肉鸡饲养的影响：初步研究（第一部分）——福利与生产性能分析</span></span>
