@@ -26,6 +26,7 @@ redirect_from:
 <span lang="en">✉️ You can find me here:</span><span lang="zh">✉️ 联系方式：</span>  
 <span lang="en">Email:</span><span lang="zh">邮箱：</span> ziyuanzhao@tamu.edu  
 <span lang="en">LinkedIn: <a href="https://linkedin.com/in/steven-zhao-89195326b">Homepage</a></span><span lang="zh">LinkedIn：<a href="https://linkedin.com/in/steven-zhao-89195326b">个人主页</a></span>  
+<span lang="en">GitHub: <a href="https://github.com/steven068zzy">steven068zzy</a></span><span lang="zh">GitHub：<a href="https://github.com/steven068zzy">steven068zzy</a></span>  
 
 <span class='anchor' id='educations'></span>
 
