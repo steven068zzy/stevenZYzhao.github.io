@@ -222,6 +222,18 @@ redirect_from:
 
 <span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
 
+<span class="pub-title"><span lang="en">Improving RGB-D SLAM with a visual-inertial odometry prior for indoor UAV patrol in a simulated commercial broiler house</span><span lang="zh">视觉惯性里程计先验提升商品肉鸡舍仿真环境中无人机舍内巡检的 RGB-D SLAM 性能</span></span>
+
+**Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
+</div>
+</div>
+
+
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
+
+<span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
+
 <span class="pub-title"><span lang="en">Computer vision for pen-level broiler activity: validation against spatiotemporal annotation and application to a grooved floor system</span><span lang="zh">基于计算机视觉的栏位级肉鸡活动量测定：与时空标注的验证及在凹槽地板系统中的应用</span></span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Morgan Farnell, Gregory Archer, Giridhar Athrey, Kiju Lee, Ziteng Xu<sup>*</sup>
