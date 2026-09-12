@@ -222,7 +222,7 @@ redirect_from:
 
 <span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
 
-<span class="pub-title"><span lang="en">Improving RGB-D SLAM with a visual-inertial odometry prior for indoor UAV patrol in a simulated commercial broiler house</span><span lang="zh">视觉惯性里程计先验提升商品肉鸡舍仿真环境中无人机舍内巡检的 RGB-D SLAM 性能</span></span>
+<span class="pub-title"><span lang="en">LineGate-SLAM: structure-prior visual-inertial SLAM with learned loop-closure verification for UAV flight in simulated broiler houses</span><span lang="zh">LineGate-SLAM：面向仿真肉鸡舍无人机飞行、融合结构先验与学习式回环验证的视觉惯性 SLAM</span></span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Kiju Lee, Giridhar Athrey, Gregory Archer, Morgan Farnell, Ziteng Xu<sup>*</sup>
 </div>
