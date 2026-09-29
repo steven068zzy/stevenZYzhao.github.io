@@ -690,10 +690,6 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 - <span lang="en">*Sep 2025*</span><span lang="zh">*2025年9月*</span>, David B Mellor '57 Graduate Scholarship in TAMU
 - <span lang="en">*Jul 2025*</span><span lang="zh">*2025年7月*</span>, Poultry Science Association Student Travel Award
 - <span lang="en">*Jul 2023*</span><span lang="zh">*2023年7月*</span>, Outstanding International Students Scholarship in UDM
-- <span lang="en">*Dec 2022*</span><span lang="zh">*2022年12月*</span>, People's Scholarship in School Year 2021 - 2022 Term 2 in BUCT
-- <span lang="en">*May 2022*</span><span lang="zh">*2022年5月*</span>, People's Scholarship in School Year 2021 - 2022 Term 1 in BUCT
-- <span lang="en">*Dec 2021*</span><span lang="zh">*2021年12月*</span>, People's Scholarship in School Year 2020 - 2021 Term 2 in BUCT
-- <span lang="en">*Apr 2021*</span><span lang="zh">*2021年4月*</span>, Outstanding Student Leader in BUCT
 
 <span class='anchor' id='reading-list'></span>
 
