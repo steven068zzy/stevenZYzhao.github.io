@@ -685,6 +685,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 <span class='anchor' id='honors-and-awards'></span>
 
 # <span lang="en">🏆 Honors and Awards</span><span lang="zh">🏆 荣誉与奖项</span>
+- <span lang="en">*Oct 2026*</span><span lang="zh">*2026年10月*</span>, <span lang="en">Top 10, Global Mission Cup 2026, as co-founder of Smart Swine, LLC</span><span lang="zh">Global Mission Cup 2026 十强，Smart Swine, LLC 联合创始人</span>
 - <span lang="en">*Aug 2026*</span><span lang="zh">*2026年8月*</span>, <span lang="en">Finalist (Top 12 of 531 teams from 160 universities), AI Venture Velocity Challenge, Mays Business School, TAMU, as co-founder of Smart Swine, LLC</span><span lang="zh">TAMU Mays 商学院 AI Venture Velocity Challenge 决赛 12 强（160 所高校 531 支队伍），Smart Swine, LLC 联合创始人</span>
 - <span lang="en">*May 2026*</span><span lang="zh">*2026年5月*</span>, TAMU Grad School Travel Award
 - <span lang="en">*Sep 2025*</span><span lang="zh">*2025年9月*</span>, David B Mellor '57 Graduate Scholarship in TAMU
