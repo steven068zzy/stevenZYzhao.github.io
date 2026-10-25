@@ -222,6 +222,18 @@ redirect_from:
 
 <span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
 
+<span class="pub-title"><span lang="en">A semantic digital twin for remote monitoring of broiler pens over bandwidth-limited links</span><span lang="zh">面向带宽受限链路的肉鸡栏远程监测语义数字孪生</span></span>
+
+**Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Kiju Lee, Giridhar Athrey, Gregory Archer, Morgan Farnell, Ziteng Xu<sup>*</sup>
+</div>
+</div>
+
+
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
+
+<span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
+
 <span class="pub-title"><span lang="en">Multi-object tracking in precision livestock farming: a review</span><span lang="zh">精准畜牧中的多目标跟踪：综述</span></span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Ziteng Xu<sup>*</sup>
