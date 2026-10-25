@@ -222,6 +222,18 @@ redirect_from:
 
 <span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
 
+<span class="pub-title"><span lang="en">Multi-object tracking in precision livestock farming: a review</span><span lang="zh">精准畜牧中的多目标跟踪：综述</span></span>
+
+**Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Ziteng Xu<sup>*</sup>
+</div>
+</div>
+
+
+<div class='paper-box paper-box--noimg'>
+<div class='paper-box-text' markdown="1">
+
+<span class="status-pill status-pill--prep"><span lang="en">In Preparation</span><span lang="zh">撰写中</span></span>
+
 <span class="pub-title"><span lang="en">LineGate-SLAM: structure-prior visual-inertial SLAM with learned loop-closure verification for UAV flight in simulated broiler houses</span><span lang="zh">LineGate-SLAM：面向仿真肉鸡舍无人机飞行、融合结构先验与学习式回环验证的视觉惯性 SLAM</span></span>
 
 **Ziyuan Zhao**, Yu Wang, Emmanuel Otchere, Kiju Lee, Giridhar Athrey, Gregory Archer, Morgan Farnell, Ziteng Xu<sup>*</sup>
