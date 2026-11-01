@@ -659,12 +659,38 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 14 11 16 15 12"/></svg>
     </div>
     <div class="jr-info">
+      <span class="jr-name">Scientific Reports</span>
+      <span class="jr-sub"><span lang="en">Peer Reviewer, Springer Nature</span><span lang="zh">审稿人，Springer Nature</span></span>
+    </div>
+    <div class="jr-count" title="Manuscripts reviewed">
+      <span class="jr-count-num">3</span>
+      <span class="jr-count-text"><span lang="en">reviews</span><span lang="zh">篇</span></span>
+    </div>
+  </div>
+  <div class="jr-card">
+    <div class="jr-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 14 11 16 15 12"/></svg>
+    </div>
+    <div class="jr-info">
       <span class="jr-name">Automation in Construction</span>
-      <span class="jr-sub"><span lang="en">Peer Reviewer</span><span lang="zh">审稿人</span></span>
+      <span class="jr-sub"><span lang="en">Peer Reviewer, Elsevier</span><span lang="zh">审稿人，Elsevier</span></span>
     </div>
     <div class="jr-count" title="Manuscripts reviewed">
       <span class="jr-count-num">2</span>
       <span class="jr-count-text"><span lang="en">reviews</span><span lang="zh">篇</span></span>
+    </div>
+  </div>
+  <div class="jr-card">
+    <div class="jr-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 14 11 16 15 12"/></svg>
+    </div>
+    <div class="jr-info">
+      <span class="jr-name">Discover Computing</span>
+      <span class="jr-sub"><span lang="en">Peer Reviewer, Springer Nature</span><span lang="zh">审稿人，Springer Nature</span></span>
+    </div>
+    <div class="jr-count" title="Manuscripts reviewed">
+      <span class="jr-count-num">1</span>
+      <span class="jr-count-text"><span lang="en">review</span><span lang="zh">篇</span></span>
     </div>
   </div>
 </div>
