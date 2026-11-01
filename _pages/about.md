@@ -646,7 +646,7 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 .jr-info{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;}
 .jr-name{font-size:1.0em;font-weight:600;color:#111827;line-height:1.3;}
 .jr-sub{font-size:.78em;color:#6b7280;}
-.jr-count{flex-shrink:0;display:inline-flex;align-items:baseline;gap:5px;padding:6px 12px;border-radius:999px;background:#eff6ff;border:1px solid #bfdbfe;color:#2563eb;font-weight:600;}
+.jr-count{flex-shrink:0;box-sizing:border-box;min-width:6em;display:inline-flex;align-items:baseline;justify-content:center;gap:5px;padding:6px 12px;font-variant-numeric:tabular-nums;border-radius:999px;background:#eff6ff;border:1px solid #bfdbfe;color:#2563eb;font-weight:600;}
 .jr-count-num{font-size:1.05em;}
 .jr-count-text{font-size:.78em;}
 </style>
