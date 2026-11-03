@@ -642,3 +642,46 @@ body {
   .page__content .book-category { flex: 1 1 100%; }
   .page__content .book-card { width: calc(33.333% - 6px); }
 }
+
+/* ============================================================
+   CALM BLUE — the original blue accents on a quieter cool-grey
+   wallpaper, with the geek type roles kept.
+   ============================================================ */
+:root {
+  --font-body: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+}
+html { background: #eef1f6; }
+body {
+  font-family: var(--font-body);
+  background-color: #eef1f6;
+  background-image:
+    linear-gradient(rgba(30, 41, 59, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 41, 59, 0.05) 1px, transparent 1px),
+    radial-gradient(1200px 700px at 8% -8%, rgba(219, 234, 254, 0.85), transparent 60%),
+    linear-gradient(160deg, #f3f5f9 0%, #eef1f6 55%, #ecf1f6 100%);
+  background-size: 48px 48px, 48px 48px, auto, auto;
+}
+
+/* type roles */
+h1, h2, h3, .site-nav__home, .lens-tab__title, .cv-title, .vt-product__name, .press-card__title,
+.team-card__name, .pub-title, .fund-card__big, .author__name, .jr-name, .jr-sub-title, .book-title {
+  font-family: var(--font-display);
+}
+.tier2__eyebrow, .lens-tab__stats > span, .subnav a, .site-nav__sub, .cv-date, .cv-place, .cite-badge,
+.review-badge, .proc-badge, .status-pill, .badge, .pub-status, .jr-count, .tl__date, .fund-card__kicker,
+.press-card__kind, .press-card__url, .vt-product__note, .book-cat-label, .team-card__role, .lang-toggle,
+.page__content li em, .page__content p > em, .copy-cite, .toast {
+  font-family: var(--font-mono);
+}
+.page__content .subnav a, .site-nav__sub { font-weight: 500; letter-spacing: 0.01em; }
+.tier2__eyebrow::before { content: '// '; color: var(--accent-2); }
+
+/* The theme's greedy-nav script targets #site-nav and hides its button;
+   keep our phone menu button visible regardless. */
+@media (max-width: 900px) {
+  .site-nav .site-nav__toggle { display: inline-flex !important; visibility: visible !important; }
+  .site-nav .site-nav__menu { background: transparent; border: 0; box-shadow: none; }
+  .masthead { background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.72)); }
+}

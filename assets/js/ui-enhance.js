@@ -25,11 +25,11 @@
     var wrap = document.createElement('div');
     wrap.id = 'bg-orbs';
     var orbData = [
-      { w: 820, h: 820, top: '-220px', left: '48%',   color: '#3b82f6', dur: '34s', delay: '0s',    op: 0.55 },
-      { w: 640, h: 640, top: '45%',    left: '-200px', color: '#06b6d4', dur: '26s', delay: '-9s',   op: 0.45 },
-      { w: 560, h: 560, top: '20%',    left: '66%',    color: '#2dd4bf', dur: '22s', delay: '-15s',  op: 0.42 },
-      { w: 700, h: 700, top: '70%',    left: '35%',    color: '#60a5fa', dur: '38s', delay: '-6s',   op: 0.40 },
-      { w: 420, h: 420, top: '62%',    left: '78%',    color: '#fbbf24', dur: '30s', delay: '-12s',  op: 0.22 },
+      { w: 820, h: 820, top: '-240px', left: '46%',   color: '#3b82f6', dur: '34s', delay: '0s',    op: 0.22 },
+      { w: 640, h: 640, top: '42%',    left: '-220px', color: '#38bdf8', dur: '26s', delay: '-9s',   op: 0.18 },
+      { w: 560, h: 560, top: '18%',    left: '68%',    color: '#94a3b8', dur: '22s', delay: '-15s',  op: 0.40 },
+      { w: 700, h: 700, top: '68%',    left: '36%',    color: '#60a5fa', dur: '38s', delay: '-6s',   op: 0.18 },
+      { w: 460, h: 460, top: '60%',    left: '76%',    color: '#fbbf24', dur: '30s', delay: '-12s',  op: 0.10 },
     ];
     orbData.forEach(function (d) {
       var el = document.createElement('div');
