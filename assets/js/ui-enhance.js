@@ -25,10 +25,11 @@
     var wrap = document.createElement('div');
     wrap.id = 'bg-orbs';
     var orbData = [
-      { w: 520, h: 520, top: '-120px', left: '55%',  color: '#3b82f6', dur: '30s', delay: '0s',    op: 0.34 },
-      { w: 380, h: 380, top: '52%',    left: '-90px', color: '#0ea5e9', dur: '24s', delay: '-8s',   op: 0.28 },
-      { w: 320, h: 320, top: '26%',    left: '70%',   color: '#2dd4bf', dur: '20s', delay: '-14s',  op: 0.20 },
-      { w: 420, h: 420, top: '76%',    left: '40%',   color: '#60a5fa', dur: '36s', delay: '-5s',   op: 0.22 },
+      { w: 820, h: 820, top: '-220px', left: '48%',   color: '#3b82f6', dur: '34s', delay: '0s',    op: 0.55 },
+      { w: 640, h: 640, top: '45%',    left: '-200px', color: '#06b6d4', dur: '26s', delay: '-9s',   op: 0.45 },
+      { w: 560, h: 560, top: '20%',    left: '66%',    color: '#2dd4bf', dur: '22s', delay: '-15s',  op: 0.42 },
+      { w: 700, h: 700, top: '70%',    left: '35%',    color: '#60a5fa', dur: '38s', delay: '-6s',   op: 0.40 },
+      { w: 420, h: 420, top: '62%',    left: '78%',    color: '#fbbf24', dur: '30s', delay: '-12s',  op: 0.22 },
     ];
     orbData.forEach(function (d) {
       var el = document.createElement('div');
@@ -88,7 +89,7 @@
   var navLinks = [];
 
   function buildNavMap() {
-    document.querySelectorAll('.masthead__menu-item a').forEach(function (a) {
+    document.querySelectorAll('.site-nav a[href^="#"]').forEach(function (a) {
       navLinks.push(a);
     });
     document.querySelectorAll('span[id].anchor').forEach(function (el) {
@@ -112,8 +113,18 @@
       a.classList.remove('nav-active');
       var id = (a.getAttribute('href') || '').replace(/^.*#/, '');
       if (!current || !id) return;
-      // A masthead link to a branch stays lit while any of its sections is on screen.
-      if (id === current.id || (BRANCHES[id] && activeBranch === id)) a.classList.add('nav-active');
+      var li = a.parentNode;
+      if (a.classList.contains('site-nav__link') && li && li.classList.contains('has-children')) {
+        // A group label stays lit while any of its sections is on screen.
+        var ids = [].map.call(li.querySelectorAll('.site-nav__menu a'), function (c) {
+          return (c.getAttribute('href') || '').replace(/^.*#/, '');
+        });
+        if (id === current.id || ids.indexOf(current.id) !== -1 || (BRANCHES[id] && activeBranch === id)) {
+          a.classList.add('nav-active');
+        }
+      } else if (id === current.id) {
+        a.classList.add('nav-active');
+      }
     });
     document.querySelectorAll('.subnav a').forEach(function (a) {
       var id = (a.getAttribute('href') || '').replace(/^#/, '');
@@ -331,7 +342,7 @@
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   function setMastheadVar() {
-    if (masthead) document.documentElement.style.setProperty('--masthead-h', masthead.offsetHeight + 'px');
+    if (masthead) document.documentElement.style.setProperty('--masthead-h', (masthead.offsetHeight + 10) + 'px');
   }
 
   function branchOf(el) {
@@ -471,6 +482,52 @@
   }
 
   /* ================================================================
+     Site menu: hover/focus opens a group on desktop (CSS); on touch
+     screens the first tap opens it; on phones a button shows the sheet.
+     ================================================================ */
+  function initSiteNav() {
+    var nav = document.querySelector('.site-nav');
+    if (!nav) return;
+    var toggle = nav.querySelector('.site-nav__toggle');
+    var coarse = window.matchMedia('(hover: none)').matches;
+
+    function closeGroups() {
+      nav.querySelectorAll('.has-children.is-open').forEach(function (li) {
+        li.classList.remove('is-open');
+        var l = li.querySelector('.site-nav__link');
+        if (l) l.setAttribute('aria-expanded', 'false');
+      });
+    }
+    function setSheet(open) {
+      nav.classList.toggle('is-open', open);
+      if (toggle) toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      setMastheadVar();
+    }
+    if (toggle) {
+      toggle.addEventListener('click', function () { setSheet(!nav.classList.contains('is-open')); });
+    }
+    nav.querySelectorAll('.has-children > .site-nav__link').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var li = link.parentNode;
+        if (coarse && window.innerWidth > 900 && !li.classList.contains('is-open')) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          closeGroups();
+          li.classList.add('is-open');
+          link.setAttribute('aria-expanded', 'true');
+        }
+      }, true);
+    });
+    document.addEventListener('click', function (e) {
+      if (!nav.contains(e.target)) { closeGroups(); return; }
+      if (e.target.closest && e.target.closest('a[href^="#"]')) { closeGroups(); setSheet(false); }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { closeGroups(); setSheet(false); }
+    });
+  }
+
+  /* ================================================================
      Cursor-following sheen on glass cards (CSS reads --mx / --my)
      ================================================================ */
   function initSpecular() {
@@ -498,6 +555,7 @@
     injectOrbs();
     buildNavMap();
     initBranches();
+    initSiteNav();
     initFadeIn();
     injectPubStatus();
     injectAwardStyle();

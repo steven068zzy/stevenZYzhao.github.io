@@ -19,6 +19,8 @@ redirect_from:
   
 # <span lang="en">👋 Hello there, I'm Steven</span><span lang="zh">👋 你好，我是 Steven</span>
 
+<div class="intro-panel" markdown="1">
+
 <span lang="en">🧑‍💻 I'm a Ph.D. student from <a href="https://www.tamu.edu/">Texas A&amp;M University</a></span><span lang="zh">🧑‍💻 我是 <a href="https://www.tamu.edu/">Texas A&amp;M University</a> 的博士生</span>  
   
 <span lang="en">🤖 My research direction is <strong>Robotics and AI (focused on Computer Vision) solutions for precision poultry and livestock farming</strong>.</span><span lang="zh">🤖 我的研究方向是<strong>面向精准家禽与畜牧养殖的机器人与人工智能（聚焦计算机视觉）解决方案</strong>。</span>
@@ -27,6 +29,9 @@ redirect_from:
 <span lang="en">Email:</span><span lang="zh">邮箱：</span> ziyuanzhao@tamu.edu  
 <span lang="en">LinkedIn: <a href="https://linkedin.com/in/steven-zhao-89195326b">Homepage</a></span><span lang="zh">LinkedIn：<a href="https://linkedin.com/in/steven-zhao-89195326b">个人主页</a></span>  
 <span lang="en">GitHub: <a href="https://github.com/steven068zzy">steven068zzy</a></span><span lang="zh">GitHub：<a href="https://github.com/steven068zzy">steven068zzy</a></span>  
+
+</div>
+
 
 <span class='anchor' id='educations'></span>
 
@@ -949,9 +954,19 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 <div class="team-grid">
   <div class="team-card">
     <div class="team-card__name">Ziyuan “Steven” Zhao</div>
-    <div class="team-card__role"><span lang="en">Robotics &amp; Automation · Marketing</span><span lang="zh">机器人与自动化 · 市场</span></div>
+    <div class="team-card__role"><span lang="en">Co-founder · Robotics &amp; Automation · Marketing</span><span lang="zh">联合创始人 · 机器人与自动化 · 市场</span></div>
     <div class="team-card__p"><span lang="en">Builds the machine, from CAD to the farrowing room, and leads go-to-market.</span><span lang="zh">负责把机器做出来，从 CAD 到产房，并牵头市场推广。</span></div>
   </div>
+  <div class="team-card">
+    <div class="team-card__name"><a href="https://poultry.tamu.edu/people/xu-ziteng-tim/">Dr. Ziteng “Tim” Xu</a></div>
+    <div class="team-card__role"><span lang="en">Co-founder · Assistant Professor, Texas A&amp;M University</span><span lang="zh">联合创始人 · Texas A&amp;M University 助理教授</span></div>
+    <div class="team-card__p"><span lang="en">Smart technologies for livestock production, machine learning and robotics; the research the company grew out of.</span><span lang="zh">畜牧生产智能技术、机器学习与机器人；公司正是从这项研究中走出来的。</span></div>
+  </div>
+</div>
+
+<div class="jr-sub-title"><span lang="en">Team</span><span lang="zh">团队成员</span></div>
+
+<div class="team-grid">
   <div class="team-card">
     <div class="team-card__name">Yu “Andy” Wang</div>
     <div class="team-card__role"><span lang="en">Computer Vision</span><span lang="zh">计算机视觉</span></div>
@@ -967,11 +982,6 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 <div class="jr-sub-title"><span lang="en">Advisors</span><span lang="zh">顾问</span></div>
 
 <div class="team-grid team-grid--adv">
-  <div class="team-card">
-    <div class="team-card__name"><a href="https://poultry.tamu.edu/people/xu-ziteng-tim/">Dr. Ziteng “Tim” Xu</a></div>
-    <div class="team-card__role"><span lang="en">Assistant Professor, Texas A&amp;M University</span><span lang="zh">Texas A&amp;M University 助理教授</span></div>
-    <div class="team-card__p"><span lang="en">Smart technologies for livestock production.</span><span lang="zh">畜牧生产智能技术。</span></div>
-  </div>
   <div class="team-card">
     <div class="team-card__name"><a href="https://www.stevediasio.com/">Dr. Steve Diasio</a></div>
     <div class="team-card__role"><span lang="en">Clinical Professor, Mays Business School</span><span lang="zh">Mays 商学院临床教授</span></div>
@@ -1018,6 +1028,8 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 </style>
 
 <p class="book-shelf-intro"><span lang="en">A good book slows me down in the best way — it pushes me to think more carefully, challenges assumptions I didn't know I had, and opens up worlds and lives far beyond my own. Below are books I've genuinely loved and would recommend without hesitation.</span><span lang="zh">一本好书会以最美的方式让我慢下来——促使我更仔细地思考，挑战我未曾察觉的假设，并向我展现远超自身经历的世界与人生。下面这些书是我真心喜爱、愿意毫无保留推荐的作品。</span></p>
+
+<div class="reading-shelf">
 
 <div class="book-category">
 <div class="book-cat-label"><span lang="en">Literary Fiction · 5</span><span lang="zh">文学小说 · 5</span></div>
@@ -1203,4 +1215,6 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 </div>
 
 </div>
+</div>
+
 </div>
