@@ -112,11 +112,8 @@ redirect_from:
       <div class="cv-title"><a href="https://steven068zzy.github.io/smartswine/">Smart Swine, LLC</a> <span class="cv-place">· College Station, TX, USA</span></div>
       <div class="cv-role"><span lang="en">Co-founder</span><span lang="zh">联合创始人</span></div>
       <span class="cv-date"><span lang="en">Jun 2026 – Present</span><span lang="zh">2026年6月 – 至今</span></span>
-      <div class="cv-sub"><span lang="en">AI-powered robotics and computer vision for modern swine farming, tackling piglet pre-weaning mortality.</span><span lang="zh">面向现代养猪业的人工智能机器人与计算机视觉方案，致力于降低仔猪断奶前死亡率。</span></div>
-      <ul class="cv-points">
-        <li><span lang="en">Pairs edge-deployed computer vision with custom robotics to predict crushing and stillbirth risk in real time and intervene before piglets are lost, moving beyond monitoring to predictive prevention.</span><span lang="zh">将边缘部署的计算机视觉与定制机器人相结合，实时预测压死与死胎风险并在仔猪损失前主动干预，从被动监测走向预测性预防。</span></li>
-        <li><span lang="en">Backed by approximately $1M in non-dilutive NSF and USDA-NIFA support (2026–2029), with industry support from the National Pork Board, Smithfield Foods, the Texas Pork Producers Association, and the Missouri Pork Association. Semifinalist in the 2026 AI Venture Velocity Challenge at Mays Business School, Texas A&amp;M University, advancing from 531 teams across 160 universities to the final 27.</span><span lang="zh">获得约 100 万美元 NSF 与 USDA-NIFA 非稀释性经费（2026–2029），并获 National Pork Board、Smithfield Foods、Texas Pork Producers Association 与 Missouri Pork Association 等行业机构支持。入围 Texas A&amp;M University Mays Business School 主办的 2026 AI Venture Velocity Challenge 半决赛，从 160 所高校的 531 支队伍中晋级 27 强。</span></li>
-      </ul>
+      <div class="cv-sub"><span lang="en">Camera intelligence for the farrowing room: a crate-mounted monitor and a curtain that acts on what it sees, built to end the piglet losses that happen while nobody is watching.</span><span lang="zh">面向产房的相机智能：一台装在产床上的监测器，和一道根据监测结果动作的帘子，用来终结那些发生在无人看护时的仔猪损失。</span></div>
+      <a class="cv-jump" href="#venture-overview" target="_self"><span lang="en">Progress, competitions and funding</span><span lang="zh">进展、比赛与资金</span><span class="cv-jump__arrow" aria-hidden="true">→</span></a>
     </div>
   </div>
   <div class="cv-org cv-org--top">
@@ -166,6 +163,36 @@ redirect_from:
       </ul>
     </div>
   </div>
+</div>
+
+<span class='anchor' id='what-i-do'></span>
+
+<div class="tier2">
+  <div class="tier2__eyebrow"><span lang="en">What I work on</span><span lang="zh">我在做什么</span></div>
+  <p class="tier2__lede"><span lang="en">Research and a company, aimed at the same gap: animals that no one can watch around the clock.</span><span lang="zh">研究和公司，瞄准同一个缺口：没有人能够全天候盯着的动物。</span></p>
+  <div class="lens-switch" role="tablist" aria-label="Academic or Entrepreneurship" data-active="academic">
+    <span class="lens" aria-hidden="true"></span>
+    <button type="button" role="tab" id="tab-academic" class="lens-tab is-active" data-target="academic" aria-selected="true" aria-controls="academic">
+      <span class="lens-tab__head"><span class="lens-tab__icon" aria-hidden="true">🎓</span><span class="lens-tab__title"><span lang="en">Academic</span><span lang="zh">学术</span></span></span>
+      <span class="lens-tab__sub"><span lang="en">Robotics and computer vision for poultry and livestock farming</span><span lang="zh">面向家禽与畜牧养殖的机器人与计算机视觉</span></span>
+      <span class="lens-tab__stats"><span><span lang="en">8 published</span><span lang="zh">8 篇已发表</span></span><span><span lang="en">7 in pipeline</span><span lang="zh">7 篇在投或撰写中</span></span><span><span lang="en">9 presentations</span><span lang="zh">9 场报告</span></span></span>
+    </button>
+    <button type="button" role="tab" id="tab-venture" class="lens-tab" data-target="venture" aria-selected="false" aria-controls="venture">
+      <span class="lens-tab__head"><span class="lens-tab__icon" aria-hidden="true">🚀</span><span class="lens-tab__title"><span lang="en">Entrepreneurship</span><span lang="zh">创业</span></span></span>
+      <span class="lens-tab__sub"><span lang="en">Smart Swine, LLC: camera intelligence for the farrowing room</span><span lang="zh">Smart Swine, LLC：面向产房的相机智能</span></span>
+      <span class="lens-tab__stats"><span><span lang="en">≈ $1M non-dilutive</span><span lang="zh">≈ 100 万美元非稀释性支持</span></span><span><span lang="en">12 / 531 finalist</span><span lang="zh">531 进 12 强</span></span><span><span lang="en">10-sow farm trial</span><span lang="zh">10 头母猪农场试验</span></span></span>
+    </button>
+  </div>
+</div>
+
+<div class="branch branch--academic" id="academic" data-branch="academic" markdown="1">
+
+<div class="subnav" role="navigation" aria-label="Academic sections">
+  <a href="#publications" target="_self"><span lang="en">Publications</span><span lang="zh">论文成果</span></a>
+  <a href="#selected-projects" target="_self"><span lang="en">Projects</span><span lang="zh">代表性项目</span></a>
+  <a href="#professional-service" target="_self"><span lang="en">Service</span><span lang="zh">学术服务</span></a>
+  <a href="#conference-presentations" target="_self"><span lang="en">Presentations</span><span lang="zh">会议报告</span></a>
+  <a href="#honors-and-awards" target="_self"><span lang="en">Honors</span><span lang="zh">荣誉与奖项</span></a>
 </div>
 
 <span class='anchor' id='publications'></span>
@@ -735,12 +762,234 @@ Siya Chen, Yu Wang, **Ziyuan Zhao**, Dan Feng, Gregory Archer, Giridhar Athrey, 
 <span class='anchor' id='honors-and-awards'></span>
 
 # <span lang="en">🏆 Honors and Awards</span><span lang="zh">🏆 荣誉与奖项</span>
-- <span lang="en">*Oct 2026*</span><span lang="zh">*2026年10月*</span>, <span lang="en">Top 10, Global Mission Cup 2026, as co-founder of Smart Swine, LLC</span><span lang="zh">Global Mission Cup 2026 十强，Smart Swine, LLC 联合创始人</span>
-- <span lang="en">*Aug 2026*</span><span lang="zh">*2026年8月*</span>, <span lang="en">Finalist (Top 12 of 531 teams from 160 universities), AI Venture Velocity Challenge, Mays Business School, TAMU, as co-founder of Smart Swine, LLC</span><span lang="zh">TAMU Mays 商学院 AI Venture Velocity Challenge 决赛 12 强（160 所高校 531 支队伍），Smart Swine, LLC 联合创始人</span>
 - <span lang="en">*May 2026*</span><span lang="zh">*2026年5月*</span>, TAMU Grad School Travel Award
 - <span lang="en">*Sep 2025*</span><span lang="zh">*2025年9月*</span>, David B Mellor '57 Graduate Scholarship in TAMU
 - <span lang="en">*Jul 2025*</span><span lang="zh">*2025年7月*</span>, Poultry Science Association Student Travel Award
 - <span lang="en">*Jul 2023*</span><span lang="zh">*2023年7月*</span>, Outstanding International Students Scholarship in UDM
+
+</div>
+
+<div class="branch branch--venture" id="venture" data-branch="venture" hidden markdown="1">
+
+<div class="subnav" role="navigation" aria-label="Entrepreneurship sections">
+  <a href="#venture-overview" target="_self"><span lang="en">Overview</span><span lang="zh">概览</span></a>
+  <a href="#venture-milestones" target="_self"><span lang="en">Milestones</span><span lang="zh">里程碑</span></a>
+  <a href="#venture-funding" target="_self"><span lang="en">Funding</span><span lang="zh">资金与支持</span></a>
+  <a href="#venture-press" target="_self"><span lang="en">Press &amp; video</span><span lang="zh">媒体与视频</span></a>
+  <a href="#venture-team" target="_self"><span lang="en">Team</span><span lang="zh">团队与顾问</span></a>
+</div>
+
+<span class='anchor' id='venture-overview'></span>
+
+# <span lang="en">🐷 Smart Swine, LLC</span><span lang="zh">🐷 Smart Swine, LLC</span>
+
+<div class="vt-hero">
+  <div class="vt-hero__logo"><a href="https://steven068zzy.github.io/smartswine/"><img src="images/logo-smartswine.png" alt="Smart Swine, LLC logo"></a></div>
+  <div class="vt-hero__body">
+    <div class="cv-title"><a href="https://steven068zzy.github.io/smartswine/">Smart Swine, LLC</a> <span class="cv-place">· College Station, TX, USA</span></div>
+    <div class="cv-role"><span lang="en">Co-founder · Robotics &amp; Automation · Go-to-market</span><span lang="zh">联合创始人 · 机器人与自动化 · 市场推广</span></div>
+    <span class="cv-date"><span lang="en">Jun 2026 – Present</span><span lang="zh">2026年6月 – 至今</span></span>
+    <p class="vt-hero__p"><span lang="en">Camera intelligence for the farrowing room. Piglets die in short, visible windows, and no stockperson can be at the right crate at the right moment, every time, all night. Smart Swine builds the camera that watches, and the device that acts.</span><span lang="zh">面向产房的相机智能。仔猪的死亡发生在短暂而可见的时间窗口里，而没有任何饲养员能够每一次、整夜都守在正确的产床前。Smart Swine 做的，是负责「看」的相机，和负责「动手」的装置。</span></p>
+    <p class="vt-hero__p"><span lang="en">The company grew out of Texas A&amp;M: sensing research, an on-farm trial and a venture program, in that order. I build the machine, from CAD to the farrowing room, and lead go-to-market.</span><span lang="zh">公司从 Texas A&amp;M 走出来：先是传感研究，再是农场试验，然后进入创业项目。我负责把机器做出来，从 CAD 到产房，并牵头市场推广。</span></p>
+    <div class="vt-links">
+      <a class="vt-link" href="https://steven068zzy.github.io/smartswine/"><span lang="en">Website</span><span lang="zh">官网</span></a>
+      <a class="vt-link" href="https://steven068zzy.github.io/smartswine/barn.html"><span lang="en">Trial footage</span><span lang="zh">试验实拍</span></a>
+      <a class="vt-link" href="https://www.linkedin.com/company/133423991/">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<div class="vt-products">
+  <div class="vt-product">
+    <div class="vt-product__img"><img src="images/smartswine-spm01.webp" alt="SPM-01 Smart Piglet Monitor, concept render" loading="lazy"></div>
+    <div class="vt-product__body">
+      <div class="vt-product__name">SPM-01 <span lang="en">Smart Piglet Monitor</span><span lang="zh">智能仔猪监测器</span></div>
+      <p><span lang="en">A sealed monitor mounted on the crate that watches the sow and her litter through the most dangerous week of a pig's life, and sends what it sees to the barn team's phones.</span><span lang="zh">安装在产床上的密封监测器，在仔猪一生中最危险的一周里看护母猪和它的一窝仔猪，并把所见推送到猪舍团队的手机上。</span></p>
+      <span class="vt-product__note"><span lang="en">Concept render</span><span lang="zh">概念渲染图</span></span>
+    </div>
+  </div>
+  <div class="vt-product">
+    <div class="vt-product__img"><img src="images/smartswine-spc01.webp" alt="SPC-01 Smart Piglet Curtain, concept render" loading="lazy"></div>
+    <div class="vt-product__body">
+      <div class="vt-product__name">SPC-01 <span lang="en">Smart Piglet Curtain</span><span lang="zh">智能仔猪防压帘</span></div>
+      <p><span lang="en">The half that acts: a motorized curtain that closes the danger zone seconds before the sow rolls and lifts again the moment she is safe.</span><span lang="zh">负责「动手」的那一半：一道电动帘子，在母猪翻身前几秒封住危险区，待她安全后立即升起。</span></p>
+      <span class="vt-product__note"><span lang="en">Concept render</span><span lang="zh">概念渲染图</span></span>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='venture-milestones'></span>
+
+# <span lang="en">📍 Milestones</span><span lang="zh">📍 里程碑</span>
+
+<ol class="tl">
+  <li class="tl__item">
+    <div class="tl__body">
+      <span class="tl__date"><span lang="en">Spring 2026</span><span lang="zh">2026 年春</span></span>
+      <span class="tl__text"><span lang="en"><strong>In print.</strong> PigCHAMP Benchmark, U.S. edition, writes up the robotic sow-imaging research behind Smart Swine.</span><span lang="zh"><strong>见刊。</strong>PigCHAMP Benchmark 美国版专栏介绍了 Smart Swine 背后的机器人母猪成像研究。</span></span>
+      <span class="tl__links"><a href="https://www.pigchamp.com/flipbooks/benchmark-magazine/2026/USA/26/index.html"><span lang="en">Read</span><span lang="zh">阅读</span></a></span>
+    </div>
+  </li>
+  <li class="tl__item">
+    <div class="tl__body">
+      <span class="tl__date"><span lang="en">Apr – May 2026</span><span lang="zh">2026 年 4–5 月</span></span>
+      <span class="tl__text"><span lang="en"><strong>On-farm trial.</strong> A prototype rig ran through a farrowing batch at the Texas A&amp;M swine center, 10 sows under IACUC oversight, recording through the nights. The hardware came out a farm-validated prototype.</span><span lang="zh"><strong>农场试验。</strong>样机在 Texas A&amp;M 猪场完整跟了一批分娩，10 头母猪，IACUC 监管，整夜连续记录。硬件由此成为经过农场验证的样机。</span></span>
+      <span class="tl__links"><a href="https://steven068zzy.github.io/smartswine/barn.html"><span lang="en">Trial footage</span><span lang="zh">试验实拍</span></a></span>
+    </div>
+  </li>
+  <li class="tl__item">
+    <div class="tl__body">
+      <span class="tl__date"><span lang="en">Jun 2026</span><span lang="zh">2026 年 6 月</span></span>
+      <span class="tl__text"><span lang="en"><strong>Company founded.</strong> Smart Swine, LLC, College Station, TX. Customer discovery started the same month: a producer survey distributed through pork-industry associations and in-person farm visits.</span><span lang="zh"><strong>公司成立。</strong>Smart Swine, LLC 在德州 College Station 注册。同月启动客户探索：通过养猪行业协会和实地走访发放生产者问卷。</span></span>
+      <span class="tl__links"><a href="https://www.youtube.com/watch?v=neiSyYH7yK4"><span lang="en">Meet Smart Swine (video)</span><span lang="zh">Meet Smart Swine（视频）</span></a></span>
+    </div>
+  </li>
+  <li class="tl__item">
+    <div class="tl__body">
+      <span class="tl__date"><span lang="en">Jul 2026</span><span lang="zh">2026 年 7 月</span></span>
+      <span class="tl__text"><span lang="en"><strong>Semifinalist, 2026 AI Venture Velocity Challenge.</strong> One of 27 teams selected from 531 entries across 160 universities.</span><span lang="zh"><strong>2026 AI Venture Velocity Challenge 半决赛。</strong>从 160 所高校的 531 支队伍中入选 27 强。</span></span>
+      <span class="tl__links"><a href="https://mays.tamu.edu/news/2026/07/09/ai-venture-velocity-challenge-semifinalists-2026/"><span lang="en">Mays announcement</span><span lang="zh">Mays 公告</span></a></span>
+    </div>
+  </li>
+  <li class="tl__item">
+    <div class="tl__body">
+      <span class="tl__date"><span lang="en">Sep 2026</span><span lang="zh">2026 年 9 月</span></span>
+      <span class="tl__text"><span lang="en"><strong>Finalist.</strong> One of 12 teams in the national final at Mays Business School, Texas A&amp;M, with $175,000 in non-dilutive funding on the line.</span><span lang="zh"><strong>决赛 12 强。</strong>进入 Texas A&amp;M Mays 商学院举办的全国总决赛，角逐 17.5 万美元非稀释性资金。</span></span>
+      <span class="tl__links"><a href="https://mays.tamu.edu/news/2026/09/03/ai-venture-velocity-challenge-2026-finalists/"><span lang="en">Mays announcement</span><span lang="zh">Mays 公告</span></a><a href="https://www.youtube.com/watch?v=p9kWAKEajnw"><span lang="en">Reflection video</span><span lang="zh">回顾视频</span></a></span>
+    </div>
+  </li>
+  <li class="tl__item">
+    <div class="tl__body">
+      <span class="tl__date"><span lang="en">Oct 2026</span><span lang="zh">2026 年 10 月</span></span>
+      <span class="tl__text"><span lang="en"><strong>Top 10, Global Mission Cup 2026.</strong></span><span lang="zh"><strong>Global Mission Cup 2026 十强。</strong></span></span>
+    </div>
+  </li>
+  <li class="tl__item tl__item--next">
+    <div class="tl__body">
+      <span class="tl__date"><span lang="en">Next</span><span lang="zh">下一步</span></span>
+      <span class="tl__text"><span lang="en"><strong>Units on barns that are not ours.</strong> Free prototype trials are open to producers for the 2026 farrowing season, while hand-built units last, as the hardware moves toward production design.</span><span lang="zh"><strong>把设备装到别人的猪舍里。</strong>2026 年分娩季面向生产者开放免费样机试用，手工装配的机台装完为止；硬件同步走向量产设计。</span></span>
+    </div>
+  </li>
+</ol>
+
+<span class='anchor' id='venture-funding'></span>
+
+# <span lang="en">💰 Funding &amp; Support</span><span lang="zh">💰 资金与支持</span>
+
+<div class="fund-grid">
+  <div class="fund-card fund-card--main">
+    <div class="fund-card__kicker"><span lang="en">Non-dilutive support</span><span lang="zh">非稀释性支持</span></div>
+    <div class="fund-card__big">≈ $1M</div>
+    <div class="fund-card__line"><span lang="en">NSF and USDA-NIFA, 2026 – 2029</span><span lang="zh">NSF 与 USDA-NIFA，2026–2029</span></div>
+    <div class="fund-card__note"><span lang="en">Grant support, not equity raised. The runway is not a countdown to a raise.</span><span lang="zh">是经费支持，不是股权融资。跑道不是倒数着等下一轮。</span></div>
+  </div>
+  <div class="fund-card">
+    <div class="fund-card__kicker"><span lang="en">Industry support</span><span lang="zh">行业支持</span></div>
+    <ul class="fund-card__list">
+      <li><a href="https://www.pork.org/">National Pork Board</a></li>
+      <li>Smithfield Foods</li>
+      <li><a href="https://texaspork.org/">Texas Pork Producers Association</a></li>
+      <li><a href="https://mopork.com/">Missouri Pork Association</a></li>
+    </ul>
+    <div class="fund-card__note"><span lang="en">Letters of support and help distributing the producer survey. Not investors, customers or commercial partners.</span><span lang="zh">提供支持信并协助发放生产者问卷。不是投资人、客户或商业合作方。</span></div>
+  </div>
+  <div class="fund-card">
+    <div class="fund-card__kicker"><span lang="en">University partners</span><span lang="zh">高校合作</span></div>
+    <ul class="fund-card__list">
+      <li><a href="https://www.tamu.edu/">Texas A&amp;M University</a></li>
+      <li><a href="https://missouri.edu/">University of Missouri</a></li>
+    </ul>
+    <div class="fund-card__note"><span lang="en">Research partners, and the venture program at Mays Business School that runs the competition.</span><span lang="zh">科研合作伙伴，以及主办比赛的 Mays 商学院创业项目。</span></div>
+  </div>
+</div>
+
+<span class='anchor' id='venture-press'></span>
+
+# <span lang="en">📰 Press &amp; Video</span><span lang="zh">📰 媒体与视频</span>
+
+<div class="press-grid">
+  <a class="press-card" href="https://mays.tamu.edu/news/2026/09/03/ai-venture-velocity-challenge-2026-finalists/">
+    <span class="press-card__kind"><span lang="en">News · September 2026</span><span lang="zh">新闻 · 2026 年 9 月</span></span>
+    <span class="press-card__title"><span lang="en">Mays names the 12 finalists of the AI Venture Velocity Challenge</span><span lang="zh">Mays 公布 AI Venture Velocity Challenge 12 强</span></span>
+    <span class="press-card__p"><span lang="en">Smart Swine among 12 finalists narrowed from 27 semifinalists and 531 entries.</span><span lang="zh">Smart Swine 从 531 支参赛队、27 强半决赛中进入 12 强。</span></span>
+    <span class="press-card__url">mays.tamu.edu</span>
+  </a>
+  <a class="press-card" href="https://mays.tamu.edu/news/2026/07/09/ai-venture-velocity-challenge-semifinalists-2026/">
+    <span class="press-card__kind"><span lang="en">News · July 2026</span><span lang="zh">新闻 · 2026 年 7 月</span></span>
+    <span class="press-card__title"><span lang="en">Mays announces the semifinalists of the national AI Venture Velocity Challenge</span><span lang="zh">Mays 公布全国 AI Venture Velocity Challenge 半决赛名单</span></span>
+    <span class="press-card__p"><span lang="en">Smart Swine named among 27 semifinalists from 531 teams across 160 universities.</span><span lang="zh">Smart Swine 入选 27 强，参赛队伍来自 160 所高校共 531 支。</span></span>
+    <span class="press-card__url">mays.tamu.edu</span>
+  </a>
+  <a class="press-card" href="https://www.pigchamp.com/flipbooks/benchmark-magazine/2026/USA/26/index.html">
+    <span class="press-card__kind"><span lang="en">Magazine · Spring 2026</span><span lang="zh">杂志 · 2026 年春</span></span>
+    <span class="press-card__title">Next Step in Precision Sow Management</span>
+    <span class="press-card__p"><span lang="en">PigCHAMP Benchmark, U.S. edition, on the robotic imaging research behind Smart Swine.</span><span lang="zh">PigCHAMP Benchmark 美国版，介绍 Smart Swine 背后的机器人成像研究。</span></span>
+    <span class="press-card__url">pigchamp.com</span>
+  </a>
+  <a class="press-card press-card--video" href="https://www.youtube.com/watch?v=p9kWAKEajnw">
+    <span class="press-card__kind"><span lang="en">Video · September 2026</span><span lang="zh">视频 · 2026 年 9 月</span></span>
+    <span class="press-card__title">Reflection video: Smart Swine, LLC</span>
+    <span class="press-card__p"><span lang="en">One minute for the AI Venture Velocity Challenge finals: what the venture tested and learned on the way there.</span><span lang="zh">为 AI Venture Velocity Challenge 决赛制作的一分钟短片：一路上验证了什么、学到了什么。</span></span>
+    <span class="press-card__url">youtube.com · 1:07</span>
+  </a>
+  <a class="press-card press-card--video" href="https://www.youtube.com/watch?v=neiSyYH7yK4">
+    <span class="press-card__kind"><span lang="en">Video · June 2026</span><span lang="zh">视频 · 2026 年 6 月</span></span>
+    <span class="press-card__title">Meet Smart Swine</span>
+    <span class="press-card__p"><span lang="en">Who we are, what happens in a farrowing room, and why we pointed a camera at it.</span><span lang="zh">我们是谁，产房里发生着什么，以及我们为什么把相机对准它。</span></span>
+    <span class="press-card__url">youtube.com · 2:31</span>
+  </a>
+</div>
+
+<span class='anchor' id='venture-team'></span>
+
+# <span lang="en">👥 Team &amp; Advisors</span><span lang="zh">👥 团队与顾问</span>
+
+<div class="jr-sub-title"><span lang="en">Co-founders</span><span lang="zh">联合创始人</span></div>
+
+<div class="team-grid">
+  <div class="team-card">
+    <div class="team-card__name">Ziyuan “Steven” Zhao</div>
+    <div class="team-card__role"><span lang="en">Robotics &amp; Automation · Marketing</span><span lang="zh">机器人与自动化 · 市场</span></div>
+    <div class="team-card__p"><span lang="en">Builds the machine, from CAD to the farrowing room, and leads go-to-market.</span><span lang="zh">负责把机器做出来，从 CAD 到产房，并牵头市场推广。</span></div>
+  </div>
+  <div class="team-card">
+    <div class="team-card__name">Yu “Andy” Wang</div>
+    <div class="team-card__role"><span lang="en">Computer Vision</span><span lang="zh">计算机视觉</span></div>
+    <div class="team-card__p"><span lang="en">Builds the eyes of the system.</span><span lang="zh">负责系统的「眼睛」。</span></div>
+  </div>
+  <div class="team-card">
+    <div class="team-card__name">Emmanuel Otchere</div>
+    <div class="team-card__role"><span lang="en">Animal Science</span><span lang="zh">动物科学</span></div>
+    <div class="team-card__p"><span lang="en">Keeps it honest to the animal: welfare, trial protocols and producer studies.</span><span lang="zh">让一切忠于动物本身：福利、试验方案与生产者研究。</span></div>
+  </div>
+</div>
+
+<div class="jr-sub-title"><span lang="en">Advisors</span><span lang="zh">顾问</span></div>
+
+<div class="team-grid team-grid--adv">
+  <div class="team-card">
+    <div class="team-card__name"><a href="https://poultry.tamu.edu/people/xu-ziteng-tim/">Dr. Ziteng “Tim” Xu</a></div>
+    <div class="team-card__role"><span lang="en">Assistant Professor, Texas A&amp;M University</span><span lang="zh">Texas A&amp;M University 助理教授</span></div>
+    <div class="team-card__p"><span lang="en">Smart technologies for livestock production.</span><span lang="zh">畜牧生产智能技术。</span></div>
+  </div>
+  <div class="team-card">
+    <div class="team-card__name"><a href="https://www.stevediasio.com/">Dr. Steve Diasio</a></div>
+    <div class="team-card__role"><span lang="en">Clinical Professor, Mays Business School</span><span lang="zh">Mays 商学院临床教授</span></div>
+    <div class="team-card__p"><span lang="en">Innovation and entrepreneurship.</span><span lang="zh">创新与创业。</span></div>
+  </div>
+  <div class="team-card">
+    <div class="team-card__name"><a href="https://drdavidflint.com/about/">Dr. David Flint</a></div>
+    <div class="team-card__role"><span lang="en">Clinical Professor and Director, M.S. in Entrepreneurial Leadership, Mays Business School</span><span lang="zh">Mays 商学院临床教授、创业领导力硕士项目主任</span></div>
+    <div class="team-card__p"><span lang="en">Business strategy.</span><span lang="zh">商业战略。</span></div>
+  </div>
+  <div class="team-card">
+    <div class="team-card__name"><a href="https://cafnr.missouri.edu/directory/jianfeng-zhou/">Dr. Jianfeng Zhou</a></div>
+    <div class="team-card__role"><span lang="en">Associate Professor, University of Missouri</span><span lang="zh">University of Missouri 副教授</span></div>
+    <div class="team-card__p"><span lang="en">Precision livestock farming.</span><span lang="zh">精准畜牧。</span></div>
+  </div>
+</div>
+
+</div>
 
 <span class='anchor' id='reading-list'></span>
 

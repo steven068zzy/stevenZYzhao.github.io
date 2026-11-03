@@ -25,10 +25,10 @@
     var wrap = document.createElement('div');
     wrap.id = 'bg-orbs';
     var orbData = [
-      { w: 440, h: 440, top: '-100px', left: '58%',  color: '#3b82f6', dur: '28s', delay: '0s',    op: 0.20 },
-      { w: 310, h: 310, top: '58%',   left: '-70px', color: '#0ea5e9', dur: '22s', delay: '-8s',   op: 0.16 },
-      { w: 270, h: 270, top: '28%',   left: '72%',   color: '#818cf8', dur: '19s', delay: '-14s',  op: 0.13 },
-      { w: 360, h: 360, top: '78%',   left: '42%',   color: '#38bdf8', dur: '34s', delay: '-5s',   op: 0.11 },
+      { w: 520, h: 520, top: '-120px', left: '55%',  color: '#3b82f6', dur: '30s', delay: '0s',    op: 0.34 },
+      { w: 380, h: 380, top: '52%',    left: '-90px', color: '#0ea5e9', dur: '24s', delay: '-8s',   op: 0.28 },
+      { w: 320, h: 320, top: '26%',    left: '70%',   color: '#2dd4bf', dur: '20s', delay: '-14s',  op: 0.20 },
+      { w: 420, h: 420, top: '76%',    left: '40%',   color: '#60a5fa', dur: '36s', delay: '-5s',   op: 0.22 },
     ];
     orbData.forEach(function (d) {
       var el = document.createElement('div');
@@ -56,8 +56,8 @@
         var rect = card.getBoundingClientRect();
         var dx = (e.clientX - (rect.left + rect.width  / 2)) / (rect.width  / 2);
         var dy = (e.clientY - (rect.top  + rect.height / 2)) / (rect.height / 2);
-        var rotY =  dx * 5;
-        var rotX = -dy * 4;
+        var rotY =  dx * 3;
+        var rotX = -dy * 2.5;
         card.style.transform =
           'perspective(900px) rotateX(' + rotX + 'deg) rotateY(' + rotY + 'deg) translateY(-4px)';
         card.style.willChange = 'transform';
@@ -91,7 +91,7 @@
     document.querySelectorAll('.masthead__menu-item a').forEach(function (a) {
       navLinks.push(a);
     });
-    document.querySelectorAll('h1[id], span[id].anchor').forEach(function (el) {
+    document.querySelectorAll('span[id].anchor').forEach(function (el) {
       anchors.push(el);
     });
   }
@@ -99,17 +99,25 @@
   function updateActiveNav(scrollTop) {
     if (!anchors.length) return;
     var current = anchors[0];
+    var activeBranch = null;
     for (var i = 0; i < anchors.length; i++) {
-      if (anchors[i].getBoundingClientRect().top + scrollTop <= scrollTop + 80) {
+      if (anchors[i].offsetParent === null) continue;   // inside the hidden branch
+      // A section is current once its marker has passed under the sticky bars.
+      if (anchors[i].getBoundingClientRect().top <= (masthead ? masthead.offsetHeight : 0) + 120) {
         current = anchors[i];
       }
     }
+    if (current) activeBranch = branchOf(current);
     navLinks.forEach(function (a) {
       a.classList.remove('nav-active');
-      var href = a.getAttribute('href') || '';
-      if (current && href.indexOf(current.id) !== -1) {
-        a.classList.add('nav-active');
-      }
+      var id = (a.getAttribute('href') || '').replace(/^.*#/, '');
+      if (!current || !id) return;
+      // A masthead link to a branch stays lit while any of its sections is on screen.
+      if (id === current.id || (BRANCHES[id] && activeBranch === id)) a.classList.add('nav-active');
+    });
+    document.querySelectorAll('.subnav a').forEach(function (a) {
+      var id = (a.getAttribute('href') || '').replace(/^#/, '');
+      a.classList.toggle('is-active', !!current && id === current.id);
     });
   }
 
@@ -283,12 +291,11 @@
   }
 
   function initCopyCitations() {
-    // .paper-box is reused by Internships and Projects too — only the
-    // Publications section (between #publications and #internship-experiences)
-    // gets citation buttons.
+    // .paper-box is reused by Projects too — only the Publications section
+    // (between #publications and #selected-projects) gets citation buttons.
     var pubAnchor = document.getElementById('publications');
     if (!pubAnchor) return;
-    var endAnchor = document.getElementById('internship-experiences');
+    var endAnchor = document.getElementById('selected-projects');
     var FOLLOWING = Node.DOCUMENT_POSITION_FOLLOWING;
     document.querySelectorAll('.paper-box').forEach(function (box) {
       var afterStart = pubAnchor.compareDocumentPosition(box) & FOLLOWING;
@@ -316,15 +323,186 @@
   }
 
   /* ================================================================
+     Three-tier layout: Academic / Entrepreneurship branch switch
+     ================================================================ */
+  var BRANCHES = {};
+  var lensSwitch = null;
+  var masthead = document.querySelector('.masthead');
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function setMastheadVar() {
+    if (masthead) document.documentElement.style.setProperty('--masthead-h', masthead.offsetHeight + 'px');
+  }
+
+  function branchOf(el) {
+    while (el && el !== document.body) {
+      if (el.getAttribute && el.hasAttribute('data-branch')) return el.getAttribute('data-branch');
+      el = el.parentNode;
+    }
+    return null;
+  }
+
+  function positionLens() {
+    if (!lensSwitch) return;
+    var tab = lensSwitch.querySelector('.lens-tab.is-active');
+    if (!tab) return;
+    var sw = lensSwitch.getBoundingClientRect();
+    var r = tab.getBoundingClientRect();
+    lensSwitch.style.setProperty('--lens-x', (r.left - sw.left) + 'px');
+    lensSwitch.style.setProperty('--lens-y', (r.top - sw.top) + 'px');
+    lensSwitch.style.setProperty('--lens-w', r.width + 'px');
+    lensSwitch.style.setProperty('--lens-h', r.height + 'px');
+  }
+
+  function activateBranch(name, animate) {
+    if (!BRANCHES[name]) return false;
+    var changed = false;
+    Object.keys(BRANCHES).forEach(function (k) {
+      var el = BRANCHES[k];
+      var show = (k === name);
+      if (show && el.hidden) changed = true;
+      el.hidden = !show;
+      el.classList.remove('is-entering');
+      if (show && animate && changed && !reduceMotion) {
+        void el.offsetWidth;
+        el.classList.add('is-entering');
+      }
+    });
+    if (lensSwitch) {
+      lensSwitch.setAttribute('data-active', name);
+      lensSwitch.querySelectorAll('.lens-tab').forEach(function (t) {
+        var on = t.getAttribute('data-target') === name;
+        t.classList.toggle('is-active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      positionLens();
+    }
+    return changed;
+  }
+
+  // Scroll to an id, opening the branch that holds it first. Keeps the
+  // heading clear of the sticky masthead (and the sticky sub-nav inside a branch).
+  function goTo(id, pushHash, instant) {
+    var el = document.getElementById(id);
+    if (!el) return false;
+    var target = el;
+    if (BRANCHES[id]) {
+      activateBranch(id, true);
+      target = document.getElementById('what-i-do') || el;
+    } else {
+      var b = branchOf(el);
+      if (b) activateBranch(b, false);
+    }
+    // scroll-margin-top in glass.css keeps the target clear of the sticky bars
+    var smooth = !(reduceMotion || instant);
+    target.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+    if (smooth) {
+      // Images without a fixed height can load mid-scroll and push the target
+      // down, so once the glide ends, snap to where the target now is.
+      var settled = false;
+      var settle = function () {
+        if (settled) return;
+        settled = true;
+        var want = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+        if (Math.abs(target.getBoundingClientRect().top - want) > 24) {
+          target.scrollIntoView({ behavior: 'auto', block: 'start' });
+        }
+      };
+      if ('onscrollend' in window) window.addEventListener('scrollend', settle, { once: true });
+      setTimeout(settle, 1500);
+    }
+    if (pushHash) {
+      try { history.pushState(null, '', '#' + id); } catch (e) { location.hash = id; }
+    }
+    return true;
+  }
+
+  function initBranches() {
+    setMastheadVar();
+    window.addEventListener('resize', setMastheadVar);
+    document.querySelectorAll('[data-branch]').forEach(function (el) {
+      BRANCHES[el.getAttribute('data-branch')] = el;
+    });
+    lensSwitch = document.querySelector('.lens-switch');
+    if (!lensSwitch) return;
+
+    lensSwitch.querySelectorAll('.lens-tab').forEach(function (t) {
+      t.addEventListener('click', function () {
+        var name = t.getAttribute('data-target');
+        activateBranch(name, true);
+        try { history.replaceState(null, '', '#' + name); } catch (e) {}
+      });
+    });
+
+    // In-page links: open the right branch, then scroll with the sticky bars accounted for.
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a[href^="#"]') : null;
+      if (!a) return;
+      var id = a.getAttribute('href').slice(1);
+      if (!id || !document.getElementById(id)) return;
+      e.preventDefault();
+      goTo(id, true);
+    });
+
+    var initial = 'academic';
+    var h = (location.hash || '').slice(1);
+    if (h) {
+      var target = document.getElementById(h);
+      if (BRANCHES[h]) initial = h;
+      else if (target) { var b = branchOf(target); if (b) initial = b; }
+    }
+    activateBranch(initial, false);
+    positionLens();
+    if (h && document.getElementById(h)) {
+      var jump = function () { goTo(h, false, true); onScroll(); };
+      jump();
+      setTimeout(jump, 80);
+      window.addEventListener('load', function () { setTimeout(jump, 50); });
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { setTimeout(jump, 0); });
+    }
+
+    window.addEventListener('hashchange', function () {
+      var id = (location.hash || '').slice(1);
+      if (id) goTo(id, false);
+    });
+    window.addEventListener('resize', positionLens);
+    window.addEventListener('load', positionLens);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(positionLens);
+  }
+
+  /* ================================================================
+     Cursor-following sheen on glass cards (CSS reads --mx / --my)
+     ================================================================ */
+  function initSpecular() {
+    var sel = '.paper-box, .cv-org, .jr-card, .vt-hero, .vt-product, .tl__body, .fund-card, .press-card, .team-card, .book-card';
+    document.querySelectorAll(sel).forEach(function (el) { el.classList.add('lg-card'); });
+    if (!window.matchMedia('(hover: hover)').matches) return;
+    var pending = null;
+    document.addEventListener('pointermove', function (e) {
+      var card = e.target.closest ? e.target.closest('.lg-card') : null;
+      if (!card || pending) return;
+      pending = requestAnimationFrame(function () {
+        pending = null;
+        var r = card.getBoundingClientRect();
+        if (!r.width || !r.height) return;
+        card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100).toFixed(1) + '%');
+        card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100).toFixed(1) + '%');
+      });
+    }, { passive: true });
+  }
+
+  /* ================================================================
      Init
      ================================================================ */
   function init() {
     injectOrbs();
     buildNavMap();
+    initBranches();
     initFadeIn();
     injectPubStatus();
     injectAwardStyle();
     init3DTilt();
+    initSpecular();
     initLangToggle();
     initCopyCitations();
     onScroll();

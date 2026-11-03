@@ -7,25 +7,13 @@ main:
     title_zh: "工作经历"
     url: "#internship-experiences"
 
-  - title: "Publications"
-    title_zh: "论文成果"
-    url: "#publications"
+  - title: "Academic"
+    title_zh: "学术"
+    url: "#academic"
 
-  - title: "Projects"
-    title_zh: "代表性项目"
-    url: "#selected-projects"
-
-  - title: "Service"
-    title_zh: "服务"
-    url: "#professional-service"
-
-  - title: "Presentations"
-    title_zh: "会议报告"
-    url: "#conference-presentations"
-
-  - title: "Awards"
-    title_zh: "荣誉与奖项"
-    url: "#honors-and-awards"
+  - title: "Entrepreneurship"
+    title_zh: "创业"
+    url: "#venture"
 
   - title: "Reading"
     title_zh: "阅读清单"
