@@ -5,14 +5,14 @@
    syntax that the GitHub Pages Sass build cannot parse.
    ============================================================ */
 :root {
-  --lg-blur: 22px;
-  --lg-line: rgba(255, 255, 255, 0.82);
+  --lg-blur: 34px;
+  --lg-line: rgba(255, 255, 255, 0.90);
   --lg-hi: rgba(255, 255, 255, 0.96);
   --lg-inset: inset 0 1px 0 var(--lg-hi), inset 0 -1px 0 rgba(255, 255, 255, 0.35),
               inset 1px 0 0 rgba(255, 255, 255, 0.55), inset -1px 0 0 rgba(255, 255, 255, 0.35);
   --lg-shadow: 0 12px 40px rgba(30, 64, 175, 0.10), 0 1px 2px rgba(15, 23, 42, 0.05);
-  --lg-card: linear-gradient(145deg, rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.52));
-  --lg-card-hover: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.64));
+  --lg-card: linear-gradient(145deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.34));
+  --lg-card-hover: linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.56));
   --tint-academic: 37 99 235;
   --tint-venture: 217 119 6;
   --tint: var(--tint-academic);
@@ -21,14 +21,13 @@
 
 /* ---- Wallpaper: soft colour fields + the dot grid, so the glass has something to show ---- */
 body {
-  background-color: #edf2fa;
+  background-color: #dbeafe;
   background-image:
-    radial-gradient(1100px 620px at 8% -6%, rgba(191, 219, 254, 0.75), transparent 60%),
-    radial-gradient(900px 560px at 104% 18%, rgba(224, 242, 254, 0.9), transparent 60%),
-    radial-gradient(circle, rgba(148, 163, 184, 0.35) 1px, transparent 1px);
-  background-size: auto, auto, 30px 30px;
+    radial-gradient(circle, rgba(30, 64, 175, 0.16) 1px, transparent 1px),
+    linear-gradient(160deg, #dbeafe 0%, #e0f2fe 45%, #ccfbf1 100%);
+  background-size: 30px 30px, auto;
 }
-.bg-orb { filter: blur(84px); }
+.bg-orb { filter: blur(90px); }
 
 /* ---- Main pane: one big frosted sheet over the wallpaper ----
    flow-root makes the pane contain the theme's floated inner wrap; without it
@@ -36,32 +35,125 @@ body {
    bare wallpaper. */
 .page {
   display: flow-root;
-  background: linear-gradient(160deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.54));
-  -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(1.7);
-  backdrop-filter: blur(var(--lg-blur)) saturate(1.7);
+  isolation: isolate;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.36));
+  -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(1.9);
+  backdrop-filter: blur(var(--lg-blur)) saturate(1.9);
   border: 1px solid var(--lg-line);
   border-radius: 22px;
   box-shadow: var(--lg-shadow), var(--lg-inset);
 }
-
-/* ---- Masthead ---- */
-.masthead {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.52));
-  -webkit-backdrop-filter: blur(28px) saturate(1.8);
-  backdrop-filter: blur(28px) saturate(1.8);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), 0 10px 30px rgba(30, 64, 175, 0.08);
+/* lit from above: a sheen across the top of the sheet, under the content */
+.page::before {
+  content: ''; position: absolute; left: 0; right: 0; top: 0; height: 360px; z-index: -1;
+  border-radius: inherit; pointer-events: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0));
 }
-.masthead__menu-item a {
+
+/* ---- Masthead: a floating glass toolbar with two-level menus ---- */
+.masthead {
+  position: -webkit-sticky; position: sticky;
+  top: 10px; margin: 10px 12px 0;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.38));
+  -webkit-backdrop-filter: blur(30px) saturate(1.9);
+  backdrop-filter: blur(30px) saturate(1.9);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), inset 0 -1px 0 rgba(255, 255, 255, 0.35),
+              0 12px 36px rgba(30, 64, 175, 0.14), 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+.masthead__inner-wrap { padding: 0.4em 0.6em; }
+
+.site-nav { display: flex; align-items: center; gap: 2px; min-width: 0; }
+.site-nav__home {
+  margin-right: 0.5em; padding: 0.38em 0.8em; border-radius: 10px;
+  font-size: 1.02rem; font-weight: 800; letter-spacing: -0.01em; color: var(--text-primary);
+  text-decoration: none;
+}
+.site-nav__list { display: flex; align-items: center; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.site-nav__item { position: relative; list-style: none; }
+.site-nav__link,
+.site-nav__sub {
+  display: inline-flex; align-items: center; gap: 0.35em;
+  padding: 0.42em 0.85em; border-radius: 10px;
+  font-size: 0.92rem; font-weight: 600; color: var(--text-muted); white-space: nowrap;
+  text-decoration: none;
   transition: color 0.25s var(--ease), background 0.25s var(--ease), box-shadow 0.25s var(--ease);
 }
-.masthead__menu-item a:hover,
-.masthead__menu-item a.nav-active {
+.site-nav__home:hover,
+.site-nav__link:hover,
+.site-nav__item.is-open > .site-nav__link,
+.site-nav__link.nav-active {
   color: var(--accent-1);
   background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.66));
   box-shadow: inset 0 1px 0 #fff, 0 4px 12px rgba(30, 64, 175, 0.12);
 }
-.masthead__menu-item--lg a:hover { background: transparent; box-shadow: none; }
+.site-nav__link:focus-visible, .site-nav__sub:focus-visible, .site-nav__home:focus-visible {
+  outline: 2px solid rgba(37, 99, 235, 0.5); outline-offset: 2px;
+}
+.site-nav__chev { width: 11px; height: 11px; opacity: 0.7; transition: transform 0.25s var(--ease); }
+.has-children:hover .site-nav__chev,
+.has-children.is-open .site-nav__chev { transform: rotate(180deg); }
+
+/* dropdown: a glass panel that hangs off the toolbar */
+.site-nav__menu {
+  position: absolute; top: calc(100% + 8px); left: 0; z-index: 30;
+  min-width: 230px; margin: 0; padding: 6px; list-style: none; border-radius: 16px;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.52));
+  -webkit-backdrop-filter: blur(28px) saturate(1.8);
+  backdrop-filter: blur(28px) saturate(1.8);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  box-shadow: inset 0 1px 0 #fff, 0 18px 48px rgba(30, 64, 175, 0.18), 0 2px 6px rgba(15, 23, 42, 0.06);
+  opacity: 0; visibility: hidden; transform: translateY(-6px) scale(0.98); transform-origin: top left;
+  transition: opacity 0.22s var(--ease), transform 0.22s var(--ease), visibility 0s linear 0.22s;
+}
+.site-nav__menu::before { content: ''; position: absolute; left: 0; right: 0; top: -10px; height: 10px; }
+.has-children:hover > .site-nav__menu,
+.has-children:focus-within > .site-nav__menu,
+.has-children.is-open > .site-nav__menu {
+  opacity: 1; visibility: visible; transform: none; transition-delay: 0s;
+}
+.site-nav__menu li { list-style: none; margin: 0; }
+.site-nav__sub { display: flex; width: 100%; padding: 0.5em 0.9em; font-size: 0.88rem; color: #334155; }
+.site-nav__sub:hover,
+.site-nav__sub.nav-active {
+  color: var(--accent-1);
+  background: linear-gradient(145deg, #fff, rgba(255, 255, 255, 0.7));
+  box-shadow: inset 0 1px 0 #fff, 0 2px 8px rgba(30, 64, 175, 0.12);
+}
+.site-nav__toggle { display: none; }
+
+@media (max-width: 900px) {
+  .masthead { margin: 8px 8px 0; top: 8px; border-radius: 14px; }
+  .masthead__inner-wrap--flex { align-items: flex-start; }
+  .masthead__inner-wrap--flex > .lang-toggle { margin-top: 3px; }
+  .site-nav { flex-wrap: wrap; }
+  .site-nav__toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    margin-left: auto; width: 38px; height: 34px; border-radius: 10px; cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));
+    box-shadow: inset 0 1px 0 #fff, 0 2px 8px rgba(30, 64, 175, 0.12);
+  }
+  .site-nav__bars, .site-nav__bars::before, .site-nav__bars::after {
+    display: block; width: 16px; height: 2px; border-radius: 2px; background: var(--accent-1);
+  }
+  .site-nav__bars { position: relative; }
+  .site-nav__bars::before, .site-nav__bars::after { content: ''; position: absolute; left: 0; }
+  .site-nav__bars::before { top: -5px; }
+  .site-nav__bars::after { top: 5px; }
+  .site-nav .site-nav__list { display: none; flex-direction: column; align-items: stretch; width: 100%; gap: 2px; padding: 8px 2px 4px; }
+  .site-nav.is-open .site-nav__list { display: flex; }
+  .site-nav__item { width: 100%; }
+  .site-nav__link { width: 100%; font-size: 0.95rem; }
+  .site-nav__chev { display: none; }
+  .site-nav__menu {
+    position: static; opacity: 1; visibility: visible; transform: none; min-width: 0;
+    padding: 0 0 6px 14px; background: transparent; border: 0; box-shadow: none;
+    -webkit-backdrop-filter: none; backdrop-filter: none;
+  }
+  .site-nav__sub { padding: 0.4em 0.8em; font-size: 0.86rem; }
+}
 
 .lang-toggle {
   background: linear-gradient(145deg, rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.46));
@@ -78,7 +170,9 @@ body {
 /* ---- Sidebar / profile ---- */
 @media (min-width: 1024px) {
   .sidebar {
-    background: linear-gradient(160deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.46));
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.34));
+    -webkit-backdrop-filter: blur(30px) saturate(1.9);
+    backdrop-filter: blur(30px) saturate(1.9);
     border: 1px solid var(--lg-line);
     border-radius: 20px;
     box-shadow: var(--lg-inset), 0 12px 36px rgba(30, 64, 175, 0.10);
@@ -118,11 +212,11 @@ body {
 
 .lens-switch {
   --lens-tint: var(--tint-academic);
-  --lens-x: 6px; --lens-y: 6px; --lens-w: calc(50% - 9px); --lens-h: calc(100% - 12px);
+  --lens-x: 8px; --lens-y: 8px; --lens-w: calc(50% - 12px); --lens-h: calc(100% - 16px);
   position: relative; isolation: isolate;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 6px;
-  border-radius: 26px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.30));
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 8px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.22));
   -webkit-backdrop-filter: blur(20px) saturate(1.6);
   backdrop-filter: blur(20px) saturate(1.6);
   border: 1px solid rgba(255, 255, 255, 0.80);
@@ -160,7 +254,7 @@ body {
 .lens-tab {
   position: relative; z-index: 1;
   display: grid; gap: 5px; align-content: start; text-align: left;
-  padding: 18px 22px 16px; border: 0; border-radius: 20px;
+  padding: 22px 26px 20px; border: 0; border-radius: 20px;
   background: transparent; color: #64748b; cursor: pointer; font: inherit;
   transition: color 0.3s var(--ease);
   -webkit-tap-highlight-color: transparent;
@@ -175,7 +269,7 @@ body {
   transition: filter 0.3s var(--ease), transform 0.3s var(--ease);
 }
 .lens-tab.is-active .lens-tab__icon { filter: none; transform: scale(1.08); }
-.lens-tab__title { font-size: 1.28rem; font-weight: 800; letter-spacing: -0.02em; }
+.lens-tab__title { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; }
 .lens-tab__sub { font-size: 0.86rem; line-height: 1.45; }
 .lens-tab__stats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .lens-tab__stats > span {
@@ -202,8 +296,8 @@ body {
 .branch {
   --tint: var(--tint-academic);
   position: relative; margin: 0 0 2.2em; padding: 0.5em 1.3em 1.4em; border-radius: 22px;
-  background: linear-gradient(180deg, rgb(var(--tint) / 0.075), rgb(var(--tint) / 0.025) 28%, rgba(255, 255, 255, 0.16));
-  border: 1px solid rgba(255, 255, 255, 0.72);
+  background: linear-gradient(180deg, rgb(var(--tint) / 0.11), rgb(var(--tint) / 0.035) 30%, rgba(255, 255, 255, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.85);
   box-shadow: var(--lg-inset);
 }
 .branch--venture { --tint: var(--tint-venture); }
@@ -280,7 +374,7 @@ body {
 .lg-card::after {
   content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
   opacity: 0; transition: opacity 0.35s var(--ease);
-  background: radial-gradient(240px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0) 62%);
+  background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0) 62%);
 }
 .lg-card:hover::after { opacity: 1; }
 
@@ -504,4 +598,47 @@ body {
   .branch.is-entering { animation: none; }
   .bg-orb { animation: none; }
   .lg-card::after { transition: none; }
+}
+
+/* ============================================================
+   Intro panel: the opening lines on one large sheet of glass
+   ============================================================ */
+.page__content .intro-panel {
+  position: relative; margin: 0.2em 0 1.4em; padding: 16px 22px 14px; border-radius: 18px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.28));
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  box-shadow: var(--lg-inset), 0 10px 30px rgba(30, 64, 175, 0.08);
+}
+.page__content .intro-panel p { margin: 0.45em 0; }
+
+/* ============================================================
+   Reading list: a compact shelf. Categories flow side by side,
+   covers are small, tags are dropped.
+   ============================================================ */
+.page__content .reading-shelf { display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: flex-start; }
+.page__content .book-category {
+  flex: 0 1 auto; max-width: 100%; margin: 0; padding: 10px 12px 8px; border-radius: 16px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.26));
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: var(--lg-inset);
+}
+.page__content .book-cat-label { margin-bottom: 8px; padding-bottom: 6px; font-size: 0.64em; border-bottom: 1px solid rgba(255, 255, 255, 0.75); }
+.page__content .book-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.page__content .book-card {
+  width: 92px; border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.10), inset 0 1px 0 #fff;
+}
+.page__content .book-card:hover { transform: translateY(-5px) scale(1.02); box-shadow: 0 10px 24px rgba(15, 23, 42, 0.16); }
+.page__content .book-cover-wrap { padding-top: 148%; }
+.page__content .book-meta { padding: 6px 7px 7px; }
+.page__content .book-title { font-size: 0.62em; line-height: 1.3; margin-bottom: 2px; }
+.page__content .book-author { font-size: 0.58em; margin-bottom: 0; }
+.page__content .book-tags { display: none; }
+.page__content .book-ph-initial { font-size: 1.5em; margin-bottom: 4px; }
+.page__content .book-ph-name { font-size: 0.48em; }
+.page__content .book-shelf-intro { margin: 0 0 14px; padding: 10px 16px; font-size: 0.9em; line-height: 1.7; }
+@media (max-width: 480px) {
+  .page__content .book-category { flex: 1 1 100%; }
+  .page__content .book-card { width: calc(33.333% - 6px); }
 }
