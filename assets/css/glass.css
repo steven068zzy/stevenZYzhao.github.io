@@ -1,0 +1,507 @@
+/* ============================================================
+   LIQUID GLASS LAYER
+   Loaded after main.css from head/custom.html. Plain CSS on
+   purpose: it uses rgb(var(--tint) / a) and other Color 4
+   syntax that the GitHub Pages Sass build cannot parse.
+   ============================================================ */
+:root {
+  --lg-blur: 22px;
+  --lg-line: rgba(255, 255, 255, 0.82);
+  --lg-hi: rgba(255, 255, 255, 0.96);
+  --lg-inset: inset 0 1px 0 var(--lg-hi), inset 0 -1px 0 rgba(255, 255, 255, 0.35),
+              inset 1px 0 0 rgba(255, 255, 255, 0.55), inset -1px 0 0 rgba(255, 255, 255, 0.35);
+  --lg-shadow: 0 12px 40px rgba(30, 64, 175, 0.10), 0 1px 2px rgba(15, 23, 42, 0.05);
+  --lg-card: linear-gradient(145deg, rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.52));
+  --lg-card-hover: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.64));
+  --tint-academic: 37 99 235;
+  --tint-venture: 217 119 6;
+  --tint: var(--tint-academic);
+  --masthead-h: 56px;
+}
+
+/* ---- Wallpaper: soft colour fields + the dot grid, so the glass has something to show ---- */
+body {
+  background-color: #edf2fa;
+  background-image:
+    radial-gradient(1100px 620px at 8% -6%, rgba(191, 219, 254, 0.75), transparent 60%),
+    radial-gradient(900px 560px at 104% 18%, rgba(224, 242, 254, 0.9), transparent 60%),
+    radial-gradient(circle, rgba(148, 163, 184, 0.35) 1px, transparent 1px);
+  background-size: auto, auto, 30px 30px;
+}
+.bg-orb { filter: blur(84px); }
+
+/* ---- Main pane: one big frosted sheet over the wallpaper ----
+   flow-root makes the pane contain the theme's floated inner wrap; without it
+   the pane collapses to its padding on small screens and the content sits on
+   bare wallpaper. */
+.page {
+  display: flow-root;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.54));
+  -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(1.7);
+  backdrop-filter: blur(var(--lg-blur)) saturate(1.7);
+  border: 1px solid var(--lg-line);
+  border-radius: 22px;
+  box-shadow: var(--lg-shadow), var(--lg-inset);
+}
+
+/* ---- Masthead ---- */
+.masthead {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.52));
+  -webkit-backdrop-filter: blur(28px) saturate(1.8);
+  backdrop-filter: blur(28px) saturate(1.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), 0 10px 30px rgba(30, 64, 175, 0.08);
+}
+.masthead__menu-item a {
+  transition: color 0.25s var(--ease), background 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.masthead__menu-item a:hover,
+.masthead__menu-item a.nav-active {
+  color: var(--accent-1);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.66));
+  box-shadow: inset 0 1px 0 #fff, 0 4px 12px rgba(30, 64, 175, 0.12);
+}
+.masthead__menu-item--lg a:hover { background: transparent; box-shadow: none; }
+
+.lang-toggle {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.46));
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  box-shadow: inset 0 1px 0 #fff, 0 4px 14px rgba(30, 64, 175, 0.10);
+  -webkit-backdrop-filter: blur(16px) saturate(1.6);
+  backdrop-filter: blur(16px) saturate(1.6);
+}
+.lang-toggle__indicator {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), inset 0 -2px 4px rgba(0, 0, 0, 0.12),
+              0 2px 8px rgba(30, 64, 175, 0.35);
+}
+
+/* ---- Sidebar / profile ---- */
+@media (min-width: 1024px) {
+  .sidebar {
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.46));
+    border: 1px solid var(--lg-line);
+    border-radius: 20px;
+    box-shadow: var(--lg-inset), 0 12px 36px rgba(30, 64, 175, 0.10);
+  }
+  .sidebar::before { display: none; }
+}
+.author__avatar img {
+  padding: 5px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.55));
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 1px 0 #fff, 0 10px 28px rgba(30, 64, 175, 0.16);
+}
+.author__avatar img:hover {
+  box-shadow: inset 0 1px 0 #fff, 0 16px 36px rgba(30, 64, 175, 0.22);
+}
+
+/* ---- Section headings inside a branch are tier 3: one step smaller than tier 1 ---- */
+.page__content .branch > h1 { font-size: 1.42em; margin-top: 1.5em; }
+.page__content .branch--venture h1 {
+  border-left-color: #d97706;
+  background: linear-gradient(110deg, #92400e 0%, #d97706 55%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.page__content .branch--venture h1::after { background: linear-gradient(to right, #fcd34d, transparent); }
+.page__content .branch--venture .jr-sub-title::before { background: #d97706; }
+
+/* ============================================================
+   TIER 2: the lens switch
+   ============================================================ */
+.tier2 { margin: 2.6em 0 1.4em; }
+.tier2__eyebrow {
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #64748b;
+}
+.tier2__lede { margin: 0.35em 0 1.1em; font-size: 1.04rem; line-height: 1.6; color: #334155; }
+
+.lens-switch {
+  --lens-tint: var(--tint-academic);
+  --lens-x: 6px; --lens-y: 6px; --lens-w: calc(50% - 9px); --lens-h: calc(100% - 12px);
+  position: relative; isolation: isolate;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 6px;
+  border-radius: 26px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.30));
+  -webkit-backdrop-filter: blur(20px) saturate(1.6);
+  backdrop-filter: blur(20px) saturate(1.6);
+  border: 1px solid rgba(255, 255, 255, 0.80);
+  box-shadow: var(--lg-inset), 0 14px 36px rgba(30, 64, 175, 0.10);
+}
+.lens-switch[data-active="venture"] { --lens-tint: var(--tint-venture); }
+
+.lens {
+  position: absolute; top: 0; left: 0; z-index: 0; pointer-events: none;
+  width: var(--lens-w); height: var(--lens-h);
+  transform: translate(var(--lens-x), var(--lens-y));
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.64));
+  box-shadow: 0 10px 26px rgb(var(--lens-tint) / 0.20), 0 1px 2px rgba(15, 23, 42, 0.06),
+              inset 0 1.5px 0 #fff, inset 0 -3px 6px rgb(var(--lens-tint) / 0.10), inset 2px 0 0 rgba(255, 255, 255, 0.6);
+  transition: transform 0.6s cubic-bezier(0.3, 1.3, 0.4, 1), width 0.4s var(--ease), height 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+/* refractive rim: a conic sheen masked to a 1px ring */
+.lens::before {
+  content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px;
+  background: conic-gradient(from 200deg, rgba(255, 255, 255, 0.95), rgb(var(--lens-tint) / 0.40) 25%,
+              rgba(255, 255, 255, 0.92) 50%, rgba(186, 230, 253, 0.7) 75%, rgba(255, 255, 255, 0.95));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}
+/* specular bloom in the top-left of the lens */
+.lens::after {
+  content: ''; position: absolute; left: 4%; top: 5%; width: 55%; height: 36%; border-radius: 50%;
+  background: radial-gradient(ellipse at 35% 35%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0) 72%);
+  filter: blur(1.5px);
+}
+
+.lens-tab {
+  position: relative; z-index: 1;
+  display: grid; gap: 5px; align-content: start; text-align: left;
+  padding: 18px 22px 16px; border: 0; border-radius: 20px;
+  background: transparent; color: #64748b; cursor: pointer; font: inherit;
+  transition: color 0.3s var(--ease);
+  -webkit-tap-highlight-color: transparent;
+}
+.lens-tab:hover { color: #334155; }
+.lens-tab.is-active { color: #0f172a; }
+.lens-tab:focus-visible { outline: 2px solid rgb(var(--lens-tint) / 0.6); outline-offset: 2px; }
+.lens-tab__head { display: flex; align-items: center; gap: 10px; }
+.lens-tab__icon {
+  font-size: 1.35rem; line-height: 1;
+  filter: saturate(0.2) opacity(0.55);
+  transition: filter 0.3s var(--ease), transform 0.3s var(--ease);
+}
+.lens-tab.is-active .lens-tab__icon { filter: none; transform: scale(1.08); }
+.lens-tab__title { font-size: 1.28rem; font-weight: 800; letter-spacing: -0.02em; }
+.lens-tab__sub { font-size: 0.86rem; line-height: 1.45; }
+.lens-tab__stats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.lens-tab__stats > span {
+  padding: 0.24em 0.72em; border-radius: 999px;
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.01em; color: #64748b;
+  background: rgba(255, 255, 255, 0.55); border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0 1px 0 #fff;
+  transition: color 0.3s var(--ease), background 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+.lens-tab.is-active .lens-tab__stats > span {
+  color: rgb(var(--lens-tint));
+  background: rgb(var(--lens-tint) / 0.10);
+  border-color: rgb(var(--lens-tint) / 0.22);
+}
+
+/* Fragment scrolling (hash links, scrollIntoView) stops short of the sticky
+   masthead, and of the sticky sub-nav inside a branch. */
+.anchor, .page__content h1[id] { scroll-margin-top: calc(var(--masthead-h) + 20px); }
+.branch .anchor, .branch h1[id] { scroll-margin-top: calc(var(--masthead-h) + 74px); }
+
+/* ============================================================
+   TIER 3: branch panes + sticky sub-nav
+   ============================================================ */
+.branch {
+  --tint: var(--tint-academic);
+  position: relative; margin: 0 0 2.2em; padding: 0.5em 1.3em 1.4em; border-radius: 22px;
+  background: linear-gradient(180deg, rgb(var(--tint) / 0.075), rgb(var(--tint) / 0.025) 28%, rgba(255, 255, 255, 0.16));
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: var(--lg-inset);
+}
+.branch--venture { --tint: var(--tint-venture); }
+.branch[hidden] { display: none !important; }
+.branch.is-entering { animation: branchIn 0.55s var(--ease) both; }
+@keyframes branchIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.subnav {
+  position: -webkit-sticky; position: sticky;
+  top: calc(var(--masthead-h) + 10px); z-index: 6;
+  display: flex; gap: 4px; width: -moz-max-content; width: max-content; max-width: 100%;
+  overflow-x: auto; margin: 0.9em 0 0.2em; padding: 5px; border-radius: 999px;
+  scrollbar-width: none;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.54));
+  -webkit-backdrop-filter: blur(18px) saturate(1.6);
+  backdrop-filter: blur(18px) saturate(1.6);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0 1px 0 #fff, 0 8px 24px rgba(30, 64, 175, 0.10);
+}
+.subnav::-webkit-scrollbar { display: none; }
+.page__content .subnav a {
+  flex: 0 0 auto; padding: 0.42em 1em; border-radius: 999px;
+  font-size: 0.84rem; font-weight: 600; color: #64748b; white-space: nowrap;
+  border-bottom: none; background-image: none;
+  transition: background 0.25s var(--ease), color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.page__content .subnav a:hover,
+.page__content .subnav a.is-active {
+  color: rgb(var(--tint));
+  background: linear-gradient(145deg, #fff, rgba(255, 255, 255, 0.7));
+  box-shadow: inset 0 1px 0 #fff, 0 2px 8px rgb(var(--tint) / 0.16);
+  border-bottom: none;
+}
+
+/* ============================================================
+   Glass cards. No backdrop-filter here on purpose: they sit on
+   the already-frosted pane, so translucency alone reads as glass
+   and the page stays cheap to scroll.
+   ============================================================ */
+.page__content .cv-org,
+.page__content .jr-card,
+.page__content .vt-hero,
+.page__content .vt-product,
+.page__content .tl__body,
+.page__content .fund-card,
+.page__content .press-card,
+.page__content .team-card,
+.page__content .book-card,
+.paper-box {
+  position: relative; overflow: hidden; isolation: isolate;
+  background: var(--lg-card);
+  border: 1px solid var(--lg-line);
+  box-shadow: var(--lg-inset), 0 6px 22px rgba(30, 64, 175, 0.07);
+}
+.page__content .cv-org:hover,
+.page__content .jr-card:hover,
+.page__content .vt-product:hover,
+.page__content .tl__body:hover,
+.page__content .fund-card:hover,
+.page__content .press-card:hover,
+.page__content .team-card:hover,
+.paper-box:hover {
+  background: var(--lg-card-hover);
+  border-color: rgb(var(--tint) / 0.28);
+  box-shadow: var(--lg-inset), 0 18px 44px rgba(30, 64, 175, 0.14);
+}
+.paper-box.sz-visible:hover { animation: none; }
+.page__content .book-card:hover { background: var(--lg-card-hover); }
+
+/* cursor-following sheen, driven by --mx/--my from ui-enhance.js */
+.lg-card::after {
+  content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+  opacity: 0; transition: opacity 0.35s var(--ease);
+  background: radial-gradient(240px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0) 62%);
+}
+.lg-card:hover::after { opacity: 1; }
+
+/* pills and small surfaces */
+.page__content .cv-date {
+  background: rgba(219, 234, 254, 0.55); border-color: rgba(191, 219, 254, 0.9);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1px 2px rgba(30, 64, 175, 0.06);
+}
+.page__content .cite-badge {
+  background: rgba(209, 250, 229, 0.55);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1px 2px rgba(5, 150, 105, 0.08);
+}
+.page__content .review-badge,
+.page__content .proc-badge,
+.page__content .status-pill,
+.page__content .jr-count,
+.page__content .book-tag,
+.pub-status {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+.page__content .cv-logo {
+  background: linear-gradient(145deg, #fff, rgba(255, 255, 255, 0.75));
+  border-color: rgba(255, 255, 255, 0.95);
+  box-shadow: inset 0 1px 0 #fff, 0 4px 14px rgba(15, 23, 42, 0.07);
+}
+.page__content .jr-icon {
+  background: linear-gradient(145deg, rgba(239, 246, 255, 0.9), rgba(219, 234, 254, 0.8));
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 1px 0 #fff;
+}
+.page__content .book-shelf-intro {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.15));
+  border-left-color: #93c5fd;
+}
+.badge {
+  background: linear-gradient(135deg, rgba(30, 64, 175, 0.86), rgba(37, 99, 235, 0.74));
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 3px 10px rgba(30, 64, 175, 0.30);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+/* publication figures: a touch smaller, framed like a slide of glass */
+.paper-box .paper-box-image img {
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.10);
+}
+@media (min-width: 768px) {
+  .paper-box .paper-box-image img { max-width: 340px; }
+  .paper-box .paper-box-image { max-width: 36%; }
+  .paper-box .paper-box-text { max-width: 64%; }
+}
+
+/* jump from the Experience card into the venture branch */
+.page__content .cv-jump {
+  display: inline-flex; align-items: center; gap: 0.5em; margin-top: 10px;
+  padding: 0.42em 1em; border-radius: 999px;
+  font-size: 0.82em; font-weight: 700; color: #b45309;
+  background: linear-gradient(145deg, rgba(255, 251, 235, 0.95), rgba(254, 243, 199, 0.6));
+  border: 1px solid rgba(253, 230, 138, 0.9);
+  box-shadow: inset 0 1px 0 #fff, 0 2px 8px rgba(217, 119, 6, 0.12);
+  border-bottom: none;
+  transition: background 0.25s var(--ease), box-shadow 0.25s var(--ease), color 0.25s var(--ease);
+}
+.page__content .cv-jump:hover {
+  color: #92400e;
+  background: linear-gradient(145deg, #fff, rgba(254, 243, 199, 0.8));
+  box-shadow: inset 0 1px 0 #fff, 0 6px 16px rgba(217, 119, 6, 0.18);
+  border-bottom: none;
+}
+.cv-jump__arrow { transition: transform 0.25s var(--ease); }
+.cv-jump:hover .cv-jump__arrow { transform: translateX(3px); }
+
+/* floating controls */
+#back-to-top {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.62));
+  color: var(--accent-1);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(16px) saturate(1.6);
+  backdrop-filter: blur(16px) saturate(1.6);
+  box-shadow: inset 0 1px 0 #fff, 0 8px 24px rgba(30, 64, 175, 0.20);
+}
+#back-to-top:hover { box-shadow: inset 0 1px 0 #fff, 0 14px 32px rgba(30, 64, 175, 0.28); }
+.toast {
+  background: rgba(17, 24, 39, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 12px 32px rgba(0, 0, 0, 0.28);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  backdrop-filter: blur(18px) saturate(1.4);
+}
+.copy-cite {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.65));
+  border-color: rgba(255, 255, 255, 0.95);
+  box-shadow: inset 0 1px 0 #fff, 0 2px 8px rgba(30, 64, 175, 0.10);
+}
+
+/* ============================================================
+   Venture branch components
+   ============================================================ */
+.vt-hero { display: flex; gap: 22px; align-items: flex-start; margin: 14px 0 16px; padding: 20px 24px; border-radius: 16px; }
+.vt-hero__logo {
+  flex: 0 0 auto; width: 118px; height: 118px; padding: 14px; border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(145deg, #fff, rgba(255, 255, 255, 0.75));
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: inset 0 1px 0 #fff, 0 4px 14px rgba(15, 23, 42, 0.07);
+}
+.vt-hero__logo a { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; border-bottom: none !important; background-image: none !important; }
+.vt-hero__logo img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+.vt-hero__body { flex: 1 1 auto; min-width: 0; }
+.vt-hero__p { margin: 10px 0 0; font-size: 0.92em; line-height: 1.65; color: #374151; }
+.vt-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.page__content .vt-link {
+  padding: 0.4em 1em; border-radius: 999px; font-size: 0.82em; font-weight: 700;
+  color: rgb(var(--tint));
+  background: rgba(255, 255, 255, 0.6); border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 1px 0 #fff, 0 2px 8px rgb(var(--tint) / 0.10);
+  border-bottom: none;
+  transition: background 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.page__content .vt-link:hover { background: #fff; box-shadow: inset 0 1px 0 #fff, 0 6px 16px rgb(var(--tint) / 0.18); border-bottom: none; }
+
+.vt-products { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.vt-product { display: flex; gap: 16px; align-items: center; padding: 14px 16px; border-radius: 16px; }
+.vt-product__img {
+  flex: 0 0 120px; width: 120px; height: 120px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(circle at 50% 40%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.35));
+}
+.vt-product__img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.vt-product__name { font-size: 1.02em; font-weight: 800; color: #111827; }
+.vt-product__body p { margin: 5px 0 6px; font-size: 0.86em; line-height: 1.55; color: #4b5563; }
+.vt-product__note { font-size: 0.68em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #94a3b8; }
+
+/* milestones: a real sequence, so a line with dated stops */
+.page__content .tl { list-style: none; position: relative; margin: 0.6em 0 0; padding: 0 0 0 1.7em; }
+.page__content .tl::before {
+  content: ''; position: absolute; left: 8px; top: 12px; bottom: 12px; width: 2px; border-radius: 2px;
+  background: linear-gradient(180deg, rgb(var(--tint) / 0.40), rgb(var(--tint) / 0.08));
+}
+.page__content .tl__item { position: relative; margin: 0 0 12px; padding: 0; }
+.page__content .tl__item::before {
+  content: ''; position: absolute; left: -1.7em; top: 15px; width: 14px; height: 14px; margin-left: 2px; border-radius: 50%;
+  background: linear-gradient(145deg, #fff, rgba(255, 255, 255, 0.6));
+  border: 1px solid rgb(var(--tint) / 0.45);
+  box-shadow: inset 0 1px 0 #fff, 0 0 0 4px rgb(var(--tint) / 0.10);
+}
+.page__content .tl__item--next::before { border-style: dashed; }
+.tl__body { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding: 12px 16px; border-radius: 14px; }
+.tl__date {
+  flex: 0 0 auto; padding: 0.2em 0.7em; border-radius: 999px; white-space: nowrap;
+  font-size: 0.74em; font-weight: 700; color: rgb(var(--tint));
+  background: rgb(var(--tint) / 0.10); border: 1px solid rgb(var(--tint) / 0.22);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+.tl__text { flex: 1 1 320px; font-size: 0.92em; line-height: 1.6; color: #374151; }
+.tl__text strong { color: #111827; }
+.tl__links { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.page__content .tl__links a { font-size: 0.82em; font-weight: 600; white-space: nowrap; }
+
+/* funding and support */
+.fund-grid { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 14px; }
+.fund-card { padding: 18px 20px; border-radius: 16px; }
+.fund-card__kicker { font-size: 0.72em; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgb(var(--tint)); }
+.fund-card__big { margin: 6px 0 2px; font-size: 2.1em; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; color: #111827; }
+.fund-card__line { font-size: 0.95em; font-weight: 600; color: #1f2937; }
+.fund-card__note { margin-top: 10px; font-size: 0.80em; line-height: 1.55; color: #6b7280; }
+.page__content .fund-card__list { list-style: none; margin: 8px 0 0; padding: 0; }
+.page__content .fund-card__list li { padding: 4px 0; font-size: 0.92em; font-weight: 600; color: #1f2937; border-bottom: 1px dashed rgba(148, 163, 184, 0.35); }
+.page__content .fund-card__list li:last-child { border-bottom: none; }
+
+/* press and video */
+.press-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.page__content .press-card { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; border-radius: 16px; color: inherit; border-bottom: none; }
+.page__content .press-card:hover { border-bottom: none; }
+.press-card__kind { font-size: 0.70em; font-weight: 700; letter-spacing: 0.10em; text-transform: uppercase; color: rgb(var(--tint)); }
+.press-card__title { font-size: 0.98em; font-weight: 700; line-height: 1.35; color: #111827; }
+.press-card__p { font-size: 0.84em; line-height: 1.55; color: #4b5563; }
+.press-card__url { margin-top: auto; font-size: 0.74em; font-weight: 600; color: #94a3b8; }
+.press-card--video .press-card__kind::before { content: '\25B6'; margin-right: 0.4em; font-size: 0.8em; }
+
+/* team */
+.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; margin: 10px 0 8px; }
+.team-card { padding: 14px 16px; border-radius: 14px; }
+.team-card__name { font-weight: 700; color: #111827; }
+.team-card__role { margin-top: 2px; font-size: 0.80em; font-weight: 600; color: rgb(var(--tint)); }
+.team-card__p { margin-top: 6px; font-size: 0.84em; line-height: 1.5; color: #4b5563; }
+
+/* ============================================================
+   Responsive + accessibility fallbacks
+   ============================================================ */
+@media (max-width: 900px) {
+  .fund-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .vt-products { grid-template-columns: 1fr; }
+  .vt-hero { flex-direction: column; }
+  .vt-hero__logo { width: 84px; height: 84px; padding: 10px; }
+}
+@media (max-width: 767px) {
+  :root { --lg-blur: 14px; }
+  .page { border-radius: 14px; }
+  .branch { padding: 0.2em 0.7em 0.9em; border-radius: 14px; }
+  .subnav { top: calc(var(--masthead-h) + 6px); }
+  .tier2 { margin: 1.8em 0 1em; }
+}
+@media (max-width: 640px) {
+  .lens-switch { grid-template-columns: 1fr; --lens-w: calc(100% - 12px); --lens-h: calc(50% - 9px); }
+  .lens-tab { padding: 14px 16px 12px; }
+  .lens-tab__title { font-size: 1.12rem; }
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .page, .masthead, .sidebar, .lens-switch, .subnav, .lang-toggle, #back-to-top { background: rgba(255, 255, 255, 0.95); }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .page, .masthead, .sidebar, .lens-switch, .subnav, .lang-toggle, #back-to-top { background: rgba(255, 255, 255, 0.97); }
+  .bg-orb { opacity: 0.08; animation: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lens { transition: none; }
+  .branch.is-entering { animation: none; }
+  .bg-orb { animation: none; }
+  .lg-card::after { transition: none; }
+}
